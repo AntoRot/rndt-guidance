@@ -251,7 +251,7 @@ Anche in questo caso, i metadati INSPIRE risultano essere un sottoinsieme dei me
 
    **Tabella 2** - Corrispondenze metadati RNDT – metadati INSPIRE
 
-## 1.3 Classi di conformità
+## <a name=conformance-classes>1.3 Classi di conformità</a>
 
 Le classi di conformità di riferimento per i requisiti e le raccomandazioni sono riportate di seguito in una rappresentazione gerarchica:
 
@@ -319,7 +319,7 @@ Nel caso di metadati che in RNDT, diversamente da INSPIRE, sono comuni a tutte l
 
 Nei prossimi capitoli, all&#39;inizio di ogni sezione dedicata a ciascuna risorsa da documentare, vengono indicate le classi di conformità (sia INSPIRE che RNDT) di riferimento per i requisiti e le raccomandazioni riportate.
 
-## 1.4 Implementazione della struttura gerarchica e relazioni tra risorse
+## <a name=struttura-gerarchica>1.4 Implementazione della struttura gerarchica e relazioni tra risorse</a>
 
 ### 1.4.1 Gerarchia e relazioni serie/dataset
 
