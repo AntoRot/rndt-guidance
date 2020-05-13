@@ -22,5 +22,3 @@ Il manuale presente in questo repository rappresenta l&#39;implementazione delle
 1. Guida per l&#39;accreditamento delle PA;
 2. Guida per la compilazione dei metadati (che sostituisce le guide identificate con i numeri 2, 3, 4 e 5 nella precedente versione);
 3. Guida all&#39;uso dei servizi.
-
-Per quanto non specificato nel presente documento si rimanda a [TG MD INSPIRE].
