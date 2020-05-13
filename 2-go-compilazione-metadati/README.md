@@ -3,7 +3,7 @@ Questa guida operativa fornisce tutte le istruzioni e indicazioni necessarie per
 
 ---
 
-**INDICE**
+## **INDICE**
 
 **[Riferimenti normativi e tecnici](#rif-norme)**
 
