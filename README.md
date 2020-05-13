@@ -1,4 +1,4 @@
-# Manuale RNDT
+# Manuale RNDT v. 3.0
 
 Con l&#39;entrata in vigore del [decreto della Presidenza del Consiglio dei Ministri del 10/11/2011](https://geodati.gov.it/geoportale/regole-tecniche-rndt), adottato in attuazione dell&#39;art. 59 del [CAD] che ha istituito il [Repertorio Nazionale dei Dati Territoriali](https://geodati.gov.it) (RNDT), AgID ha definito e pubblicato il [manuale RNDT (v. 2.0)](https://geodati.gov.it/geoportale/manuale-rndt) (composto da un set di guide operative, una per ciascuna risorsa da documentare) per fornire opportune istruzioni e indicazioni dettagliate per la compilazione dei metadati necessari per l&#39;alimentazione e l&#39;aggiornamento del catalogo.
 
