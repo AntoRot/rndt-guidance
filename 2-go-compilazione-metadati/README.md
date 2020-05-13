@@ -9,7 +9,7 @@ Questa guida operativa fornisce tutte le istruzioni e indicazioni necessarie per
 
 **[Note di lettura](#note-lettura)**
 
-**[1](#indicazioni-generali) *INDICAZIONI GENERALI***
+**[1 *INDICAZIONI GENERALI](#indicazioni-generali)***
 
   [1.1 Introduzione](#introduzione)
 
@@ -62,9 +62,9 @@ Questa guida operativa fornisce tutte le istruzioni e indicazioni necessarie per
 **[LG IPAGPS]**_Linee Guida dell&#39;Indice dei domicili digitali delle pubbliche amministrazioni e dei gestori di pubblici servizi (IPA)_, adottate con la Determinazione n. 97/2019 del 4 aprile 2019.
 
 
-# 1. INDICAZIONI GENERALI
+# <a name=indicazioni-generali>1. INDICAZIONI GENERALI</a>
 
-## 1.1 Introduzione
+## <a name=introduzione>1.1 Introduzione
 
 Le Linee Guida recanti le regole tecniche del Repertorio Nazionale dei Dati Territoriali individuano, al cap. 1, l&#39;ambito di applicazione identificato in dataset, serie di dataset e servizi, in coerenza con il [Regolamento 1205/2008].
 
@@ -148,81 +148,6 @@ Viceversa, la conformità di un set di metadati al profilo del RNDT garantisce l
 
 **Tabella 1** - Corrispondenze metadati RNDT – metadati core ISO 19115
 
-
-### 1.2.2 Corrispondenza tra metadati RNDT e INSPIRE
-
-Nella tabella 2 che segue è riportata la corrispondenza tra i metadati previsti dal Repertorio e i metadati INSPIRE, definita al § 4.2.8.1 delle [LG RNDT].
-
-I metadati INSPIRE sono riportati:
-
-- con il numero e il nome indicati nella parte B dell&#39;allegato al [Regolamento 1205/2008] (es. B-10.3 per indicare il metadato riportato al n. 10.3 nella parte B dell&#39;allegato);
-- con il numero e il nome indicati all&#39;art. 13 del [Regolamento 1089/2010] (es. art.13-1 per indicare il metadato riportato al n. 1 dell&#39;art. 13);
-- con il numero e il nome indicati nella parte B degli allegati V, VI e VII del [Regolamento 1089/2010] (es. V-B.1 per indicare il metadato riportato al n. 1 della parte B dell&#39;allegato V);
-- con il nome (in inglese) indicato nel paragrafo 8.3 delle specifiche di dati (_data specifications_) per i metadati specifici per alcune categorie di dati (in questo caso è indicato il riferimento a dette specifiche con DS-8.3).
-
-Per ogni elemento RNDT riportato nei successivi capitoli, inoltre, viene anche indicato, se esistente, il corrispondente elemento INSPIRE.
-
-Anche in questo caso, i metadati INSPIRE risultano essere un sottoinsieme dei metadati del Repertorio; pertanto, la conformità ad INSPIRE non garantisce la conformità al RNDT, mentre è vero il contrario.
-
-| **Metadati RNDT** | _ **Core** _ **ISO 19115** |
-| **Informazioni sui metadati** |
-| --- |
-| Identificatore del file (O) | Metadata file identifier (Op) |
-| Lingua dei metadati (O) | Metadata language (C) |
-| Set dei caratteri dei metadati (C) | Metadata character set (C) |
-| Id file precedente (Op) | - |
-| Livello gerarchico (O) | - |
-| Responsabile dei metadati (O) | Metadata point of contact (O) |
-| Data dei metadati (O) | Metadata date stamp (O) |
-| Nome dello Standard (O) | Metadata standard name (Op) |
-| Versione dello Standard (O) | Metadata standard version (Op) |
-| **Identificazione dei dati** |
-| Titolo (O) | Dataset title (O) |
-| Data (O)Tipo data (O) | Dataset reference date (O) |
-| Formato di presentazione (O) | - |
-| Responsabile (O) | ~~-~~ |
-| Identificatore (O) | - |
-| Id livello superiore (O) | - |
-| Altri dettagli (Op) | - |
-| Descrizione (O) | Abstract describing the dataset (O) |
-| Parola chiave (O)Thesaurus (Op) | -- |
-| Punto di contatto (O) | Dataset responsible party (Op) |
-| Tipo di rappresentazione spaziale (O) | Spatial representation type (Op) |
-| Risoluzione spaziale (O) | Spatial resolution of the dataset (Op) |
-| Lingua (O) | Dataset language (O) |
-| Set di caratteri (C) | Dataset character set (C) |
-| Categoria tematica (O) | Dataset topic category (O) |
-| Informazioni supplementari (Op) | - |
-| **Vincoli sui dati** |
-| Limitazione d&#39;uso (Op) | - |
-| Vincoli di accesso (O) | - |
-| Vincoli di fruibilità (O) | - |
-| Altri vincoli (C) | - |
-| Vincoli di sicurezza (Op) | - |
-| **Estensione dei dati** |
-| Localizzazione geografica (O) | Geographic location of the dataset (C) |
-| Estensione verticale (Op) | Additional extent information for the dataset(vertical) (Op) |
-| Estensione temporale (Op) | Additional extent information for the dataset(temporal) (Op) |
-| **Qualità dei dati** |
-| Livello di qualità (O) | - |
-| Accuratezza posizionale (O) | - |
-| Coerenza topologica (C) | - |
-| Genealogia (O) | Lineage (Op) |
-| Conformità: specifiche (C) | - |
-| Conformità: grado (C) | - |
-| **Sistema di riferimento** |
-| Sistema di riferimento spaziale (O) | Reference system (Op) |
-| Sistema di riferimento temporale (C) | - |
-| **Distribuzione dei dati** |
-| Formato di distribuzione (O) | Distribution format (Op) |
-| Distributore (O) | - |
-| Risorsa on line (O) | On-line resource (Op) |
-| **Gestione dei dati** |
-| Frequenza di aggiornamento (Op) | - |
-
-_ **Tabella 1** - Corrispondenze metadati RNDT – metadati core ISO 19115_
-
-
 ### 1.2.2 Corrispondenza tra metadati RNDT e INSPIRE
 
 Nella tabella 2 che segue è riportata la corrispondenza tra i metadati previsti dal Repertorio e i metadati INSPIRE, definita al § 4.2.8.1 delle [LG RNDT].
@@ -272,7 +197,7 @@ Anche in questo caso, i metadati INSPIRE risultano essere un sottoinsieme dei me
 | Vincoli di accesso | B-8.1, B-8.2 - Condizioni applicabili all&#39;accesso e all&#39;uso, Vincoli per l&#39;accesso pubblico |
 | Vincoli di fruibilità | B-8.1 - Condizioni applicabili all&#39;accesso e all&#39;uso |
 | Altri vincoli | B-8.1, B-8.2 - Condizioni applicabili all&#39;accesso e all&#39;uso, Vincoli per l&#39;accesso pubblico |
-| **Estensione dei dati** ||
+| **Estensione dei dati** |
 | Localizzazione geografica | B-4.1 - Riquadro di delimitazione geografica |
 | Estensione verticale | DS-8.3 - Extent |
 | Estensione temporale | B-5.1 - Estensione temporale |
