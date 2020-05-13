@@ -76,7 +76,7 @@ Non esiste, in effetti, una definizione univoca di cosa si intenda per dataset e
 
 Come precisato nel citato cap.1, la scelta della strutturazione dei metadati nei livelli gerarchici indicati è comunque lasciata alla singola Amministrazione: il principio che deve guidare nella documentazione è quello di scendere all&#39;elemento minimo che si può fornire o a cui si può accedere ovvero di attenersi all&#39;elemento minimo che ha senso descrivere, che può anche non coincidere con l&#39;elemento minimo di fruizione, se esiste.
 
-## 1.2 Conformità
+## <a name=conformance>1.2 Conformità</a>
 
     
 ### 1.2.1 Corrispondenza tra metadati RNDT e ISO _core_
@@ -309,7 +309,7 @@ Le classi di conformità di riferimento per i requisiti e le raccomandazioni son
 
       - Classe di conformità **R7** : **rndt/metadata/2.0/sds-harmonised**
 
-      **Titolo** : _Metadati RNDT per i servizi di dati territoriali armonizzati_
+        **Titolo** : _Metadati RNDT per i servizi di dati territoriali armonizzati_
 
 - Classe di conformità **R9** : **rndt/metadata/2.0/scheduled-data**
 
