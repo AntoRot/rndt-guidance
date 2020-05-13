@@ -89,10 +89,9 @@ Si può, quindi, affermare che i metadati previsti nel set &quot;_core_&quot; di
 
 Viceversa, la conformità di un set di metadati al profilo del RNDT garantisce la conformità al &quot;_core_&quot; di [ISO 19115].
 
-| **Metadati RNDT** | _ **Core** _ **ISO 19115** |
+| **Metadati RNDT** |  **Core** **ISO 19115** |
 | --- | --- |
 | **Informazioni sui metadati** |
-| --- |
 | Identificatore del file (O) | Metadata file identifier (Op) |
 | Lingua dei metadati (O) | Metadata language (C) |
 | Set dei caratteri dei metadati (C) | Metadata character set (C) |
@@ -164,6 +163,7 @@ Per ogni elemento RNDT riportato nei successivi capitoli, inoltre, viene anche i
 Anche in questo caso, i metadati INSPIRE risultano essere un sottoinsieme dei metadati del Repertorio; pertanto, la conformità ad INSPIRE non garantisce la conformità al RNDT, mentre è vero il contrario.
 
 | **Metadati RNDT** | **Metadati INSPIRE** |
+| --- | --- |
 | **Informazioni sui metadati** |
 | Identificatore del file | - |
 | Lingua dei metadati | B-10.3 - Lingua dei metadati |
