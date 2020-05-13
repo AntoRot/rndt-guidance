@@ -1,15 +1,15 @@
 # Manuale RNDT v. 3.0
 
-Con l&#39;entrata in vigore del [decreto della Presidenza del Consiglio dei Ministri del 10/11/2011](https://geodati.gov.it/geoportale/regole-tecniche-rndt), adottato in attuazione dell&#39;art. 59 del [CAD] che ha istituito il [Repertorio Nazionale dei Dati Territoriali](https://geodati.gov.it) (RNDT), AgID ha definito e pubblicato il [manuale RNDT (v. 2.0)](https://geodati.gov.it/geoportale/manuale-rndt) (composto da un set di guide operative, una per ciascuna risorsa da documentare) per fornire opportune istruzioni e indicazioni dettagliate per la compilazione dei metadati necessari per l&#39;alimentazione e l&#39;aggiornamento del catalogo.
+Con l&#39;entrata in vigore del [decreto della Presidenza del Consiglio dei Ministri del 10/11/2011](https://geodati.gov.it/geoportale/regole-tecniche-rndt), adottato in attuazione dell&#39;art. 59 del [CAD] che ha istituito il [Repertorio Nazionale dei Dati Territoriali](https://geodati.gov.it) (RNDT), AgID ha definito e pubblicato il **Manuale RNDT (v. 2.0)** (composto da un set di guide operative, una per ciascuna risorsa da documentare) per fornire opportune istruzioni e indicazioni dettagliate per la compilazione dei metadati necessari per l&#39;alimentazione e l&#39;aggiornamento del catalogo.
 
 Il manuale RNDT, coerente con le linee guida tecniche INSPIRE sui metadati (v. 1.3), era composto dalle seguenti guide:
 
-1. Guida per l&#39;accreditamento delle PA;
-2. Guida per la compilazione dei metadati sui dati;
-3. Guida per la compilazione dei metadati sui servizi;
-4. Guida per la compilazione dei metadati sulle nuove acquisizioni di dati;
-5. Guida per la compilazione dei metadati sui dati raster;
-6. Guida all&#39;uso del servizio di ricerca CSW.
+1. [Guida per l&#39;accreditamento delle PA](https://geodati.gov.it/geoportale/images/RNDT_guida_operativa_accreditamento_v2.0_20140725.pdf);
+2. [Guida per la compilazione dei metadati sui dati](https://geodati.gov.it/geoportale/images/RNDT_guida_operativa_dati_v2.0_20140725.pdf);
+3. [Guida per la compilazione dei metadati sui servizi](https://geodati.gov.it/geoportale/images/RNDT_guida_operativa_servizi_v2.0_20140725.pdf);
+4. [Guida per la compilazione dei metadati sulle nuove acquisizioni di dati](https://geodati.gov.it/geoportale/images/RNDT_guida_operativa_nuove_acquisizioni_v2.0_20140725.pdf);
+5. [Guida per la compilazione dei metadati sui dati raster](https://geodati.gov.it/geoportale/images/RNDT_guida_operativa_datiraster_v2.0_20140725.pdf);
+6. [Guida all&#39;uso del servizio di ricerca CSW](https://geodati.gov.it/geoportale/images/RNDT_guida_operativa_csw_v2.0_20140725.pdf).
 
 Sulla base delle indicazioni di tali guide, le amministrazioni pubbliche italiane hanno documentato i dati territoriali e i relativi servizi di cui sono titolari.
 
