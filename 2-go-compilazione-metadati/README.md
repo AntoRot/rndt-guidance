@@ -1,6 +1,8 @@
 # 2. Guida operativa per la compilazione dei metadati
 Questa guida operativa fornisce tutte le istruzioni e indicazioni necessarie per la compilazione dei metadati di dati territoriali e relativi servizi definiti con le Linee Guida RNDT.
 
+---
+
 **INDICE**
 
 **[Riferimenti normativi e tecnici](#rif-norme)**
@@ -30,3 +32,5 @@ Questa guida operativa fornisce tutte le istruzioni e indicazioni necessarie per
 **[5](#_Toc40042942) *CLASSI DI CONFORMITà PER I DATI RASTER***
 
 **[6](#_Toc40042947) *CLASSI DI CONFORMITà PER LE NUOVE ACQUISIZIONI***
+
+---
