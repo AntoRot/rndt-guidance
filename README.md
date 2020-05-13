@@ -1,8 +1,8 @@
 # Manuale RNDT
 
-Con l&#39;entrata in vigore del decreto della Presidenza del Consiglio dei Ministri del 10/11/2011, adottato in attuazione dell&#39;art. 59 del [CAD] che ha istituito il Repertorio Nazionale dei Dati Territoriali (RNDT), AgID ha definito e pubblicato il manuale RNDT (composto da un set di guide operative, una per ciascuna risorsa da documentare) per fornire opportune istruzioni e indicazioni dettagliate per la compilazione dei metadati necessari per l&#39;alimentazione e l&#39;aggiornamento del catalogo.
+Con l&#39;entrata in vigore del [decreto della Presidenza del Consiglio dei Ministri del 10/11/2011](https://geodati.gov.it/geoportale/regole-tecniche-rndt), adottato in attuazione dell&#39;art. 59 del [CAD] che ha istituito il [Repertorio Nazionale dei Dati Territoriali](https://geodati.gov.it) (RNDT), AgID ha definito e pubblicato il [manuale RNDT (v. 2.0)](https://geodati.gov.it/geoportale/manuale-rndt) (composto da un set di guide operative, una per ciascuna risorsa da documentare) per fornire opportune istruzioni e indicazioni dettagliate per la compilazione dei metadati necessari per l&#39;alimentazione e l&#39;aggiornamento del catalogo.
 
-Il manuale RNDT, coerente con le linee guida tecniche INSPIRE sui metadati, era composto dalle seguenti guide:
+Il manuale RNDT, coerente con le linee guida tecniche INSPIRE sui metadati (v. 1.3), era composto dalle seguenti guide:
 
 1. Guida per l&#39;accreditamento delle PA;
 2. Guida per la compilazione dei metadati sui dati;
@@ -21,6 +21,6 @@ Il manuale presente in questo repository rappresenta l&#39;implementazione delle
 
 1. Guida per l&#39;accreditamento delle PA;
 2. Guida per la compilazione dei metadati (che sostituisce le guide identificate con i numeri 2, 3, 4 e 5 nella precedente versione);
-3. 6. Guida all&#39;uso dei servizi.
+3. Guida all&#39;uso dei servizi.
 
 Per quanto non specificato nel presente documento si rimanda a [TG MD INSPIRE].
