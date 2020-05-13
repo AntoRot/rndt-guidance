@@ -9,17 +9,17 @@ Questa guida operativa fornisce tutte le istruzioni e indicazioni necessarie per
 
 **[1](#indicazioni-generali) *INDICAZIONI GENERALI***
 
-[1.1 Introduzione](#introduzione)
+  [1.1 Introduzione](#introduzione)
 
-[1.2 Conformità](#conformance)
+  [1.2 Conformità](#conformance)
 
-[1.3 Classi di conformità](#conformance-classes)
+  [1.3 Classi di conformità](#conformance-classes)
 
-[1.4 Implementazione della struttura gerarchica e relazioni tra risorse](#struttura-gerarchica)
+  [1.4 Implementazione della struttura gerarchica e relazioni tra risorse](#struttura-gerarchica)
 
-[1.5 Flusso di compilazione dei metadati delle varie risorse](#flusso-compilazione)
+  [1.5 Flusso di compilazione dei metadati delle varie risorse](#flusso-compilazione)
 
-[1.6 Come adeguarsi alla nuova versione](#adeguarsi)
+  [1.6 Come adeguarsi alla nuova versione](#adeguarsi)
 
 **[2](#reqs-comuni) *REQUISITI COMUNI PER I METADATI RNDT***
 
