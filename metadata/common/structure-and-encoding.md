@@ -35,7 +35,7 @@ Risulta valido, quindi, ai fini del caricamento nel RNDT, il seguente tracciato 
 ``` xml
 …
 <gmd:organisationName>
-<gco:CharacterString>Regione Piemonte</gco:CharacterString>
+  <gco:CharacterString>Regione Piemonte</gco:CharacterString>
 </gmd:organisationName>
 …
 ```
@@ -45,7 +45,7 @@ mentre non è valido il tracciato seguente:
 ``` xml
 …
 <gmd:organisationName>
-<gco:CharacterString></gco:CharacterString>
+  <gco:CharacterString></gco:CharacterString>
 </gmd:organisationName>
 …
 ```
