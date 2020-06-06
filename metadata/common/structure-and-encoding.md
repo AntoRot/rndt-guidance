@@ -1,6 +1,6 @@
 ## 2.1 Struttura e codifica dei metadati
 
-<a name=C.1>**Requisito C.1** </a>- ```**metadata/2.0/req/common/xml-schema**```
+<a name=C.1>**Requisito C.1** </a>- **```metadata/2.0/req/common/xml-schema```**
 
 I record di metadati devono essere codificati in formato XML conforme ad uno dei seguenti schemi XSD:
 
@@ -16,7 +16,7 @@ Per i servizi deve essere utilizzato lo schema XSD disponibile nel repository de
 
 ---
 
-<a name=C.2>**Requisito C.2**</a> - ```**metadata/2.0/req/common/root-element**```
+<a name=C.2>**Requisito C.2**</a> - **```metadata/2.0/req/common/root-element```**
 
 I metadati per dataset, serie di dataset e servizi devono essere codificati utilizzando uno ed un solo elemento _gmd:MD\_Metadata_ come specificato nelle regole di cui agli schemi XSD e nei Requisiti delle Classi di Conformità definiti in questa guida operativa.
 
@@ -24,7 +24,7 @@ Inoltre, a meno di diversa indicazione negli schemi XSD e in questa guida operat
 
 ---
 
-<a name=RC.1>**Requisito RC.1**</a> - ```**rndt/metadata/2.0/req/common/non-empty-content**```
+<a name=RC.1>**Requisito RC.1**</a> - **```rndt/metadata/2.0/req/common/non-empty-content```**
 
 All'interno del file XML, il tag corrispondente a ciascun elemento deve essere obbligatoriamente valorizzato. Ciò significa che la presenza del tag nel file XML, senza che questo sia opportunamente valorizzato, non garantisce la validità del file stesso, sebbene non sia comunque inficiata la validazione rispetto agli schemi XSD.
 
