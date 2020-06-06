@@ -30,3 +30,12 @@ All'interno del file XML, il tag corrispondente a ciascun elemento deve essere o
 
 ---
 
+Risulta valido, quindi, ai fini del caricamento nel RNDT, il seguente tracciato XML:
+
+``` xml
+…
+<gmd:organisationName>
+<gco:CharacterString>Regione Piemonte</gco:CharacterString>
+</gmd:organisationName>
+…
+```
