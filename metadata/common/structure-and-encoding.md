@@ -49,3 +49,15 @@ mentre non è valido il tracciato seguente:
 </gmd:organisationName>
 …
 ```
+
+### 2.1.1 Codifica degli elenchi di codici
+
+<a name=C.3>**Requisito C.3**</a>  **```metadata/2.0/req/common/code-list-value```**
+
+Gli elenchi di codici (code list) devono essere codificati utilizzando l&#39;attributo _codeListValue_ del pertinente elemento di [ISO 19139]. Il valore di tale attributo deve essere l&#39;identificatore dell&#39;elenco di codici come definito nella colonna &quot;Nome&quot; delle tabelle riportate nelle [LG RNDT] corrispondente a quello definito nella colonna &quot;Name&quot; delle tabelle riportate nell&#39;Allegato B dello Standard [ISO 19115].
+
+<a name=RC.2>**Requisito RC.2**</a>  **```rndt/metadata/2.0/req/common/code-list-textual-content```**
+
+Nel caso di elenchi di codici, il valore del tag deve essere espresso o in italiano o in modo linguisticamente neutro facendo riferimento alle colonne &quot;_Nome_&quot; o &quot;_Elemento corrispondente ISO19115:2003_&quot; degli elenchi di codici citati.
+
+Pertanto, si ritiene valido il tracciato XML seguente:
