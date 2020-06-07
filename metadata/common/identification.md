@@ -2,15 +2,19 @@
 
 **Elementi:**
 
-[2.3.1 Titolo](identification.md#231-titolo)
+  [2.3.1 Titolo](identification.md#231-titolo)
 
-[2.3.2 Data](identification.md#232-data)
+  [2.3.2 Data](identification.md#232-data)
 
-[2.3.3 Responsabile](identification.md#233-responsabile)
+  [2.3.3 Responsabile](identification.md#233-responsabile)
 
-[2.3.4 Identificatore](identification.md#234-identificatore)
+  [2.3.4 Identificatore](identification.md#234-identificatore)
 
-[2.3.5 Descrizione](identification.md#235-descrizione)
+  [2.3.5 Descrizione](identification.md#235-descrizione)
+
+  [2.3.6 Parole chiave](identification.md#236-parole-chiave)
+
+  2.3.7 Punto di contatto
 
 ### 2.3.1 Titolo
 
@@ -450,7 +454,7 @@ La data di pubblicazione del vocabolario deve essere indicata attraverso gli ele
 
 ***Raccomandazione C.9** - **```metadata/2.0/rec/common/use-anchors-for-thesauri```***
 
-*Per i riferimenti a thesauri noti o a vocabolari controllati, il titolo dovrebbe essere codificato utilizzando l&#39;elemento ```gmd:thesaurusName/gmd:CI\_Citation/gmd:title/gmx:Anchor```. L&#39;attributo ```xlink:href``` dell&#39;elemento ```gmx:Anchor``` dovrebbe essere usato per riferirsi all&#39;URI del thesaurus o al vocabolario controllato.*
+*Per i riferimenti a thesauri noti o a vocabolari controllati, il titolo dovrebbe essere codificato utilizzando l&#39;elemento ```gmd:thesaurusName/gmd:CI_Citation/gmd:title/gmx:Anchor```. L&#39;attributo ```xlink:href``` dell&#39;elemento ```gmx:Anchor``` dovrebbe essere usato per riferirsi all&#39;URI del thesaurus o al vocabolario controllato.*
 
 ---
 
@@ -459,3 +463,89 @@ La data di pubblicazione del vocabolario deve essere indicata attraverso gli ele
 Tutte le parole chiave derivanti dallo stesso vocabolario controllato, o dalla stessa sua versione, devono essere raggruppate in un unico elemento _```gmd:descriptiveKeywords/gmd:MD_Keywords```_. Un singolo elemento _```gmd:MD_Keywords```_ può contenere solo parole chiave provenienti dal vocabolario controllato citato o dalla sua versione.
 
 ---
+
+### 2.3.7 Punto di contatto
+
+|  |  |
+| --- | --- |
+| **Nome elemento** | Punto di contatto |
+| **Riferimento** | [LG RNDT] – tab. I-19, tab. V-16 |
+| **Molteplicità** | [1..\*] |
+| **Elemento INSPIRE** | Parte responsabile – Ruolo della parte responsabile |
+| **Definizione** | Organizzazione che è possibile contattare per avere informazioni sulla risorsa. |
+| **Istruzioni di implementazione** | - **Nome dell&#39;Ente** [1] - Testo libero; - **Ruolo** [1] – L&#39;elemento deve assumere uno dei valori dell&#39;elenco di codici &quot;_CI\_RoleCode_&quot; (§4.2.3.5 [LG RNDT]); - **Sito web** [0..1] - formato URL. Specificare obbligatoriamente anche il protocollo (es. _http_); - **Telefono** [0..1] - Testo libero; - **E-mail** [1..\*] - Testo libero. |
+
+**REQUISITO C.10** - **```metadata/2.0/req/common/responsible-organisation```**
+
+Dovrà essere fornito il punto di contatto dell&#39;organizzazione responsabile di dati e servizi attraverso l&#39;elemento _```gmd:pointOfContact/gmd:CI_ResponsibleParty```_.
+
+La molteplicità dell&#39;elemento è 1..N.
+
+L&#39;elemento _```gmd:CI_ResponsibleParty```_ deve contenere le seguenti informazioni:
+
+- il **nome dell&#39;Ente** deve essere fornito come valore dell&#39;elemento _```gmd:organisationName```_;
+
+- l&#39; **indirizzo e-mail** deve essere fornito come valore dell&#39;elemento _```gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:address/gmd:CI_Address/gmd:electronicMailAddress```_ contenente un indirizzo e-mail valido.
+
+Il valore di _```gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:role/gmd:CI_RoleCode```_ deve essere il valore più pertinente dell&#39;elenco di codici ISO _```CI_RoleCode```_.
+
+---
+
+**Raccomandazione RC.11** - **```rndt/metadata/2.0/rec/common/responsible-organisation-contact```**
+
+*Possono essere documentati anche il &quot;Sito web&quot; e il &quot;Telefono&quot; del punto di contatto rispettivamente attraverso gli elementi:*
+
+_- ```gmd:contactInfo/gmd:CI_Contact/gmd:onlineResource/gmd:CI_OnlineResource/gmd:linkage/gmd:URL```, contenente l&#39;URL di un sito valido;_
+
+_- ```gmd:contactInfo/gmd:CI_Contact/gmd:phone/gmd:CI_Telephone/gmd:voice```._
+
+---
+
+**Raccomandazione C.5** - **```metadata/2.0/rec/common/responsible-organisation```**
+
+*Il nome dell&#39;Ente dovrebbe essere riportato per intero, senza abbreviazioni. Si consiglia di indicare indirizzi e-mail istituzionali e non personali.*
+
+---
+
+**Esempio di XML:**
+
+```xml
+<gmd:MD_Metadata>
+…
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+    …
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:organisationName>
+            <gco:CharacterString>Regione Piemonte – Settore cartografia e sistema informativo territoriale</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>sitad@csi.it</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+              <gmd:onlineResource>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>http://www.sistemapiemonte.it/serviziositad/</gmd:URL>
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onlineResource>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeListValue="pointOfContact" codeList=" http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode">punto di contatto</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      …
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+…
+</gmd:MD_Metadata>
+```
