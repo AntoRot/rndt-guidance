@@ -83,6 +83,8 @@ L&#39;estensione temporale dovrà essere documentata attraverso l&#39;elemento _
 
 Più intervalli temporali possono essere combinati per formare un&#39;estensione temporale complessa utilizzando più elementi _```gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent```_.
 
+---
+
 **Esempio di XML:**
 
 ```xml
