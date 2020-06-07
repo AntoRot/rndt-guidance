@@ -62,7 +62,7 @@ Le coordinate della longitudine est e ovest e della latitudine nord e sud devono
 </gmd:MD_Metadata>
 ```
 
-### Estensione temporale
+### 2.5.2 Estensione temporale
 
 |  |  |
 | --- | --- |
