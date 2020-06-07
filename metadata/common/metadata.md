@@ -2,8 +2,9 @@
 
 ### 2.2.1 Identificatore del file
 
-| **Nome elemento** | **Identificatore del file** |
+|  |  |
 | --- | --- |
+| **Nome elemento** | Identificatore del file |
 | **Riferimento** | [LG RNDT] – tab. I-1, tab. V-1, tab. VII-1 |
 | **Molteplicità** | [1] |
 | **Elemento INSPIRE** | Nessun elemento corrispondente |
