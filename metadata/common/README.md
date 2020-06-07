@@ -6,9 +6,9 @@ Questa sezione include le istruzioni utili per la compilazione dei metadati che 
 
 [2.2 Informazioni sui metadati](metadata.md)
 
-2.3 Identificazione dei dati
+[2.3 Identificazione dei dati](identification.md)
 
-2.4 Vincoli sui dati
+[2.4 Vincoli sui dati](constraints.md)
 
 2.5 Estensione dei dati
 
