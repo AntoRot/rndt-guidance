@@ -86,7 +86,7 @@ oppure
 
 <a name=recRC.1>***Raccomandazione RC.1**</a>  **```rndt/metadata/2.0/rec/common/code-list-textual-content```***
 
-Da preferire la modalità rappresentata nell&#39;esempio 3 in cui il valore del tag è espresso nella lingua dichiarata per i metadati (italiano). Nel caso delle enumerazioni il valore va sempre espresso, invece, in modo linguisticamente neutro.
+Da preferire la modalità in cui il valore del tag è espresso nella lingua dichiarata per i metadati (italiano). Nel caso delle enumerazioni il valore va sempre espresso, invece, in modo linguisticamente neutro.
 
 ---
 
