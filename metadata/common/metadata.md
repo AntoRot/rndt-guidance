@@ -13,7 +13,7 @@
 
 <a name=RC.3>**REQUISITO RC.3**</a> - **```rndt/metadata/2.0/req/common/file-identifier```**
 
-L&#39;identificatore deve essere codificato utilizzando l&#39;elemento _```gmd:MD\_Metadata/gmd:fileIdentifier```_.
+L&#39;identificatore deve essere codificato utilizzando l&#39;elemento _```gmd:MD_Metadata/gmd:fileIdentifier```_.
 
 Esso deve contenere, come prefisso,il **codice iPA** assegnato all&#39;Amministrazione in sede di accreditamento all&#39;[_Indice dei domicili digitali delle pubbliche amministrazioni e dei gestori di pubblici servizi (IPA)_](https://www.indicepa.gov.it/).
 
@@ -50,7 +50,7 @@ La molteplicità dell&#39;elemento è 1.
 
 <a name=C.5>**REQUISITO C.5**</a> - **```metadata/2.0/req/common/metadata-language-code```**
 
-La lingua del contenuto dei metadati deve essere fornita attraverso l&#39;elemento _```gmd:MD\_Metadata/gmd:language/gmd:LanguageCode```_ che deve puntare a uno dei codici a tre lettere delle lingue dell&#39;elenco ISO 639-2/B.
+La lingua del contenuto dei metadati deve essere fornita attraverso l&#39;elemento _```gmd:MD_Metadata/gmd:language/gmd:LanguageCode```_ che deve puntare a uno dei codici a tre lettere delle lingue dell&#39;elenco ISO 639-2/B.
 
 Devono essere usati solo i valori delle lingue ufficiali dell&#39;Unione Europea.
 
@@ -60,7 +60,7 @@ La molteplicità dell&#39;elemento è 1.
 
 <a name=RC.4>**REQUISITO RC.4**</a> - **```rndt/metadata/2.0/req/common/metadata-language-name```**
 
-Il valore del tag dell&#39;elemento _```gmd:MD\_Metadata/gmd:language/gmd:LanguageCode```_ deve riportare lo stesso codice a tre lettere presente nell&#39;attributo _```codeListValue```_.
+Il valore del tag dell&#39;elemento _```gmd:MD_Metadata/gmd:language/gmd:LanguageCode```_ deve riportare lo stesso codice a tre lettere presente nell&#39;attributo _```codeListValue```_.
 
 ---
 
@@ -89,7 +89,7 @@ Il valore del tag dell&#39;elemento _```gmd:MD\_Metadata/gmd:language/gmd:Langua
 
 <a name=RC.5>**REQUISITO RC.5**</a> - **```rndt/metadata/2.0/req/common/metadata-character-encoding```**
 
-La codifica dei caratteri dei metadati deve essere documentata nel caso la codifica stessa non sia basata su UTF-8 attraverso l&#39;elemento _```gmd:MD_Metadata/gmd:characterSet/gmd:MD_CharacterSetCode```_ con riferimento a uno dei valori dell&#39;elenco di codici ISO _```MD\_CharacterSetCode```_.
+La codifica dei caratteri dei metadati deve essere documentata nel caso la codifica stessa non sia basata su UTF-8 attraverso l&#39;elemento _```gmd:MD_Metadata/gmd:characterSet/gmd:MD_CharacterSetCode```_ con riferimento a uno dei valori dell&#39;elenco di codici ISO _```MD_CharacterSetCode```_.
 
 La molteplicità di questo element è 0..1.
 
