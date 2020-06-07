@@ -175,13 +175,13 @@ Possono essere documentati anche il &quot;Sito web&quot; e il &quot;Telefono&quo
 
 ---
 
-**Raccomandazione C.2**  **```metadata/2.0/rec/common/organisation-name```**
+***Raccomandazione C.2**  **```metadata/2.0/rec/common/organisation-name```***
 
 Il nome dell&#39;Ente dovrebbe essere riportato per intero, senza abbreviazioni. Si consiglia di indicare indirizzi e-mail dell&#39;organizzazione e non personali.
 
 ---
 
-**Esempio di XML:**
+**Esempi di XML:**
 
 ```xml
 <gmd:MD_Metadata>
@@ -251,6 +251,121 @@ oppure
       </gmd:role>
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
+…
+</gmd:MD_Metadata>
+```
+
+### 2.2.6 Data dei metadati
+
+|  |  |
+| --- | --- |
+| **Nome elemento** | Data dei metadati |
+| **Riferimento** | [LG RNDT] – tab. I-7, tab. V-7, tab. VII-4 |
+| **Molteplicità** | [1] |
+| **Elemento INSPIRE** | Data dei metadati |
+| **Definizione** | Data di creazione o di ultima modifica dei metadati. |
+| **Istruzioni di implementazione** | Formato ISO 8601 (aaaa-mm-gg). |
+
+**REQUISITO C.7** - **```metadata/2.0/req/common/md-date```**
+
+Deve essere indicata la data più recente dell&#39;aggiornamento dei metadati utilizzando l&#39;elemento _```gmd:MD_Metadata/gmd:dateStamp```_. Se non sono stati apportati aggiornamenti ai metadati dalla loro pubblicazione, dovrà essere utilizzata la data di creazione dei metadati.
+
+La molteplicità dell&#39;elemento è 1.
+
+---
+
+**Esempio di XML:**
+
+```xml
+<gmd:MD_Metadata>
+…
+  <gmd:dateStamp>
+    <gco:Date>2009-02-23</gco:Date>
+  </gmd:dateStamp>
+</gmd:MD_Metadata>
+…
+```
+
+### 2.2.7 Nome dello Standard
+
+|  |  |
+| --- | --- |
+| **Nome elemento** | Nome dello Standard |
+| **Riferimento** | [LG RNDT] – tab. I-8, tab. V-8 |
+| **Molteplicità** | [1] |
+| **Elemento INSPIRE** | Nessun elemento corrispondente |
+| **Definizione** | Nome dello standard e/o del profilo di metadati utilizzato. |
+| **Istruzioni di implementazione** | Testo libero. |
+
+**REQUISITO RC.6** - **```rndt/metadata/2.0/req/common/md-standard-name```**
+
+Deve essere indicato il nome dello standard, facendo riferimento alle linee guida adottate con deliberazione del Direttore Generale di AgID, ai sensi dell&#39;art. 71 del CAD.
+
+L&#39;elemento da utilizzare è _```gmd:MD_Metadata/gmd:metadataStandardName```_, indicando come valore &quot;_Linee Guida RNDT_&quot;.
+
+La molteplicità dell&#39;elemento è 1.
+
+---
+
+***Raccomandazione RC.4** - **```rndt/metadata/2.0/rec/common/uri-for-md-standard-name```***
+
+Il titolo dello standard dovrebbe essere indicato attraverso l&#39;elemento _```gmd:metadataStandardName/gmx:Anchor```_. L&#39;attributo _```xlink:href```_ di tale elemento dovrebbe contenere l&#39;URI dello standard [https://registry.geodati.gov.it/document/lg-rndt](https://registry.geodati.gov.it/document/lg-rndt).
+
+---
+
+**Esempi di XML:**
+
+```xml
+<gmd:MD_Metadata>
+…
+  <gmd:metadataStandardName>
+    <gco:CharacterString>Linee Guida RNDT</gco:CharacterString>
+  </gmd:metadataStandardName>
+…
+</gmd:MD_Metadata>
+```
+
+oppure
+
+```xml
+<gmd:MD_Metadata>
+…
+  <gmd:metadataStandardName>
+    <gmx:Anchor xlink:href="https://registry.geodati.gov.it/document/lg-rndt">Linee Guida RNDT</gmx:Anchor>
+  </gmd:metadataStandardName>
+…
+</gmd:MD_Metadata>
+```
+
+### 2.2.8 Versione dello Standard
+
+|  |  |
+| --- | --- |
+| **Nome elemento** | Versione dello Standard |
+| **Riferimento** | [LG RNDT] – tab. I-9, tab. V-9 |
+| **Molteplicità** | [1] |
+| **Elemento INSPIRE** | Nessun elemento corrispondente |
+| **Definizione** | Versione dello standard/profilo di metadati utilizzato. |
+| **Istruzioni di implementazione** | Testo libero. |
+
+**REQUISITO RC.7** - **```rndt/metadata/2.0/req/common/md-standard-version```**
+
+Deve essere indicata la versione dello standard, facendo riferimento alle linee guida adottate con deliberazione del Direttore Generale di AgID, ai sensi dell&#39;art. 71 del CAD.
+
+L&#39;elemento da utilizzare è _```gmd:MD_Metadata/gmd:metadataStandardVersion```_, indicando come valore &quot;_2.0_&quot;.
+
+La molteplicità dell&#39;elemento è 1.
+
+---
+
+**Esempio di XML:**
+
+```xml
+<gmd:MD_Metadata>
+…
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>2.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
 …
 </gmd:MD_Metadata>
 ```
