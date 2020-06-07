@@ -1,4 +1,4 @@
-## Requisiti comuni per i metadati RNDT
+## 2 Requisiti comuni per i metadati RNDT
 
 Questa sezione include le istruzioni utili per la compilazione dei metadati che sono comuni a tutte le risorse.
 
