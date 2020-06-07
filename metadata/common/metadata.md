@@ -120,9 +120,9 @@ La molteplicità di questo element è 0..1.
 
 ***Raccomandazione RC.2**  **```rndt/metadata/2.0/rec/common/parent-identifier```***
 
-L&#39;elemento potrebbe essere utile per tracciare la &quot;storia&quot; delle trasmissioni dei file XML e quindi degli aggiornamenti dei metadati. Esso dovrebbe assumere il valore dell&#39;elemento &quot;_Identificatore del file_&quot; del file trasmesso temporalmente in precedenza e a cui il file corrente è in relazione. Nel caso di primo impianto (quindi non esiste nessun file precedente), se presente, l&#39;elemento dovrebbe assumere lo stesso valore dell&#39;elemento &quot;_Identificatore del file_&quot; del file corrente.
+*L&#39;elemento potrebbe essere utile per tracciare la &quot;storia&quot; delle trasmissioni dei file XML e quindi degli aggiornamenti dei metadati. Esso dovrebbe assumere il valore dell&#39;elemento &quot;_Identificatore del file_&quot; del file trasmesso temporalmente in precedenza e a cui il file corrente è in relazione. Nel caso di primo impianto (quindi non esiste nessun file precedente), se presente, l&#39;elemento dovrebbe assumere lo stesso valore dell&#39;elemento &quot;_Identificatore del file_&quot; del file corrente.*
 
-Se documentato, deve essere utilizzato l&#39;elemento _```gmd:MD_Metadata/gmd:parentIdentifier```_.
+*Se documentato, deve essere utilizzato l&#39;elemento ```gmd:MD_Metadata/gmd:parentIdentifier```.*
 
 ---
 
@@ -167,17 +167,17 @@ Il valore di _```gmd:role/gmd:CI_RoleCode```_ deve essere &quot; **punto di cont
 
 ***Raccomandazione RC.3** - **```rndt/metadata/2.0/rec/common/md-point-of-contact```***
 
-Possono essere documentati anche il &quot;Sito web&quot; e il &quot;Telefono&quot; del responsabile dei metadati rispettivamente attraverso gli elementi:
+*Possono essere documentati anche il &quot;Sito web&quot; e il &quot;Telefono&quot; del responsabile dei metadati rispettivamente attraverso gli elementi:*
 
-- _```gmd:contactInfo/gmd:CI_Contact/gmd:onlineResource/gmd:CI_OnlineResource/gmd:linkage/gmd:URL```_, utilizzando un valore di testo libero contenente l&#39;URL di un sito valido;
+_- ```gmd:contactInfo/gmd:CI_Contact/gmd:onlineResource/gmd:CI_OnlineResource/gmd:linkage/gmd:URL```, utilizzando un valore di testo libero contenente l&#39;URL di un sito valido;_
 
-- _```gmd:contactInfo/gmd:CI_Contact/gmd:phone/gmd:CI_Telephone/gmd:voice```_.
+_- ```gmd:contactInfo/gmd:CI_Contact/gmd:phone/gmd:CI_Telephone/gmd:voice```_.
 
 ---
 
 ***Raccomandazione C.2**  **```metadata/2.0/rec/common/organisation-name```***
 
-Il nome dell&#39;Ente dovrebbe essere riportato per intero, senza abbreviazioni. Si consiglia di indicare indirizzi e-mail dell&#39;organizzazione e non personali.
+*Il nome dell&#39;Ente dovrebbe essere riportato per intero, senza abbreviazioni. Si consiglia di indicare indirizzi e-mail dell&#39;organizzazione e non personali.*
 
 ---
 
@@ -309,7 +309,7 @@ La molteplicità dell&#39;elemento è 1.
 
 ***Raccomandazione RC.4** - **```rndt/metadata/2.0/rec/common/uri-for-md-standard-name```***
 
-Il titolo dello standard dovrebbe essere indicato attraverso l&#39;elemento _```gmd:metadataStandardName/gmx:Anchor```_. L&#39;attributo _```xlink:href```_ di tale elemento dovrebbe contenere l&#39;URI dello standard [https://registry.geodati.gov.it/document/lg-rndt](https://registry.geodati.gov.it/document/lg-rndt).
+*Il titolo dello standard dovrebbe essere indicato attraverso l&#39;elemento ```gmd:metadataStandardName/gmx:Anchor```. L&#39;attributo ```xlink:href``` di tale elemento dovrebbe contenere l&#39;URI dello standard [https://registry.geodati.gov.it/document/lg-rndt](https://registry.geodati.gov.it/document/lg-rndt).*
 
 ---
 
