@@ -23,7 +23,7 @@ Questa guida operativa fornisce tutte le istruzioni e indicazioni necessarie per
 
   [1.6 Come adeguarsi alla nuova versione](#adeguarsi)
 
-**[2](#reqs-comuni) REQUISITI COMUNI PER I METADATI RNDT**
+**[2 REQUISITI COMUNI PER I METADATI RNDT](common/README.md)**
 
 **[3](#_Toc40042928) CLASSI DI CONFORMITà PER I DATASET E LE SERIE DI DATASET**
 
