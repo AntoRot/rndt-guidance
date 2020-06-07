@@ -4,7 +4,7 @@ Questa sezione include le istruzioni utili per la compilazione dei metadati che 
 
 [2.1 Struttura e codifica dei metadati](structure-and-encoding.md)
 
-2.2 Informazioni sui metadati
+[2.2 Informazioni sui metadati](metadata.md)
 
 2.3 Identificazione dei dati
 
