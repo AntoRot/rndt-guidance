@@ -89,7 +89,7 @@ Il valore del tag dell&#39;elemento _```gmd:MD\_Metadata/gmd:language/gmd:Langua
 
 <a name=RC.5>**REQUISITO RC.5**</a> - **```rndt/metadata/2.0/req/common/metadata-character-encoding```**
 
-La codifica dei caratteri dei metadati deve essere documentata nel caso la codifica stessa non sia basata su UTF-8 attraverso l&#39;elemento _```gmd:MD\_Metadata/gmd:characterSet/gmd:MD\_CharacterSetCode```_ con riferimento a uno dei valori dell&#39;elenco di codici ISO _```MD\_CharacterSetCode```_.
+La codifica dei caratteri dei metadati deve essere documentata nel caso la codifica stessa non sia basata su UTF-8 attraverso l&#39;elemento _```gmd:MD_Metadata/gmd:characterSet/gmd:MD_CharacterSetCode```_ con riferimento a uno dei valori dell&#39;elenco di codici ISO _```MD\_CharacterSetCode```_.
 
 La molteplicità di questo element è 0..1.
 
@@ -122,7 +122,7 @@ La molteplicità di questo element è 0..1.
 
 L&#39;elemento potrebbe essere utile per tracciare la &quot;storia&quot; delle trasmissioni dei file XML e quindi degli aggiornamenti dei metadati. Esso dovrebbe assumere il valore dell&#39;elemento &quot;_Identificatore del file_&quot; del file trasmesso temporalmente in precedenza e a cui il file corrente è in relazione. Nel caso di primo impianto (quindi non esiste nessun file precedente), se presente, l&#39;elemento dovrebbe assumere lo stesso valore dell&#39;elemento &quot;_Identificatore del file_&quot; del file corrente.
 
-Se documentato, deve essere utilizzato l&#39;elemento _```gmd:MD\_Metadata/gmd:parentIdentifier```_.
+Se documentato, deve essere utilizzato l&#39;elemento _```gmd:MD_Metadata/gmd:parentIdentifier```_.
 
 ---
 
