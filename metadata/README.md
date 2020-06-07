@@ -9,7 +9,7 @@ Questa guida operativa fornisce tutte le istruzioni e indicazioni necessarie per
 
 **[Note di lettura](#note-lettura)**
 
-**[1 *INDICAZIONI GENERALI](#indicazioni-generali)***
+**[1 INDICAZIONI GENERALI](#indicazioni-generali)**
 
   [1.1 Introduzione](#introduzione)
 
@@ -23,15 +23,15 @@ Questa guida operativa fornisce tutte le istruzioni e indicazioni necessarie per
 
   [1.6 Come adeguarsi alla nuova versione](#adeguarsi)
 
-**[2](#reqs-comuni) *REQUISITI COMUNI PER I METADATI RNDT***
+**[2](#reqs-comuni) REQUISITI COMUNI PER I METADATI RNDT**
 
-**[3](#_Toc40042928) *CLASSI DI CONFORMITà PER I DATASET E LE SERIE DI DATASET***
+**[3](#_Toc40042928) CLASSI DI CONFORMITà PER I DATASET E LE SERIE DI DATASET**
 
-**[4](#_Toc40042936) *CLASSI DI CONFORMITà PER I SERVIZI DI DATI TERRITORIALI***
+**[4](#_Toc40042936) CLASSI DI CONFORMITà PER I SERVIZI DI DATI TERRITORIALI**
 
-**[5](#_Toc40042942) *CLASSI DI CONFORMITà PER I DATI RASTER***
+**[5](#_Toc40042942) CLASSI DI CONFORMITà PER I DATI RASTER**
 
-**[6](#_Toc40042947) *CLASSI DI CONFORMITà PER LE NUOVE ACQUISIZIONI***
+**[6](#_Toc40042947) CLASSI DI CONFORMITà PER LE NUOVE ACQUISIZIONI**
 
 ---
 
