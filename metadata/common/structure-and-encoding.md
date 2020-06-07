@@ -56,8 +56,46 @@ mentre non è valido il tracciato seguente:
 
 Gli elenchi di codici (code list) devono essere codificati utilizzando l&#39;attributo _codeListValue_ del pertinente elemento di [ISO 19139]. Il valore di tale attributo deve essere l&#39;identificatore dell&#39;elenco di codici come definito nella colonna &quot;Nome&quot; delle tabelle riportate nelle [LG RNDT] corrispondente a quello definito nella colonna &quot;Name&quot; delle tabelle riportate nell&#39;Allegato B dello Standard [ISO 19115].
 
+---
+
 <a name=RC.2>**Requisito RC.2**</a>  **```rndt/metadata/2.0/req/common/code-list-textual-content```**
 
 Nel caso di elenchi di codici, il valore del tag deve essere espresso o in italiano o in modo linguisticamente neutro facendo riferimento alle colonne &quot;_Nome_&quot; o &quot;_Elemento corrispondente ISO19115:2003_&quot; degli elenchi di codici citati.
 
+---
+
 Pertanto, si ritiene valido il tracciato XML seguente:
+
+``` xml
+…
+<gmd:role>
+  <gmd:CI_RoleCode codeListValue="pointOfContact" codeList="https://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode">punto di contatto</gmd:CI_RoleCode>
+</gmd:role>
+…
+```
+
+oppure
+
+``` xml
+…
+<gmd:role>
+  <gmd:CI_RoleCode codeListValue="pointOfContact" codeList="https://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode">pointOfContact</gmd:CI_RoleCode>
+</gmd:role>
+…
+```
+
+<a name=recRC.1>***Raccomandazione RC.1**</a>  **```rndt/metadata/2.0/rec/common/code-list-textual-content```***
+
+Da preferire la modalità rappresentata nell&#39;esempio 3 in cui il valore del tag è espresso nella lingua dichiarata per i metadati (italiano). Nel caso delle enumerazioni il valore va sempre espresso, invece, in modo linguisticamente neutro.
+
+---
+
+Non è valido, invece, il tracciato seguente:
+
+``` xml
+…
+<gmd:role>
+<gmd:CI_RoleCode codeListValue="pointOfContact" codeList="https://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode"/>
+</gmd:role>
+…
+```
