@@ -14,7 +14,7 @@
 
   [2.3.6 Parole chiave](identification.md#236-parole-chiave)
 
-  2.3.7 Punto di contatto
+  [2.3.7 Punto di contatto](identification.md#237-punto-di-contatto)
 
 ### 2.3.1 Titolo
 
