@@ -158,7 +158,7 @@ Negli altri casi _```gmd:otherConstraints```_ deve includere un testo libero con
 
 ---
 
-***Raccomandazione RC.14** - **```rndt/metadata/2.0/rec/common/licences```**
+***Raccomandazione RC.14** - **```rndt/metadata/2.0/rec/common/licences```***
 
 *Per informazioni dettagliate sulla licenza della risorsa, si raccomanda di indicare un link al tipo di licenza, ad un sito o a un documento contenente le informazioni necessarie.*
 
