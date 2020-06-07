@@ -18,7 +18,7 @@ Per i servizi deve essere utilizzato lo schema XSD disponibile nel repository de
 
 <a name=C.2>**REQUISITO C.2**</a> - **```metadata/2.0/req/common/root-element```**
 
-I metadati per dataset, serie di dataset e servizi devono essere codificati utilizzando uno ed un solo elemento _gmd:MD\_Metadata_ come specificato nelle regole di cui agli schemi XSD e nei Requisiti delle Classi di Conformità definiti in questa guida operativa.
+I metadati per dataset, serie di dataset e servizi devono essere codificati utilizzando uno ed un solo elemento _```gmd:MD\_Metadata```_ come specificato nelle regole di cui agli schemi XSD e nei Requisiti delle Classi di Conformità definiti in questa guida operativa.
 
 Inoltre, a meno di diversa indicazione negli schemi XSD e in questa guida operativa, devono essere seguiti i requisiti definiti dagli Standard ISO 19115, ISO 19119 e ISO TS 19139.
 
@@ -56,7 +56,7 @@ mentre non è valido il tracciato seguente:
 
 <a name=C.3>**REQUISITO C.3**</a>  **```metadata/2.0/req/common/code-list-value```**
 
-Gli elenchi di codici (code list) devono essere codificati utilizzando l&#39;attributo _codeListValue_ del pertinente elemento di [ISO 19139]. Il valore di tale attributo deve essere l&#39;identificatore dell&#39;elenco di codici come definito nella colonna &quot;Nome&quot; delle tabelle riportate nelle [LG RNDT] corrispondente a quello definito nella colonna &quot;Name&quot; delle tabelle riportate nell&#39;Allegato B dello Standard [ISO 19115].
+Gli elenchi di codici (code list) devono essere codificati utilizzando l&#39;attributo _```codeListValue```_ del pertinente elemento di [ISO 19139]. Il valore di tale attributo deve essere l&#39;identificatore dell&#39;elenco di codici come definito nella colonna &quot;Nome&quot; delle tabelle riportate nelle [LG RNDT] corrispondente a quello definito nella colonna &quot;Name&quot; delle tabelle riportate nell&#39;Allegato B dello Standard [ISO 19115].
 
 ---
 
