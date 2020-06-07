@@ -48,7 +48,7 @@ La molteplicità dell&#39;elemento è 1.
 | **Definizione** | Linguaggio nel quale sono espressi i metadati. |
 | **Istruzioni di implementazione** | L&#39;elenco di codici per le 24 lingue ufficiali della UE, da utilizzare per valorizzare l&#39;elemento, è il seguente (elenco basato sui codici a tre lettere di ISO 639-2/B come definito all&#39;indirizzo [http://www.loc.gov/standards/iso639-2/](http://www.loc.gov/standards/iso639-2/)): Bulgaro – **bul**, Ceco – **cze**, Croato - **hrv**, Danese – **dan**, Estone – **est**, Finlandese – **fin**, Francese – **fre**, Greco – **gre**, Inglese – **eng**, Irlandese – **gle**, Italiano – **ita**, Lettone – **lav**, Lituano – **lit**, Maltese – **mlt**, Olandese – **dut**, Polacco – **pol**, Portoghese – **por**, Rumeno – **rum**, Slovacco – **slo**, Sloveno – **slv**, Spagnolo – **spa**, Svedese - **swe**, Tedesco – **ger**, Ungherese – **hun**. La lingua di default per i metadati RNDT è, ovviamente, l&#39; **italiano** ( **ita** ). L&#39;elenco di tutti i codici (compresi quelli delle lingue regionali) è disponibile all&#39;indirizzo [http://www.loc.gov/standards/iso639-2/](http://www.loc.gov/standards/iso639-2/). |
 
-<a name=C.5>**REQUISITO C.5**</a> - **metadata/2.0/req/common/metadata-language-code**
+<a name=C.5>**REQUISITO C.5**</a> - **```metadata/2.0/req/common/metadata-language-code```**
 
 La lingua del contenuto dei metadati deve essere fornita attraverso l&#39;elemento _```gmd:MD\_Metadata/gmd:language/gmd:LanguageCode```_ che deve puntare a uno dei codici a tre lettere delle lingue dell&#39;elenco ISO 639-2/B.
 
@@ -58,7 +58,7 @@ La molteplicità dell&#39;elemento è 1.
 
 ---
 
-<a name=RC.4>**REQUISITO RC.4**</a> - **rndt/metadata/2.0/req/common/metadata-language-name**
+<a name=RC.4>**REQUISITO RC.4**</a> - **```rndt/metadata/2.0/req/common/metadata-language-name```**
 
 Il valore del tag dell&#39;elemento _```gmd:MD\_Metadata/gmd:language/gmd:LanguageCode```_ deve riportare lo stesso codice a tre lettere presente nell&#39;attributo _```codeListValue```_.
 
@@ -72,6 +72,64 @@ Il valore del tag dell&#39;elemento _```gmd:MD\_Metadata/gmd:language/gmd:Langua
   <gmd:language>
     <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="ita">ita</gmd:LanguageCode>
   </gmd:language>
+…
+</gmd:MD_Metadata>
+```
+
+### 2.2.3 Set dei caratteri dei metadati
+
+|  |  |
+| --- | --- |
+| **Nome elemento** | Set dei caratteri dei metadati |
+| **Riferimento** | [LG RNDT] – tab. I-3, tab. V-3 |
+| **Molteplicità** | [0..1] |
+| **Elemento INSPIRE** | Nessun elemento corrispondente. |
+| **Definizione** | Nome dello standard del set di caratteri utilizzato per i metadati. |
+| **Istruzioni di implementazione** | L&#39;elemento deve assumere uno dei valori dell&#39;elenco di codici &quot;_MD\_CharacterSetCode_&quot; (§ 4.2.3.7 [LG RNDT]). |
+
+<a name=RC.5>**REQUISITO RC.5**</a> - **```rndt/metadata/2.0/req/common/metadata-character-encoding```**
+
+La codifica dei caratteri dei metadati deve essere documentata nel caso la codifica stessa non sia basata su UTF-8 attraverso l&#39;elemento _```gmd:MD\_Metadata/gmd:characterSet/gmd:MD\_CharacterSetCode```_ con riferimento a uno dei valori dell&#39;elenco di codici ISO _```MD\_CharacterSetCode```_.
+
+La molteplicità di questo element è 0..1.
+
+**Esempio di XML:**
+
+``` xml
+<gmd:MD_Metadata>
+…
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList=" http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+…
+</gmd:MD_Metadata>
+```
+
+### 2.2.4 Id file precedente
+
+|  |  |
+| --- | --- |
+| **Nome elemento** | Id file precedente |
+| **Riferimento** | [LG RNDT] – tab. I-4, tab. V-4 |
+| **Molteplicità** | [0..1] |
+| **Elemento INSPIRE** | Nessun elemento corrispondente. |
+| **Definizione** | Identificatore univoco del file di metadati dell&#39;eventuale trasmissione precedente a cui il file corrente è relazionato. |
+| **Istruzioni di implementazione** | Testo libero. Per quanto riguarda il formato e i relativi requisiti, vale anche quanto indicato al § 2.2.1. |
+
+***Raccomandazione RC.2**  **```rndt/metadata/2.0/rec/common/parent-identifier```***
+
+L&#39;elemento potrebbe essere utile per tracciare la &quot;storia&quot; delle trasmissioni dei file XML e quindi degli aggiornamenti dei metadati. Esso dovrebbe assumere il valore dell&#39;elemento &quot;_Identificatore del file_&quot; del file trasmesso temporalmente in precedenza e a cui il file corrente è in relazione. Nel caso di primo impianto (quindi non esiste nessun file precedente), se presente, l&#39;elemento dovrebbe assumere lo stesso valore dell&#39;elemento &quot;_Identificatore del file_&quot; del file corrente.
+
+Se documentato, deve essere utilizzato l&#39;elemento _```gmd:MD\_Metadata/gmd:parentIdentifier```_.
+
+**Esempio di XML:**
+
+``` xml
+<gmd:MD_Metadata>
+…
+  <gmd:parentIdentifier>
+    <gco:CharacterString>r_campan:000001:20090124:093213</gco:CharacterString>
+  </gmd:parentIdentifier>
 …
 </gmd:MD_Metadata>
 ```
