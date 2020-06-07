@@ -1,6 +1,6 @@
 ## 2.2 Informazioni sui metadati
 
-2.2.1 Identificatore del file
+### 2.2.1 Identificatore del file
 
 | **Nome elemento** | **Identificatore del file** |
 | --- | --- |
@@ -10,7 +10,7 @@
 | **Definizione** | Identificatore univoco del file dei metadati. |
 | **Istruzioni di implementazione** | Testo libero. |
 
-**Requisito RC.3**  **rndt/metadata/2.0/req/common/file-identifier**
+<a name=RC.3>**REQUISITO RC.3**</a>  **rndt/metadata/2.0/req/common/file-identifier**
 
 L&#39;identificatore deve essere codificato utilizzando l&#39;elemento _gmd:MD\_Metadata/gmd:fileIdentifier_.
 
@@ -21,5 +21,7 @@ Esso deve contenere, come prefisso,il **codice iPA** assegnato all&#39;Amministr
 L&#39;identificatore deve essere univoco a livello globale e persistente.
 
 La molteplicità dell&#39;elemento è 1.
+
+---
 
 **Esempio di XML:**
