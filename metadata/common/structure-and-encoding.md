@@ -102,4 +102,4 @@ Non è valido, invece, il tracciato seguente:
 …
 ```
 
-Prossima sezione: [2.2 Informazioni sui metadati](metadata.md)
+>Prossima sezione: [2.2 Informazioni sui metadati](metadata.md)
