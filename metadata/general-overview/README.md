@@ -1,5 +1,13 @@
 ## 1. Indicazioni generali
 
+[1.1 Introduzione](general-overview#11-introduzione)
+
+[1.2 Conformità](general-overview#12-conformità)
+
+[1.3 Classi di conformità](general-overview#13-classi-di-conformità)
+
+[1.4 Implementazione della struttura gerarchica e relazioni tra risorse](general-overview#14-implementazione-della-struttura-gerarchica-e-relazioni-tra-risorse)
+
 ### 1.1 Introduzione
 
 Le Linee Guida recanti le regole tecniche del Repertorio Nazionale dei Dati Territoriali individuano, al cap. 1, l&#39;ambito di applicazione identificato in dataset, serie di dataset e servizi, in coerenza con il [Regolamento 1205/2008].
