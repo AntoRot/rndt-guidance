@@ -2,9 +2,9 @@
 
 **Elementi:**
 
-2.6.1 Conformità: specifiche
+[2.6.1 Conformità: specifiche](data-quality.md#261-conformità-specifiche)
 
-2.6.2 Conformità: grado
+[2.6.2 Conformità: grado](data-quality.md#262-conformità-grado)
 
 ### 2.6.1 Conformità: specifiche
 
