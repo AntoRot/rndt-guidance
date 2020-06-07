@@ -8,6 +8,8 @@
 
 [2.3.3 Responsabile](identification.md#233-responsabile)
 
+[2.3.4 Responsabile](identification.md#234-identificatore)
+
 ### 2.3.1 Titolo
 
 |  |  |
@@ -156,9 +158,9 @@ Il valore di _```gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:role/gmd:
 
 ---
 
-**Requisito RC.9**  **```rndt/metadata/2.0/req/common/responsible-party-owner```**
+**REQUISITO RC.9**  **```rndt/metadata/2.0/req/common/responsible-party-owner```**
 
-Una istanza dell&#39;elemento _```gmd:citedResponsibleParty/gmd:CI_ResponsibleParty```_deve contenere il nome ufficiale dell&#39;Ente come presente nell&#39;_Indice dei domicili digitali delle pubbliche amministrazioni e dei gestori di pubblici servizi (IPA)_.
+Una istanza dell&#39;elemento _```gmd:citedResponsibleParty/gmd:CI_ResponsibleParty```_deve contenere il nome ufficiale dell&#39;Ente come presente nell&#39;_[Indice dei domicili digitali delle pubbliche amministrazioni e dei gestori di pubblici servizi (IPA)](https://www.indicepa.gov.it/)_.
 
 In questo caso il valore dell&#39;elemento _```gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:role/gmd:CI_RoleCode```_ deve essere &quot;_proprietario_&quot; (_owner_) presente nell&#39;elenco di codici ISO _```CI_RoleCode```_.
 
@@ -179,6 +181,8 @@ _- ```gmd:contactInfo/gmd:CI_Contact/gmd:phone/gmd:CI_Telephone/gmd:voice```._
 ***Raccomandazione RC.6** - **```rndt/metadata/2.0/rec/common/responsible-party-role```***
 
 *A parte il proprietario di cui alla raccomandazione [RC.9](recRC.9), scegliere i ruoli che meglio rappresentano la funzione svolta dall&#39;organizzazione responsabile.*
+
+---
 
 **Esempio di XML:**
 
@@ -252,5 +256,100 @@ _- ```gmd:contactInfo/gmd:CI_Contact/gmd:phone/gmd:CI_Telephone/gmd:voice```._
     </gmd:MD_DataIdentification>
   </gmd:identificationInfo>
 …
+</gmd:MD_Metadata>
+```
+
+### 2.3.4 Identificatore
+
+|  |  |
+| --- | --- |
+| **Nome elemento** | Identificatore |
+| **Riferimento** | [LG RNDT] – tab. I-14, tab. V-13, tab. VII-9 |
+| **Molteplicità** | [1] |
+| **Elemento INSPIRE** | Identificatore univoco della risorsa |
+| **Definizione** | Riferimento univoco che identifica la risorsa nel livello gerarchico specificato. |
+| **Istruzioni di implementazione** | Testo libero. |
+
+**REQUISITO RC.10** - **```rndt/metadata/2.0/req/common/dataset-uid```**
+
+Deve essere indicato un indicatore univoco per ciascuna risorsa documentata. Tale indicatore deve essere un URI consistente in uno spazio di nomi (_namespace_), che identifica univocamente un contesto di denominazione governato da un&#39;autorità di identificazione, e un codice univoco nell&#39;ambito dello spazio di nomi.
+
+L&#39;identificatore deve essere documentato attraverso l&#39;elemento _```gmd:citation/gmd:CI_Citation/gmd:identifier/*/gmd:code```_.
+
+La molteplicità di questo elemento è 1.
+
+---
+
+**REQUISITO RC.11** - **```rndt/metadata/2.0/req/common/uid-ipa-code```**
+
+L&#39;identificatore deve contenere, come prefisso,il **codice iPA** assegnato all&#39;Amministrazione nel momento dell&#39;accreditamento all&#39;_Indice dei domicili digitali delle pubbliche amministrazioni e dei gestori di pubblici servizi (IPA)_ secondo le regole definite in [LG IPAGPS].
+
+Il separatore tra il codice iPA e la restante parte dell&#39;identificatore è &quot; **:**&quot; (due punti).
+
+---
+
+***Raccomandazione RC.7** - **```rndt/metadata/2.0/rec/common/use-md-identifier```***
+
+*Si raccomanda fortemente di utilizzare ```MD_Identifier``` invece di ```RS_Identifier``` e di indicare l&#39;URI completo nell&#39;elemento relativo al codice.*
+
+---
+
+***Raccomandazione RC.8** - **```rndt/metadata/2.0/rec/common/resolvable-uid```***
+
+*Si raccomanda di rendere risolvibile l&#39;identificatore univoco della risorsa in un documento che fornisca informazioni sulla risorsa descritta. Nel caso di URI http/https, per la risolvibilità dovrebbero essere utilizzati il DNS pubblico e i classici meccanismi di risoluzione di URI HTTP.
+
+Per altri tipi di URI, dovrebbe essere disponibile un servizio di risoluzione che implementi una analoga funzionalità.
+
+Il documento ottenuto come risultato del processo di risoluzione può essere, ma non è obbligatorio che lo sia, il record di metadati della risorsa descritta. Si raccomanda inoltre che la visualizzazione del documento fornito non richieda autenticazione dell&#39;utente, autorizzazione o strumenti specializzati di visualizzazione oltre a un normale browser web.*
+
+---
+
+***Raccomandazione RC.9** - **```rndt/metadata/2.0/rec/common/rndt-resolvable-uid```***
+
+*Se l&#39;identificatore della risorsa assume lo stesso valore dell&#39;identificatore del file (fileIdentifier), di cui al paragrafo 2.2.1, come da requisito delle specifiche [CSW2 AP ISO], l&#39;identificatore è risolto nel documento di metadati presente nel RNDT.*
+
+*A tale scopo, la struttura dell&#39;URI da inserire come valore dell&#39;elemento ```gmd:code``` deve essere la seguente:*
+
+*https://geodati.gov.it/resource/id/_{identifier}*
+
+*dove identifier è, appunto, l&#39;identificatore univoco della risorsa (coincidente con l&#39;identificatore del file di cui al paragrafo [2.2.1](#_Identificatore)).*
+
+---
+
+***Raccomandazione RC.10** - **```rndt/metadata/2.0/rec/common/persistent-uid```***
+
+*I fornitori di identificatori univoci di risorse dovrebbero fare molta attenzione nel garantire che gli identificatori emessi rimangano validi e disponibili per l&#39;intero periodo di disponibilità della risorsa identificata, e preferibilmente anche dopo che la risorsa non sia più disponibile.
+
+Se un identificatore univoco pubblicato per una risorsa deve essere modificato durante il periodo di disponibilità della risorsa stessa, sia il vecchio che il nuovo identificatore dovrebbero essere risolti con lo stesso documento descritto nella Raccomandazione [RC.9](#recRC9). Se ciò non fosse possibile, il vecchio identificatore dovrebbe essere risolto con un documento che fornisca informazioni sulla modifica dell&#39;identificatore univoco e indichi il nuovo identificatore univoco della risorsa descritta.
+
+È opportuno evitare l&#39;assegnazione di un identificatore di risorsa univoco pubblicato a un&#39;altra risorsa, a cui, invece, dovrebbe essere assegnato un identificatore univoco nuovo.
+
+La persistenza e il processo di prevenzione dell&#39;interruzione della risolvibilità dell&#39;identificatore sono fondamentali per mantenere funzionali i collegamenti tra i servizi e i dataset forniti.*
+
+---
+
+**Esempio di XML:**
+
+```xml
+<gmd:MD_Metadata>
+…
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+        …
+          <gmd:identifier>
+            <gmd: MD_Identifier>
+              <gmd:code>
+                <gco:CharacterString>https://geodati.gov.it/resource/id/r_piemon:00000001</gco:CharacterString>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:identifier>
+          …
+        </gmd:CI_Citation>
+      </gmd:citation>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+ …
 </gmd:MD_Metadata>
 ```
