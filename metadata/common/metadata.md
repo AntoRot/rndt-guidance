@@ -1,5 +1,23 @@
 ## 2.2 Informazioni sui metadati
 
+**Elementi:**
+
+[2.2.1 Identificatore del file](metadata.md#221-identificatore-del-file)
+
+2.2.2 Lingua dei metadati
+
+2.2.3 Set dei caratteri dei metadati
+
+2.2.4 Id file precedente
+
+2.2.5 Responsabile dei metadati
+
+2.2.6 Data dei metadati
+
+2.2.7 Nome dello Standard
+
+2.2.8 Versione dello Standard
+
 ### 2.2.1 Identificatore del file
 
 |  |  |
