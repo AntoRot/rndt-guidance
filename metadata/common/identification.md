@@ -551,4 +551,4 @@ _- ```gmd:contactInfo/gmd:CI_Contact/gmd:phone/gmd:CI_Telephone/gmd:voice```._
 ```
 
 
-Prossima sezione: [2.3 Identificazione dei dati](identification.md)
+Prossima sezione: [2.4 Vincoli sui dati](constraints.md)
