@@ -2,9 +2,11 @@
 
 **Elementi:**
 
-2.3.1 Titolo
+[2.3.1 Titolo](identification.md#231-titolo)
 
-2.3.2 Data
+[2.3.2 Data](identification.md#232-data)
+
+[2.3.3 Responsabile](identification.md#233-responsabile)
 
 ### 2.3.1 Titolo
 
@@ -118,6 +120,132 @@ Nel caso venga indicata la data di ultimo aggiornamento dei dati, questa deve es
               </gmd:dateType>
             </gmd:CI_Date>
           </gmd:date>
+          …
+        </gmd:CI_Citation>
+      </gmd:citation>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+…
+</gmd:MD_Metadata>
+```
+
+### 2.3.3 Responsabile
+
+|  |  |
+| --- | --- |
+| **Nome elemento** | Responsabile |
+| **Riferimento** | [LG RNDT] – tab. I-13, tab. V-12, tab. VII-8 |
+| **Molteplicità** | [1..\*] |
+| **Elemento INSPIRE** | Nessun elemento corrispondente |
+| **Definizione** | Organizzazione titolare dei dati. |
+| **Istruzioni di implementazione** |- **Nome dell&#39;Ente** [1] – Testo libero; - **Ruolo** [1]– L&#39;elemento deve assumere uno dei valori della&#39;elenco di codici &quot;_CI\_RoleCode_&quot; (§ 4.2.3.5 [LG RNDT]); - **Sito web** [0..1] - formato URL. Specificare obbligatoriamente anche il protocollo (es. _http_); - **Telefono** [0..1] - Testo libero; - **E-mail** [1..\*] - Testo libero. |
+
+**REQUISITO RC.8** - **```rndt/metadata/2.0/req/common/responsible-party```**
+
+Il responsabile della creazione, gestione e manutenzione della risorsa deve essere documentato attraverso l&#39;elemento _```gmd:citedResponsibleParty/gmd:CI_ResponsibleParty```_.
+
+La molteplicità dell&#39;elemento è 1..N.
+
+L&#39;elemento _```gmd:CI_ResponsibleParty```_ deve contenere i seguenti elementi:
+
+- il **nome dell&#39;Ente** deve essere fornito come valore dell&#39;elemento _```gmd:organisationName```_ con un contenuto a testo libero non vuoto;
+
+- l&#39; **indirizzo e-mail** deve essere fornito come valore dell&#39;elemento _```gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:address/gmd:CI_Address/gmd:electronicMailAddress```_ con un contenuto a testo libero non vuoto contenente un indirizzo e-mail valido.
+
+Il valore di _```gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:role/gmd:CI_RoleCode```_ deve essere il valore più pertinente dell&#39;elenco di codici _```CI_RoleCode```_.
+
+---
+
+**Requisito RC.9**  **```rndt/metadata/2.0/req/common/responsible-party-owner```**
+
+Una istanza dell&#39;elemento _```gmd:citedResponsibleParty/gmd:CI_ResponsibleParty```_deve contenere il nome ufficiale dell&#39;Ente come presente nell&#39;_Indice dei domicili digitali delle pubbliche amministrazioni e dei gestori di pubblici servizi (IPA)_.
+
+In questo caso il valore dell&#39;elemento _```gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:role/gmd:CI_RoleCode```_ deve essere &quot;_proprietario_&quot; (_owner_) presente nell&#39;elenco di codici ISO _```CI_RoleCode```_.
+
+---
+
+***Raccomandazione RC.5** - **```rndt/metadata/2.0/rec/common/responsible-party-contact```***
+
+*Possono essere documentati anche il &quot;Sito web&quot; e il &quot;Telefono&quot; del responsabile metadati rispettivamente attraverso gli elementi:*
+
+_- ```gmd:contactInfo/gmd:CI_Contact/gmd:onlineResource/gmd:CI_OnlineResource/gmd:linkage/gmd:URL```, contenente l&#39;URL di un sito valido;_
+
+_- ```gmd:contactInfo/gmd:CI_Contact/gmd:phone/gmd:CI_Telephone/gmd:voice```._
+
+*Il nome dell&#39;Ente dovrebbe essere riportato per intero, senza abbreviazioni. Si consiglia di indicare indirizzi e-mail istituzionali e non personali.*
+
+---
+
+***Raccomandazione RC.6** - **```rndt/metadata/2.0/rec/common/responsible-party-role```***
+
+*A parte il proprietario di cui alla raccomandazione [RC.9](recRC.9), scegliere i ruoli che meglio rappresentano la funzione svolta dall&#39;organizzazione responsabile.*
+
+**Esempio di XML:**
+
+```xml
+<gmd:MD_Metadata>
+…
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+        …
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>Regione Piemonte</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>sitad@csi.it</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:onlineResource>
+                    <gmd:CI_OnlineResource>
+                      <gmd:linkage>
+                        <gmd:URL>https://www.regione.piemonte.it</gmd:URL>
+                      </gmd:linkage>
+                    </gmd:CI_OnlineResource>
+                  </gmd:onlineResource>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeListValue="owner" codeList=" http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode">proprietario</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>Regione Piemonte – Settore cartografia e sistema informativo territoriale</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>sitad@csi.it</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:onlineResource>
+                    <gmd:CI_OnlineResource>
+                      <gmd:linkage>
+                        <gmd:URL>http://www.sistemapiemonte.it/serviziositad/</gmd:URL>
+                      </gmd:linkage>
+                    </gmd:CI_OnlineResource>
+                  </gmd:onlineResource>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeListValue="author" codeList=" http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode">autore</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
           …
         </gmd:CI_Citation>
       </gmd:citation>
