@@ -8,7 +8,7 @@
 
 [2.3.3 Responsabile](identification.md#233-responsabile)
 
-[2.3.4 Responsabile](identification.md#234-identificatore)
+[2.3.4 Identificatore](identification.md#234-identificatore)
 
 ### 2.3.1 Titolo
 
@@ -296,11 +296,11 @@ Il separatore tra il codice iPA e la restante parte dell&#39;identificatore è &
 
 ***Raccomandazione RC.8** - **```rndt/metadata/2.0/rec/common/resolvable-uid```***
 
-*Si raccomanda di rendere risolvibile l&#39;identificatore univoco della risorsa in un documento che fornisca informazioni sulla risorsa descritta. Nel caso di URI http/https, per la risolvibilità dovrebbero essere utilizzati il DNS pubblico e i classici meccanismi di risoluzione di URI HTTP.
+*Si raccomanda di rendere risolvibile l&#39;identificatore univoco della risorsa in un documento che fornisca informazioni sulla risorsa descritta. Nel caso di URI http/https, per la risolvibilità dovrebbero essere utilizzati il DNS pubblico e i classici meccanismi di risoluzione di URI HTTP.*
 
-Per altri tipi di URI, dovrebbe essere disponibile un servizio di risoluzione che implementi una analoga funzionalità.
+*Per altri tipi di URI, dovrebbe essere disponibile un servizio di risoluzione che implementi una analoga funzionalità.*
 
-Il documento ottenuto come risultato del processo di risoluzione può essere, ma non è obbligatorio che lo sia, il record di metadati della risorsa descritta. Si raccomanda inoltre che la visualizzazione del documento fornito non richieda autenticazione dell&#39;utente, autorizzazione o strumenti specializzati di visualizzazione oltre a un normale browser web.*
+*Il documento ottenuto come risultato del processo di risoluzione può essere, ma non è obbligatorio che lo sia, il record di metadati della risorsa descritta. Si raccomanda inoltre che la visualizzazione del documento fornito non richieda autenticazione dell&#39;utente, autorizzazione o strumenti specializzati di visualizzazione oltre a un normale browser web.*
 
 ---
 
@@ -318,13 +318,13 @@ Il documento ottenuto come risultato del processo di risoluzione può essere, ma
 
 ***Raccomandazione RC.10** - **```rndt/metadata/2.0/rec/common/persistent-uid```***
 
-*I fornitori di identificatori univoci di risorse dovrebbero fare molta attenzione nel garantire che gli identificatori emessi rimangano validi e disponibili per l&#39;intero periodo di disponibilità della risorsa identificata, e preferibilmente anche dopo che la risorsa non sia più disponibile.
+*I fornitori di identificatori univoci di risorse dovrebbero fare molta attenzione nel garantire che gli identificatori emessi rimangano validi e disponibili per l&#39;intero periodo di disponibilità della risorsa identificata, e preferibilmente anche dopo che la risorsa non sia più disponibile.*
 
-Se un identificatore univoco pubblicato per una risorsa deve essere modificato durante il periodo di disponibilità della risorsa stessa, sia il vecchio che il nuovo identificatore dovrebbero essere risolti con lo stesso documento descritto nella Raccomandazione [RC.9](#recRC9). Se ciò non fosse possibile, il vecchio identificatore dovrebbe essere risolto con un documento che fornisca informazioni sulla modifica dell&#39;identificatore univoco e indichi il nuovo identificatore univoco della risorsa descritta.
+*Se un identificatore univoco pubblicato per una risorsa deve essere modificato durante il periodo di disponibilità della risorsa stessa, sia il vecchio che il nuovo identificatore dovrebbero essere risolti con lo stesso documento descritto nella Raccomandazione [RC.9](#recRC9). Se ciò non fosse possibile, il vecchio identificatore dovrebbe essere risolto con un documento che fornisca informazioni sulla modifica dell&#39;identificatore univoco e indichi il nuovo identificatore univoco della risorsa descritta.*
 
-È opportuno evitare l&#39;assegnazione di un identificatore di risorsa univoco pubblicato a un&#39;altra risorsa, a cui, invece, dovrebbe essere assegnato un identificatore univoco nuovo.
+*È opportuno evitare l&#39;assegnazione di un identificatore di risorsa univoco pubblicato a un&#39;altra risorsa, a cui, invece, dovrebbe essere assegnato un identificatore univoco nuovo.*
 
-La persistenza e il processo di prevenzione dell&#39;interruzione della risolvibilità dell&#39;identificatore sono fondamentali per mantenere funzionali i collegamenti tra i servizi e i dataset forniti.*
+*La persistenza e il processo di prevenzione dell&#39;interruzione della risolvibilità dell&#39;identificatore sono fondamentali per mantenere funzionali i collegamenti tra i servizi e i dataset forniti.*
 
 ---
 
