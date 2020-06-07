@@ -10,6 +10,8 @@
 
 [2.3.4 Identificatore](identification.md#234-identificatore)
 
+[2.3.5 Descrizione](identification.md#235-descrizione)
+
 ### 2.3.1 Titolo
 
 |  |  |
@@ -282,7 +284,7 @@ La molteplicità di questo elemento è 1.
 
 **REQUISITO RC.11** - **```rndt/metadata/2.0/req/common/uid-ipa-code```**
 
-L&#39;identificatore deve contenere, come prefisso,il **codice iPA** assegnato all&#39;Amministrazione nel momento dell&#39;accreditamento all&#39;_Indice dei domicili digitali delle pubbliche amministrazioni e dei gestori di pubblici servizi (IPA)_ secondo le regole definite in [LG IPAGPS].
+L&#39;identificatore deve contenere, come prefisso,il **codice iPA** assegnato all&#39;Amministrazione nel momento dell&#39;accreditamento all&#39;_[Indice dei domicili digitali delle pubbliche amministrazioni e dei gestori di pubblici servizi (IPA)](https://www.indicepa.gov.it)_ secondo le regole definite in [LG IPAGPS].
 
 Il separatore tra il codice iPA e la restante parte dell&#39;identificatore è &quot; **:**&quot; (due punti).
 
@@ -351,5 +353,64 @@ Il separatore tra il codice iPA e la restante parte dell&#39;identificatore è &
     </gmd:MD_DataIdentification>
   </gmd:identificationInfo>
  …
+</gmd:MD_Metadata>
+```
+
+### 2.3.5 Descrizione
+
+|  |  |
+| --- | --- |
+| **Nome elemento** | Descrizione |
+| **Riferimento** | [LG RNDT] – tab. I-17, tab. V-14, tab. VII-11 |
+| **Molteplicità** | [1] |
+| **Elemento INSPIRE** | Breve descrizione della risorsa |
+| **Definizione** | Breve testo di descrizione del contenuto della risorsa. |
+| **Istruzioni di implementazione** | Testo libero. |
+
+**REQUISITO C.9** - **```metadata/2.0/req/common/resource-abstract```**
+
+Deve essere fornita una breve descrizione del contenuto della risorsa documentata attraverso l&#39;elemento _```gmd:abstract```_ nella lingua dei metadati.
+
+La molteplicità di questo elemento è 1.
+
+---
+
+***Raccomandazione C.4** - **```metadata/2.0/rec/common/resource-abstract```***
+
+*La descrizione può includere:*
+
+*- un breve riassunto con i dettagli più importanti sui dati o i servizi documentati;*
+
+*- la copertura dei dati, ovvero la trascrizione linguistica dell&#39;estensione o localizzazione geografica in aggiunta al riquadro di delimitazione (bounding box);*
+
+*- i principali attributi;*
+
+*- le fonti dei dati;*
+
+*- i riferimenti normativi (che possono essere meglio dettagliati attraverso l&#39;elemento &quot;Altri dettagli_&quot; - v. § 3.2.3);*
+
+*- l&#39;importanza della risorsa.*
+
+*Non utilizzare acronimi di cui non si fornisca una spiegazione.*
+
+*Riassumere i dettagli più importanti nel primo periodo o nei primi 256 caratteri.*
+
+---
+
+**Esempio di XML:**
+
+```xml
+<gmd:MD_Metadata>
+…
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+    …
+      <gmd:abstract>
+        <gco:CharacterString>Dataset dei siti italiani iscritti nella Lista del Patrimonio Mondiale UNESCO identificati dalle relative perimetrazioni (area iscritta e zona tampone), approvate dal Comitato del Patrimonio Mondiale UNESCO. I siti, in alcuni casi, sono di tipo seriale, cioè composti da più elementi identificati, denominati e individuati sul territorio. Le perimetrazioni sono state identificate su cartografie differenti secondo i casi e l'estensione geografica. Le perimetrazioni di origine fanno parte dei documenti ufficiali di ciascun sito.Attributi e loro significato:ID: Identificativo interno; COD_UNESCO: Codice internazionale associato al sito; SITO: Denominazione ufficiale del sito; SERIALE: 0 sito non seriale, 1 sito seriale; COD_COMPON: Codice della componente (è popolato solo per le componenti dei siti seriali); COMPONENTE: Denominazione ufficiale della componente; TIPO_AREA: sito per area che identifica un sito, buffer per area che identifica zona tampone di un sito; SCALA_NOMI: Fattore di scala della cartografia utilizzata per la perimetrazione del sito o area di rispetto; TIPOLOGIA: sito culturale, monumento, complesso monumentale, sito, sito naturale, formazione fisica e biologica, formazione geologica, habitat minacciato, sito di eccezionale bellezza, interesse scientifico, sito misto</gco:CharacterString>
+      </gmd:abstract>
+      …
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+…
 </gmd:MD_Metadata>
 ```
