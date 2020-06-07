@@ -387,3 +387,5 @@ La molteplicità dell&#39;elemento è 1.
 …
 </gmd:MD_Metadata>
 ```
+
+Prossima sezione: [2.3 Identificazione dei dati](identification.md)
