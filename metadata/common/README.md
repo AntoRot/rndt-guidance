@@ -10,6 +10,6 @@ Questa sezione include le istruzioni utili per la compilazione dei metadati che 
 
 [2.4 Vincoli sui dati](constraints.md)
 
-2.5 Estensione dei dati
+[2.5 Estensione dei dati](extent.md)
 
-2.6 Qualità dei dati
+[2.6 Qualità dei dati](data-quality.md)
