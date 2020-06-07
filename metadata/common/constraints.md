@@ -1,12 +1,12 @@
 ## 2.4 Vincoli si dati
 
-** Elementi: **
+**Elementi:**
 
 [2.4.1 Limitazione d'uso](constraints.md#241-limitazione-duso)
 
-2.4.2 Vincoli di accesso
+[2.4.2 Vincoli di accesso](constraints.md#242-vincoli-di-accesso)
 
-2.4.3 Vincoli di fruibilità
+[2.4.3 Vincoli di fruibilità](constraints.md#243-vincoli-di-fruibilità)
 
 ### 2.4.1 Limitazione d&#39;uso
 
@@ -50,7 +50,7 @@
 </gmd:MD_Metadata>
 ```
 
-### Vincoli di accesso
+### 2.4.2 Vincoli di accesso
 
 |  |  |
 | --- | --- |
