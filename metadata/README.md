@@ -9,9 +9,9 @@ Questa guida operativa fornisce tutte le istruzioni e indicazioni necessarie per
 
 **[Note di lettura](#note-lettura)**
 
-**[1 INDICAZIONI GENERALI](#indicazioni-generali)**
+**[1 INDICAZIONI GENERALI](general-overview)**
 
-**[2 REQUISITI COMUNI PER I METADATI RNDT](common/README.md)**
+**[2 REQUISITI COMUNI PER I METADATI RNDT](common)**
 
 **[3](#_Toc40042928) CLASSI DI CONFORMITà PER I DATASET E LE SERIE DI DATASET**
 
