@@ -20,7 +20,7 @@ La revisione del decreto viene attuata con le Linee Guida (nuovo strumento per l
 Il manuale presente in questo repository rappresenta l&#39;implementazione delle [LG RNDT] e, quindi, la revisione delle guide operative per la compilazione dei metadati componenti la precedente versione di cui sopra. In particolare, esso risulta ora costituito dalle seguenti guide operative:
 
 1. Guida operativa per l&#39;accreditamento delle PA;
-2. [Guida operativa per la compilazione dei metadati](https://github.com/AgID/rndt-guidance/tree/master/2-go-compilazione-metadati) (che sostituisce le guide identificate con i numeri 2, 3, 4 e 5 nella precedente versione);
+2. [Guida operativa per la compilazione dei metadati](metadata) (che sostituisce le guide identificate con i numeri 2, 3, 4 e 5 nella precedente versione);
 3. Guida operativa all&#39;uso dei servizi.
 
 [CAD]: https://docs.italia.it/italia/piano-triennale-ict/codice-amministrazione-digitale-docs/it/v2017-12-13/index.html
