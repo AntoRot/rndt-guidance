@@ -11,18 +11,6 @@ Questa guida operativa fornisce tutte le istruzioni e indicazioni necessarie per
 
 **[1 INDICAZIONI GENERALI](#indicazioni-generali)**
 
-  [1.1 Introduzione](#introduzione)
-
-  [1.2 Conformità](#conformance)
-
-  [1.3 Classi di conformità](#conformance-classes)
-
-  [1.4 Implementazione della struttura gerarchica e relazioni tra risorse](#struttura-gerarchica)
-
-  [1.5 Flusso di compilazione dei metadati delle varie risorse](#flusso-compilazione)
-
-  [1.6 Come adeguarsi alla nuova versione](#adeguarsi)
-
 **[2 REQUISITI COMUNI PER I METADATI RNDT](common/README.md)**
 
 **[3](#_Toc40042928) CLASSI DI CONFORMITà PER I DATASET E LE SERIE DI DATASET**
@@ -63,4 +51,4 @@ Questa guida operativa fornisce tutte le istruzioni e indicazioni necessarie per
 
 ---
 
->Vai a [**2. Requisiti comuni dei metadati RNDT**](common)
+>Vai a [**1. Indicazioni generali**](general-overview)
