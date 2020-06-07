@@ -93,6 +93,8 @@ La codifica dei caratteri dei metadati deve essere documentata nel caso la codif
 
 La molteplicità di questo element è 0..1.
 
+---
+
 **Esempio di XML:**
 
 ``` xml
@@ -121,6 +123,8 @@ La molteplicità di questo element è 0..1.
 L&#39;elemento potrebbe essere utile per tracciare la &quot;storia&quot; delle trasmissioni dei file XML e quindi degli aggiornamenti dei metadati. Esso dovrebbe assumere il valore dell&#39;elemento &quot;_Identificatore del file_&quot; del file trasmesso temporalmente in precedenza e a cui il file corrente è in relazione. Nel caso di primo impianto (quindi non esiste nessun file precedente), se presente, l&#39;elemento dovrebbe assumere lo stesso valore dell&#39;elemento &quot;_Identificatore del file_&quot; del file corrente.
 
 Se documentato, deve essere utilizzato l&#39;elemento _```gmd:MD\_Metadata/gmd:parentIdentifier```_.
+
+---
 
 **Esempio di XML:**
 
