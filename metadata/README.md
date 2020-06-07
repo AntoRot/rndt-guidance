@@ -45,7 +45,7 @@ Questa guida operativa fornisce tutte le istruzioni e indicazioni necessarie per
 
 **[CSW2 AP ISO]** OpenGIS Catalogue Services Specification 2.0.2 - ISO Metadata Application Profile, Version 1.0.0, OGC 07-045, 2007;
 
-**[LG RNDT]**_Linee Guida recanti regole tecniche per la definizione e l&#39;aggiornamento del contenuto del Repertorio Nazionale dei Dati Territoriali;
+**[LG RNDT]** _Linee Guida recanti regole tecniche per la definizione e l&#39;aggiornamento del contenuto del Repertorio Nazionale dei Dati Territoriali_;
 
 **[LG IPAGPS]**_Linee Guida dell&#39;Indice dei domicili digitali delle pubbliche amministrazioni e dei gestori di pubblici servizi (IPA)_, adottate con la Determinazione n. 97/2019 del 4 aprile 2019.
 
