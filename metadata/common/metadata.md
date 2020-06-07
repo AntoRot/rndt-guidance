@@ -137,3 +137,120 @@ Se documentato, deve essere utilizzato l&#39;elemento _```gmd:MD_Metadata/gmd:pa
 …
 </gmd:MD_Metadata>
 ```
+
+### 2.2.5 Responsabile dei metadati
+
+|  |  |
+| --- | --- |
+| **Nome elemento** | Responsabile dei metadati |
+| **Riferimento** | [LG RNDT] – tab. I-6, tab. V-6, tab. VII-3 |
+| **Molteplicità** | [1..\*] |
+| **Elemento INSPIRE** | Punto di contatto dei metadati |
+| **Definizione** | Organizzazione responsabile della creazione e della manutenzione dei metadati. |
+| **Istruzioni di implementazione** | - **Nome dell&#39;Ente** [1] - Testo libero ; - **Ruolo** [1]– Fare riferimento all&#39;elenco di codici _CI\_RoleCode_ di cui al § 4.2.3.5 [LG RNDT]; - **Sito web** [0..1] - formato URL. Specificare obbligatoriamente anche il protocollo (es. _http_); - **Telefono** [0..1] - Testo libero; - **E-mail** [1..\*] - Testo libero. |
+
+**REQUISITO C.6** - **```metadata/2.0/req/common/md-point-of-contact```**
+
+Il responsabile dei metadati deve essere documentato attraverso l&#39;elemento _```gmd:MD_metadata/gmd:contact/gmd:CI_ResponsibleParty```_.
+
+La molteplicità dell&#39;elemento è 1..N.
+
+Devono essere fornite le seguenti informazioni:
+
+- il **nome dell&#39;Ente** deve essere fornito come valore dell&#39;elemento _```gmd:organisationName```_;
+
+- l&#39; **indirizzo e-mail** deve essere fornito come valore dell&#39;elemento _```gmd:contactInfo/gmd:CI_Contact/gmd:address/gmd:CI_Address/gmd:electronicMailAddress```_ contenente un indirizzo e-mail valido.
+
+Il valore di _```gmd:role/gmd:CI_RoleCode```_ deve essere &quot; **punto di contatto**&quot; ( **pointOfContact** ) presente nell&#39;elenco di codici ISO _```CI_RoleCode```_.
+
+---
+
+***Raccomandazione RC.3** - **```rndt/metadata/2.0/rec/common/md-point-of-contact```***
+
+Possono essere documentati anche il &quot;Sito web&quot; e il &quot;Telefono&quot; del responsabile dei metadati rispettivamente attraverso gli elementi:
+
+- _```gmd:contactInfo/gmd:CI_Contact/gmd:onlineResource/gmd:CI_OnlineResource/gmd:linkage/gmd:URL```_, utilizzando un valore di testo libero contenente l&#39;URL di un sito valido;
+
+- _```gmd:contactInfo/gmd:CI_Contact/gmd:phone/gmd:CI_Telephone/gmd:voice```_.
+
+---
+
+**Raccomandazione C.2**  **```metadata/2.0/rec/common/organisation-name```**
+
+Il nome dell&#39;Ente dovrebbe essere riportato per intero, senza abbreviazioni. Si consiglia di indicare indirizzi e-mail dell&#39;organizzazione e non personali.
+
+---
+
+**Esempio di XML:**
+
+```xml
+<gmd:MD_Metadata>
+…
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:organisationName>
+        <gco:CharacterString>Regione Piemonte – Settore cartografia e sistema informativo territoriale</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>sitad@csi.it</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://www.sistemapiemonte.it/serviziositad/</gmd:URL>
+              </gmd:linkage>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+         </gmd:CI_Contact>
+        </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeListValue="pointOfContact" codeList=" http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode">punto di contatto</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+…
+</gmd:MD_Metadata>
+```
+
+oppure
+
+```xml
+<gmd:MD_Metadata>
+…
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:organisationName>
+        <gco:CharacterString>Regione Piemonte – Settore cartografia e sistema informativo territoriale</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:phone>
+            <gmd:CI_Telephone>
+              <gmd:voice>
+                <gco:CharacterString>0114321428</gco:CharacterString>
+              </gmd:voice>
+            </gmd:CI_Telephone>
+          </gmd:phone>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://www.sistemapiemonte.it/serviziositad/</gmd:URL>
+              </gmd:linkage>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeListValue="pointOfContact" codeList=" http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode">punto di contatto</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+…
+</gmd:MD_Metadata>
+```
