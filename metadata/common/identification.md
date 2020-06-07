@@ -27,9 +27,9 @@ La molteplicità dell&#39;elemento è 1.
 
 ***Raccomandazione C.3**  **```metadata/2.0/rec/common/resource-title```***
 
-*Il titolo deve essere conciso e puntuale. Esso non dovrebbe contenere acronimi o abbreviazioni incomprensibili. Si consiglia una lunghezza massima di 250 caratteri, riportando il &quot;nome ufficiale&quot; della risorsa.
+*Il titolo deve essere conciso e puntuale. Esso non dovrebbe contenere acronimi o abbreviazioni incomprensibili. Si consiglia una lunghezza massima di 250 caratteri, riportando il &quot;nome ufficiale&quot; della risorsa.*
 
-Se i dati documentati sono parte di un progetto più ampio, si consiglia di indicare, tra parentesi, il progetto alla fine del titolo. Nel caso dei nomi dei progetti, sono consentite anche le abbreviazioni, purchè il resto del titolo segua la raccomandazione di cui sopra e l&#39;abbreviazione sia spiegata nella descrizione della risorsa.*
+*Se i dati documentati sono parte di un progetto più ampio, si consiglia di indicare, tra parentesi, il progetto alla fine del titolo. Nel caso dei nomi dei progetti, sono consentite anche le abbreviazioni, purchè il resto del titolo segua la raccomandazione di cui sopra e l&#39;abbreviazione sia spiegata nella descrizione della risorsa.*
 
 ---
 
@@ -99,3 +99,30 @@ Nel caso venga indicata la data di ultimo aggiornamento dei dati, questa deve es
 ---
 
 **Esempio di XML:**
+
+```xml
+<gmd:MD_Metadata>
+…
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          …
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>1998-10-01</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeListValue="creation" codeList=" http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode">creazione</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          …
+        </gmd:CI_Citation>
+      </gmd:citation>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+…
+</gmd:MD_Metadata>
+```
