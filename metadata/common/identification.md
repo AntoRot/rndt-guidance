@@ -414,3 +414,48 @@ La molteplicità di questo elemento è 1.
 …
 </gmd:MD_Metadata>
 ```
+
+### 2.3.6 Parole chiave
+
+|  |  |
+| --- | --- |
+| **Nome elemento** | Parole chiave |
+| **Riferimento** | [LG RNDT] – tab. I-18, tab. V-15 |
+| **Molteplicità** | [1..\*] |
+| **Elemento INSPIRE** | Parola chiave (Valore della parola chiave – Vocabolario controllato di origine) |
+| **Definizione** | Parola formalizzata o utilizzata comunemente per descrivere la risorsa. |
+| **Istruzioni di implementazione** | - **Parola chiave** [1..\*] - Testo libero; - **Thesaurus** [0..1] : - **Titolo** [1]– Testo libero;   - **Data** [1..\*] – utilizzare il formato previsto dallo Standard ISO 8601: _aaaa-mm-gg_; - **Tipo data** [1..\*] **-** L&#39;elemento deve assumere uno dei valori dell&#39;elenco di codici &quot;_CI\_DateTypeCode_&quot; (§ 4.2.3.3 [LG RNDT]). |
+
+**REQUISITO C.15** - **```metadata/2.0/req/common/keyword-originating-cv```**
+
+Se vengono utilizzate parole chiave derivanti da un vocabolario controllato, il vocabolario deve essere citato attraverso l&#39;elemento _```gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:thesaurusName/gmd:CI_Citation```_.
+
+Il titolo del vocabolario deve essere indicato attraverso l&#39;elemento _```gmd:title```_.
+
+La data di pubblicazione del vocabolario deve essere indicata attraverso gli elementi _```gmd:date/gmd:CI_Date/gmd:date/gco:Date```_ e _```gmd:dateType/gmd:CI_DateTypeCode```_. Quest&#39;ultimo deve fare riferimento al valore &quot;pubblicazione&quot; (_publication_) presente nell&#39;elenco di codici ISO _```CI_DateTypeCode```_.
+
+---
+
+***Raccomandazione C.7** - **```metadata/2.0/rec/common/use-cvs```***
+
+*Sono da preferire le parole chiave rese disponibili in una raccolta di termini specifici e ben definiti (vocabolari controllati) rispetto ai termini a testo libero.*
+
+---
+
+***Raccomandazione C.8** - **```metadata/2.0/rec/common/use-anchors-for-cv-keywords```***
+
+*Se vengono utilizzate le parole chiave dei vocabolari controllati e le singole parole chiave hanno un URI canonico specificato all&#39;interno del vocabolario controllato di provenienza, queste parole chiave devono essere codificate utilizzando l&#39;elemento ```gmd:keyword/gmx:Anchor```. L&#39;attributo ```xlink:href``` dell&#39;elemento ```gmx:Anchor``` dovrebbe essere utilizzato per riferirsi all&#39;URI canonico della parola chiave.*
+
+---
+
+***Raccomandazione C.9** - **```metadata/2.0/rec/common/use-anchors-for-thesauri```***
+
+*Per i riferimenti a thesauri noti o a vocabolari controllati, il titolo dovrebbe essere codificato utilizzando l&#39;elemento ```gmd:thesaurusName/gmd:CI\_Citation/gmd:title/gmx:Anchor```. L&#39;attributo ```xlink:href``` dell&#39;elemento ```gmx:Anchor``` dovrebbe essere usato per riferirsi all&#39;URI del thesaurus o al vocabolario controllato.*
+
+---
+
+**REQUISITO C.16** - **```metadata/2.0/req/common/group-keywords-by-cv```**
+
+Tutte le parole chiave derivanti dallo stesso vocabolario controllato, o dalla stessa sua versione, devono essere raggruppate in un unico elemento _```gmd:descriptiveKeywords/gmd:MD_Keywords```_. Un singolo elemento _```gmd:MD_Keywords```_ può contenere solo parole chiave provenienti dal vocabolario controllato citato o dalla sua versione.
+
+---
