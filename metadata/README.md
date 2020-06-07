@@ -379,3 +379,6 @@ Ciò consentirà di avere metadati già conformi al nuovo approccio quando quest
 
 Da tenere presente che, se la sperimentazione si chiuderà positivamente e il nuovo approccio sarà formalizzato, questo non sostituirà, ma si aggiungerà come alternativa all&#39;approccio attuale. Di conseguenza, se ci sono in corso implementazioni dell&#39;approccio attuale, è opportuno non stoppare tali implementazioni. In pratica, si può mantenere l&#39;approccio attuale (qualora già implementato) per i dati già pubblicati e utilizzare il nuovo approccio per i nuovi dati.
 
+---
+
+>Vai a **[2. Requisiti comuni dei metadati RNDT]**(common/README.md)
