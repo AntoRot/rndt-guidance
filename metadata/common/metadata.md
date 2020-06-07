@@ -39,8 +39,9 @@ La molteplicità dell&#39;elemento è 1.
 ### 2.2.2 Lingua dei metadati
 
 
-| **Nome elemento** | **Lingua dei metadati** |
+|  |  |
 | --- | --- |
+| **Nome elemento** | Lingua dei metadati |
 | **Riferimento** | [LG RNDT] – tab. I-2, tab. V-2, tab. VII-2 |
 | **Molteplicità** | [1] |
 | **Elemento INSPIRE** | Lingua dei metadati |
