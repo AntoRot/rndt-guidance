@@ -36,7 +36,7 @@ La molteplicità dell&#39;elemento è 1.
 </gmd:MD_Metadata>
 ```
 
-### Lingua dei metadati
+### 2.2.2 Lingua dei metadati
 
 
 | **Nome elemento** | **Lingua dei metadati** |
@@ -45,9 +45,9 @@ La molteplicità dell&#39;elemento è 1.
 | **Molteplicità** | [1] |
 | **Elemento INSPIRE** | Lingua dei metadati |
 | **Definizione** | Linguaggio nel quale sono espressi i metadati. |
-| **Istruzioni di implementazione** | L&#39;elenco di codici per le 24 lingue ufficiali della UE, da utilizzare per valorizzare l&#39;elemento, è il seguente (elenco basato sui codici a tre lettere di ISO 639-2/B come definito all&#39;indirizzo [http://www.loc.gov/standards/iso639-2/](http://www.loc.gov/standards/iso639-2/)):Bulgaro – **bul** Ceco – **cze** Croato - **hrv** Danese – **dan** Estone – **est** Finlandese – **fin** Francese – **fre** Greco – **gre** Inglese – **eng** Irlandese – **gle** Italiano – **ita** Lettone – **lav** Lituano – **lit** Maltese – **mlt** Olandese – **dut** Polacco – **pol** Portoghese – **por** Rumeno – **rum** Slovacco – **slo** Sloveno – **slv** Spagnolo – **spa** Svedese - **swe** Tedesco – **ger** Ungherese – **hun** La lingua di default per i metadati RNDT è, ovviamente, l&#39; **italiano** ( **ita** ). L&#39;elenco di tutti i codici (compresi quelli delle lingue regionali) è disponibile all&#39;indirizzo [http://www.loc.gov/standards/iso639-2/](http://www.loc.gov/standards/iso639-2/). |
+| **Istruzioni di implementazione** | L&#39;elenco di codici per le 24 lingue ufficiali della UE, da utilizzare per valorizzare l&#39;elemento, è il seguente (elenco basato sui codici a tre lettere di ISO 639-2/B come definito all&#39;indirizzo [http://www.loc.gov/standards/iso639-2/](http://www.loc.gov/standards/iso639-2/)): Bulgaro – **bul**, Ceco – **cze**, Croato - **hrv**, Danese – **dan**, Estone – **est**, Finlandese – **fin**, Francese – **fre**, Greco – **gre**, Inglese – **eng**, Irlandese – **gle**, Italiano – **ita**, Lettone – **lav**, Lituano – **lit**, Maltese – **mlt**, Olandese – **dut**, Polacco – **pol**, Portoghese – **por**, Rumeno – **rum**, Slovacco – **slo**, Sloveno – **slv**, Spagnolo – **spa**, Svedese - **swe**, Tedesco – **ger**, Ungherese – **hun**. La lingua di default per i metadati RNDT è, ovviamente, l&#39; **italiano** ( **ita** ). L&#39;elenco di tutti i codici (compresi quelli delle lingue regionali) è disponibile all&#39;indirizzo [http://www.loc.gov/standards/iso639-2/](http://www.loc.gov/standards/iso639-2/). |
 
-**Requisito C.5**  **metadata/2.0/req/common/metadata-language-code**
+<a name=C.5>**REQUISITO C.5**</a> - **metadata/2.0/req/common/metadata-language-code**
 
 La lingua del contenuto dei metadati deve essere fornita attraverso l&#39;elemento _```gmd:MD\_Metadata/gmd:language/gmd:LanguageCode```_ che deve puntare a uno dei codici a tre lettere delle lingue dell&#39;elenco ISO 639-2/B.
 
@@ -57,11 +57,20 @@ La molteplicità dell&#39;elemento è 1.
 
 ---
 
-**Requisito RC.4**  **rndt/metadata/2.0/req/common/metadata-language-name**
- **# 18**
+<a name=RC.4>**REQUISITO RC.4**</a> - **rndt/metadata/2.0/req/common/metadata-language-name**
 
 Il valore del tag dell&#39;elemento _```gmd:MD\_Metadata/gmd:language/gmd:LanguageCode```_ deve riportare lo stesso codice a tre lettere presente nell&#39;attributo _```codeListValue```_.
 
 ---
 
 **Esempio di XML:**
+
+``` xml
+<gmd:MD_Metadata>
+…
+  <gmd:language>
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="ita">ita</gmd:LanguageCode>
+  </gmd:language>
+…
+</gmd:MD_Metadata>
+```
