@@ -50,7 +50,9 @@ mentre non è valido il tracciato seguente:
 …
 ```
 
+
 ### 2.1.1 Codifica degli elenchi di codici
+
 
 <a name=C.3>**REQUISITO C.3**</a>  **```metadata/2.0/req/common/code-list-value```**
 
