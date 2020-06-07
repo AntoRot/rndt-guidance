@@ -75,7 +75,7 @@ Le coordinate della longitudine est e ovest e della latitudine nord e sud devono
 
 **REQUISITO C.14** - **```metadata/2.0/req/common/temporal-extent```**
 
-Se, oltre alla [data](common/identification.md#232-data), il riferimento temporale viene fornito anche con l&#39;_estensione temporale_, deve essere utilizzato l&#39;elemento _```gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent```_.
+Se, oltre alla [data](identification.md#232-data), il riferimento temporale viene fornito anche con l&#39;_estensione temporale_, deve essere utilizzato l&#39;elemento _```gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent```_.
 
 La molteplicità dell&#39;elemento è 0..N.
 
