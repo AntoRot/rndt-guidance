@@ -101,3 +101,5 @@ Non è valido, invece, il tracciato seguente:
 </gmd:role>
 …
 ```
+
+Prossima sezione: [2.2 Informazioni sui metadati](common/metadata.md)
