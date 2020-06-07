@@ -10,11 +10,11 @@
 | **Definizione** | Identificatore univoco del file dei metadati. |
 | **Istruzioni di implementazione** | Testo libero. |
 
-<a name=RC.3>**REQUISITO RC.3**</a>  **```rndt/metadata/2.0/req/common/file-identifier```**
+<a name=RC.3>**REQUISITO RC.3**</a> - **```rndt/metadata/2.0/req/common/file-identifier```**
 
 L&#39;identificatore deve essere codificato utilizzando l&#39;elemento _gmd:MD\_Metadata/gmd:fileIdentifier_.
 
-Esso deve contenere, come prefisso,il **codice iPA** assegnato all&#39;Amministrazione in sede di accreditamento all&#39;_Indice dei domicili digitali delle pubbliche amministrazioni e dei gestori di pubblici servizi (IPA)_.
+Esso deve contenere, come prefisso,il **codice iPA** assegnato all&#39;Amministrazione in sede di accreditamento all&#39;[_Indice dei domicili digitali delle pubbliche amministrazioni e dei gestori di pubblici servizi (IPA)_](https://www.indicepa.gov.it/).
 
 Il separatore tra il codice iPA e la restante parte dell&#39;identificatore è &quot; **:**&quot; (due punti).
 
