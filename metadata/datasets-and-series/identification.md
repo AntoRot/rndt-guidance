@@ -4,11 +4,11 @@
 
 [3.2.1 Formato di presentazione](#321-formato-di-presentazione)
 
-3.2.2 ID livello superiore
+[3.2.2 ID livello superiore](#322-id-livello-superiore)
 
-3.2.3 Altri dettagli
+[3.2.3 Altri dettagli](323-altri-dettagli)
 
-3.2.4 Parole chiave
+[3.2.4 Parole chiave](324-parole-chiave)
 
 3.2.5 Set di caratteri
 
