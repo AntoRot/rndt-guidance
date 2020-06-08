@@ -10,17 +10,17 @@
 
 [3.2.4 Parole chiave](#324-parole-chiave)
 
-3.2.5 Set di caratteri
+[3.2.5 Set di caratteri](#325-set-di-caratteri)
 
-3.2.6 Tipo di rappresentazione spaziale
+[3.2.6 Tipo di rappresentazione spaziale](#326-tipo-di-rappresentazione-spaziale)
 
-3.2.7 Risoluzione spaziale
+[3.2.7 Risoluzione spaziale](#327-risoluzione-spaziale)
 
-3.2.8 Lingua
+[3.2.8 Lingua](#328-lingua)
 
-3.2.9 Categoria tematica
+[3.2.9 Categoria tematica](329-categoria-tematica)
 
-3.2.10 Informazioni supplementari
+[3.2.10 Informazioni supplementari](3210-informazioni-supplementari)
 
 
 **REQUISITO 1.2** - **```metadata/2.0/req/datasets-and-series/only-one-md-data-identification```**
