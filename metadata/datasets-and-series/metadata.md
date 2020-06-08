@@ -28,3 +28,13 @@ Il tipo di risorsa deve essere dichiarato come &quot;_dataset_&quot; o &quot;_se
 ---
 
 **Esempio di XML:**
+
+``` xml
+<gmd:MD_Metadata>
+  …
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList=" http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  …
+</gmd:MD_Metadata>
+```
