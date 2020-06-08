@@ -92,7 +92,7 @@ La prima proprietà _```gmd:identificationInfo```_ dell&#39;elemento _```gmd:MD_
 
 **REQUISITO R1.1** - **```rndt/metadata/2.0/req/datasets-and-series/series```**
 
-L&#39;elemento deve essere utilizzato per gestire le relazioni tra i livelli gerarchici. Per il dataset, esso assume il valore dell&#39;elemento &quot;[Identificatore](common/identification.md#234-identificatore)&quot; della serie a cui il dataset è relazionato. Nel caso di serie o dataset &quot;flat&quot;, per cui non esiste un livello gerarchico di rango superiore, l&#39;elemento deve assumere il valore dell&#39;elemento &quot;[Identificatore](common/identification.md#234-identificatore)&quot; del livello corrente.
+L&#39;elemento deve essere utilizzato per gestire le relazioni tra i livelli gerarchici. Per il dataset, esso assume il valore dell&#39;elemento &quot;[Identificatore](../common/identification.md#234-identificatore)&quot; della serie a cui il dataset è relazionato. Nel caso di serie o dataset &quot;flat&quot;, per cui non esiste un livello gerarchico di rango superiore, l&#39;elemento deve assumere il valore dell&#39;elemento &quot;[Identificatore](../common/identification.md#234-identificatore)&quot; del livello corrente.
 
 L&#39;ID di livello superiore deve essere documentato attraverso l&#39;elemento _```gmd:citation/gmd:CI_Citation/gmd:series/gmd:CI_Series/gmd:issueIdentification```_.
 
