@@ -2,7 +2,7 @@
 
 **Elementi:**
 
-3.2.1 Formato di presentazione
+[3.2.1 Formato di presentazione](#321-formato-di-presentazione)
 
 3.2.2 ID livello superiore
 
