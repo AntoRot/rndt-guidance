@@ -22,7 +22,7 @@ Le classi di conformità di riferimento per questa sezione sono le seguenti:
 
 ---
 
-** Contenuto:**
+**Contenuto:**
 
 3.1 Informazioni sui metadati
 
