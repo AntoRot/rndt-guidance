@@ -412,3 +412,43 @@ L&#39;elemento _```gmd:thesaurusName/gmd:CI_Citation/gmd:title```_ deve contener
   …
 </gmd:MD_Metadata>
 ```
+
+#### 3.2.4.4 Parole chiave per i dati aperti
+
+Nell&#39;ambito delle attività di coordinamento tra RNDT e il portale nazionale degli open data, AgID ha definito le **[linee guida per l&#39;implementazione della specifica europea GeoDCAT-AP](http://geodati.gov.it/geoportale/documenti/12-documenti/277-linee-guida-nazionali-geodcat-ap)** che consentono di rappresentare i metadati dei dati geografici anche negli standard utilizzati per i dati aperti, nello specifico DCAT-AP/DCAT-AP\_IT.
+
+Anche allo scopo di limitare l&#39;onere delle PA di documentare dati geografici che sono anche dati aperti in entrambi i cataloghi, tali dati, come previsto dalle citate linee guida, vanno documentati solo nel RNDT che provvederà a rendere disponibili i relativi metadati anche in _dati.gov.it_.
+
+Per i dati aperti, è richiesto di indicare una opportuna licenza attraverso i [metadati relativi alle condizioni d&#39;uso](../common/constraints.md#243-vincoli-di-fruibilità).
+
+In aggiunta a ciò, per poter individuare i dati aperti nell&#39;ambito di tutte le risorse documentate nel RNDT, deve essere aggiunta una specifica parola chiave.
+
+**Requisito R1.4** - **```rndt/metadata/2.0/req/datasets-and-series/open-data```**
+
+Se il dataset o la serie di dataset è anche di tipo aperto deve essere dichiarato utilizzando le parole chiave &quot;_open data_&quot; o &quot;_opendata_&quot;.
+
+Le parole chiave devono essere codificate utilizzando l&#39;elemento _```gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword```_.
+
+---
+
+**Esempio di XML:**
+
+```xml
+<gmd:MD_Metadata>
+  …
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+    …
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>open data</gco:CharacterString>
+          </gmd:keyword>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      …
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+…
+</gmd:MD_Metadata>
+```
