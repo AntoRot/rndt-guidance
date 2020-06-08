@@ -10,6 +10,16 @@
 
 [3.2.4 Parole chiave](#324-parole-chiave)
 
+    [3.2.4.1 Parole chiave per le categorie tematiche INSPIRE](#3241-parole-chiave-per-le-categorie-tematiche-inspire)
+    
+    [3.2.4.2 Parole chiave per i dataset prioritari](#3242-parole-chiave-per-i-dataset-prioritari)
+    
+    [3.2.4.3 Parole chiave per l'ambito di applicazione territoriale](#3243-parole-chiave-per-lambito-di-applicazione-territoriale)
+    
+    [3.2.4.4 Parole chiave per i dati aperti](#3244-parole-chiave-per-i-dati-aperti)
+    
+    [3.2.4.5 Parole chiave per le tipologie di dati](#3245-parole-chiave-per-le-tipologie-di-dati)
+
 [3.2.5 Set di caratteri](#325-set-di-caratteri)
 
 [3.2.6 Tipo di rappresentazione spaziale](#326-tipo-di-rappresentazione-spaziale)
