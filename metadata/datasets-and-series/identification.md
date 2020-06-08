@@ -452,3 +452,20 @@ Le parole chiave devono essere codificate utilizzando l&#39;elemento _```gmd:des
 …
 </gmd:MD_Metadata>
 ```
+
+#### 3.2.4.5 Parole chiave per le tipologie di dati
+
+L&#39;allegato 1 alle Linee Guida riporta l&#39;elenco dei dati di interesse generale (di cui all&#39;articolo 59, comma 3, del decreto legislativo 7 marzo 2005, n. 82), con le relative definizioni, che le Amministrazioni titolari sono tenute a documentare nel RNDT.
+
+Tale elenco è pubblicato nel relativo registro disponibile nel Sistema di Registri INSPIRE Italia.
+
+**Raccomandazione R1.5** - **```rndt/metadata/2.0/rec/datasets-and-series/rndt-reference-data```**
+
+*La tipologia di dati in cui rientra il dataset o la serie di dataset può essere dichiarata utilizzando una parola chiave dall&#39;elenco di cui all&#39;allegato 1 delle [LG RNDT] riportato anche nel relativo [registro disponibile nel Sistema di Registri INSPIRE Italia](https://registry.geodati.gov.it/rndt-all1). I valori delle parole chiave devono corrispondere esattamente ai termini presenti nel registro citato, nella lingua dei metadati.*
+
+*Le parole chiave devono essere codificate utilizzando l&#39;elemento ```gmd:descriptiveKeywords/gmd:MD_Keywords``` con riferimento al registro citato secondo le indicazioni fornite per le [parole chiave](../common/identification.md#236-parole-chiave).*
+
+L&#39;elemento ```gmd:thesaurusName/gmd:CI_Citation/gmd:title``` deve contenere il valore &quot;_Registro dei dati di interesse generale per il RNDT_&quot;. La data di pubblicazione del registro da utilizzare nell&#39;elemento ```gmd:thesaurusName/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:date/gco:Date``` è &quot;_2018-06-25_&quot;. L&#39;elemento ```gmd:thesaurusName/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:dateType/gmd:CI_DateTypeCode``` deve avere il valore &quot;pubblicazione&quot; (publication) presente nell&#39;elenco di codici ISO _```CI_DateTypeCode```.
+
+I valori delle parole chiave devono essere codificate utilizzando l&#39;elemento ```gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword```.
+
