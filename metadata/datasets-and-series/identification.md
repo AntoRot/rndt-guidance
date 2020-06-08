@@ -18,9 +18,9 @@
 
 [3.2.8 Lingua](#328-lingua)
 
-[3.2.9 Categoria tematica](329-categoria-tematica)
+[3.2.9 Categoria tematica](#329-categoria-tematica)
 
-[3.2.10 Informazioni supplementari](3210-informazioni-supplementari)
+[3.2.10 Informazioni supplementari](#3210-informazioni-supplementari)
 
 
 **REQUISITO 1.2** - **```metadata/2.0/req/datasets-and-series/only-one-md-data-identification```**
