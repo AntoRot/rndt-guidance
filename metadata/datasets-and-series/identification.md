@@ -285,3 +285,130 @@ Le parole chiave delle categorie tematiche INSPIRE devono essere codificate attr
   …
 </gmd:MD_Metadata>
 ```
+
+#### 3.2.4.2 Parole chiave per i dataset prioritari
+
+La Commissione Europea e l&#39;Agenzia Europea dell&#39;Ambiente hanno individuato, nell&#39;ambito di INSPIRE, un elenco di dataset prodotti e gestiti in funzione degli obblighi di reportistica ambientale stabiliti da diverse Direttive europee. Tali dataset sono definiti come &quot;_dataset prioritari_&quot; che gli Stati Membri devono rendere prioritariamente disponibili attraverso i servizi di rete, armonizzandoli, sulla base delle specifiche tecniche sui dati, secondo la relativa _roadmap_.
+
+Gli obblighi di cui sopra sono stati raggruppati in 6 domini tematici:
+
+- Aria e Rumore;
+- Industria;
+- Rifiuti;
+- Natura e biodiversità;
+- Acqua;
+- Mare.
+
+Le Direttive da considerare per ciascuno dei domini tematici sono riportate nel documento disponibile al link [https://ies-svn.jrc.ec.europa.eu/attachments/download/2469/eReporting\_PriorityDataList\_V2.0.pdf](https://ies-svn.jrc.ec.europa.eu/attachments/download/2469/eReporting_PriorityDataList_V2.0.pdf).
+
+Per identificare i dataset di cui sopra, è richiesto che sia aggiunta una o più opportune parole chiave con relativo thesaurus.
+
+**Requisito R1.2** - **```rndt/metadata/2.0/req/datasets-and-series/priority-ds-keyword```**
+
+Se il dataset o la serie di dataset è un dataset prioritario, cioè prodotto e gestito in funzione degli obblighi di reportistica ambientale stabiliti dalle Direttive europee, ciò deve essere dichiarato utilizzando almeno una parola chiave dal registro _[INSPIRE priority data set](http://inspire.ec.europa.eu/metadata-codelist/PriorityDataset)_ pubblicato nel Sistema di Registri di INSPIRE. I valori delle parole chiave devono corrispondere esattamente ai termini presenti nel registro citato, nella lingua dei metadati, se disponibile nel registro stesso.
+
+Le parole chiave devono essere codificate utilizzando l&#39;elemento _gmd:descriptiveKeywords/gmd:MD\_Keywords_ con riferimento al registro citato secondo le indicazioni fornite nel paragrafo [2.3.6](#_Parole_chiave).
+
+L&#39;elemento _```gmd:thesaurusName/gmd:CI_Citation/gmd:title```_ deve contenere il valore &quot;_INSPIRE priority data set_&quot;. La data di pubblicazione del registro da utilizzare nell&#39;elemento _```gmd:thesaurusName/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:date/gco:Date```_ è &quot;_2018-04-04_&quot;. L&#39;elemento _```gmd:thesaurusName/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:dateType/gmd:CI_DateTypeCode```_ deve avere il valore &quot;_pubblicazione_&quot; (_publication_) presente nell&#39;elenco di codici ISO _```CI_DateTypeCode```_.
+
+---
+
+**Esempio di XML:**
+
+```xml
+<gmd:MD_Metadata>
+  …
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+    …
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>Agglomerations (Noise Directive)</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>INSPIRE priority data set</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2018-04-04</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">pubblicazione</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      …
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  …
+</gmd:MD_Metadata>
+```
+
+#### 3.2.4.3 Parole chiave per l&#39;ambito di applicazione territoriale
+
+La Decisione di esecuzione (UE) 2019/1372 della Commissione, che ha sostituito la Decisione 2009/442/CE, ha modificato le disposizioni per il monitoraggio e la comunicazione relativi all&#39;attuazione della Direttiva INSPIRE. In particolare, sono stati aggiunti due nuovi indicatori per misurare il numero di dataset che coprono il territorio regionale o nazionale.
+
+Per identificare i dataset di cui sopra, è richiesto che sia aggiunta una o più opportune parole chiave con relativo thesaurus.
+
+<a name=R1.3>**REQUISITO R1.3**</a> - **```rndt/metadata/2.0/req/datasets-and-series/spatial-scope```**
+
+Se il dataset o la serie di dataset è riferito ad un ambito di applicazione territoriale regionale o nazionale deve essere dichiarato utilizzando una parola chiave dall&#39;elenco di codici _[Spatial scope](http://inspire.ec.europa.eu/metadata-codelist/SpatialScope)_ pubblicato nel registro _INSPIRE metadata code list register_ del Sistema di Registri di INSPIRE. I valori delle parole chiave devono corrispondere esattamente ai termini presenti nel registro citato, nella lingua dei metadati.
+
+Le parole chiave devono essere codificate utilizzando l&#39;elemento _```gmd:descriptiveKeywords/gmd:MD_Keywords```_ con riferimento al registro citato secondo le indicazioni fornite nel paragrafo 2.3.6.
+
+L&#39;elemento _```gmd:thesaurusName/gmd:CI_Citation/gmd:title```_ deve contenere il valore &quot;_Spatial scope_&quot;. La data di pubblicazione del registro da utilizzare nell&#39;elemento _```gmd:thesaurusName/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:date/gco:Date```_ è &quot;_2019-05-22_&quot;. L&#39;elemento _```gmd:thesaurusName/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:dateType/gmd:CI_DateTypeCode```_ deve avere il valore &quot;_pubblicazione_&quot; (_publication_) presente nell&#39;elenco di codici ISO _```CI_DateTypeCode```_.
+
+---
+
+***Raccomandazione R1.4** - **```rndt/metadata/2.0/rec/datasets-and-series/spatial-scope```***
+
+*Se l&#39;ambito di applicazione territoriale di riferimento per il dataset o la serie di dataset è diverso da &#39;regionale&#39; o &#39;nazionale&#39;, si raccomanda di utilizzare comunque una parola chiave pertinente dall&#39;elenco di codici _[Spatial scope](http://inspire.ec.europa.eu/metadata-codelist/SpatialScope)_ pubblicato nel registro _INSPIRE metadata code list register_ del Sistema di Registri di INSPIRE, secondo le indicazioni del Requisito [R1.3](#R1.3).*
+
+---
+
+**Esempio di XML:**
+
+```xml
+<gmd:MD_Metadata>
+  …
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+    …
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/regional">Regionale</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/metadata-codelist/SpatialScope">Spatial scope</gmx:Anchor>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2019-05-22</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeListValue="publication" codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode">pubblicazione</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      …
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  …
+</gmd:MD_Metadata>
+```
