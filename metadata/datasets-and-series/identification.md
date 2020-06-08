@@ -303,6 +303,8 @@ Le Direttive da considerare per ciascuno dei domini tematici sono riportate nel 
 
 Per identificare i dataset di cui sopra, è richiesto che sia aggiunta una o più opportune parole chiave con relativo thesaurus.
 
+---
+
 **Requisito R1.2** - **```rndt/metadata/2.0/req/datasets-and-series/priority-ds-keyword```**
 
 Se il dataset o la serie di dataset è un dataset prioritario, cioè prodotto e gestito in funzione degli obblighi di reportistica ambientale stabiliti dalle Direttive europee, ciò deve essere dichiarato utilizzando almeno una parola chiave dal registro _[INSPIRE priority data set](http://inspire.ec.europa.eu/metadata-codelist/PriorityDataset)_ pubblicato nel Sistema di Registri di INSPIRE. I valori delle parole chiave devono corrispondere esattamente ai termini presenti nel registro citato, nella lingua dei metadati, se disponibile nel registro stesso.
@@ -357,6 +359,8 @@ L&#39;elemento _```gmd:thesaurusName/gmd:CI_Citation/gmd:title```_ deve contener
 La Decisione di esecuzione (UE) 2019/1372 della Commissione, che ha sostituito la Decisione 2009/442/CE, ha modificato le disposizioni per il monitoraggio e la comunicazione relativi all&#39;attuazione della Direttiva INSPIRE. In particolare, sono stati aggiunti due nuovi indicatori per misurare il numero di dataset che coprono il territorio regionale o nazionale.
 
 Per identificare i dataset di cui sopra, è richiesto che sia aggiunta una o più opportune parole chiave con relativo thesaurus.
+
+---
 
 <a name=R1.3>**REQUISITO R1.3**</a> - **```rndt/metadata/2.0/req/datasets-and-series/spatial-scope```**
 
@@ -423,6 +427,8 @@ Per i dati aperti, è richiesto di indicare una opportuna licenza attraverso i [
 
 In aggiunta a ciò, per poter individuare i dati aperti nell&#39;ambito di tutte le risorse documentate nel RNDT, deve essere aggiunta una specifica parola chiave.
 
+---
+
 **REQUISITO R1.4** - **```rndt/metadata/2.0/req/datasets-and-series/open-data```**
 
 Se il dataset o la serie di dataset è anche di tipo aperto deve essere dichiarato utilizzando le parole chiave &quot;_open data_&quot; o &quot;_opendata_&quot;.
@@ -459,13 +465,17 @@ L&#39;allegato 1 alle Linee Guida riporta l&#39;elenco dei dati di interesse gen
 
 Tale elenco è pubblicato nel relativo registro disponibile nel Sistema di Registri INSPIRE Italia.
 
+---
+
 **Raccomandazione R1.5** - **```rndt/metadata/2.0/rec/datasets-and-series/rndt-reference-data```**
 
 *La tipologia di dati in cui rientra il dataset o la serie di dataset può essere dichiarata utilizzando una parola chiave dall&#39;elenco di cui all&#39;allegato 1 delle [LG RNDT] riportato anche nel relativo [registro disponibile nel Sistema di Registri INSPIRE Italia](https://registry.geodati.gov.it/rndt-all1). I valori delle parole chiave devono corrispondere esattamente ai termini presenti nel registro citato, nella lingua dei metadati.*
 
 *Le parole chiave devono essere codificate utilizzando l&#39;elemento ```gmd:descriptiveKeywords/gmd:MD_Keywords``` con riferimento al registro citato secondo le indicazioni fornite per le [parole chiave](../common/identification.md#236-parole-chiave).*
 
-L&#39;elemento ```gmd:thesaurusName/gmd:CI_Citation/gmd:title``` deve contenere il valore &quot;_Registro dei dati di interesse generale per il RNDT_&quot;. La data di pubblicazione del registro da utilizzare nell&#39;elemento ```gmd:thesaurusName/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:date/gco:Date``` è &quot;_2018-06-25_&quot;. L&#39;elemento ```gmd:thesaurusName/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:dateType/gmd:CI_DateTypeCode``` deve avere il valore &quot;pubblicazione&quot; (publication) presente nell&#39;elenco di codici ISO _```CI_DateTypeCode```.
+L&#39;elemento ```gmd:thesaurusName/gmd:CI_Citation/gmd:title``` deve contenere il valore &quot;_Registro dei dati di interesse generale per il RNDT_&quot;. La data di pubblicazione del registro da utilizzare nell&#39;elemento ```gmd:thesaurusName/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:date/gco:Date``` è &quot;_2018-06-25_&quot;. L&#39;elemento ```gmd:thesaurusName/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:dateType/gmd:CI_DateTypeCode``` deve avere il valore &quot;pubblicazione&quot; (publication) presente nell&#39;elenco di codici ISO ```CI_DateTypeCode```.
 
 I valori delle parole chiave devono essere codificate utilizzando l&#39;elemento ```gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword```.
+
+---
 
