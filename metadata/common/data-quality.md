@@ -25,7 +25,7 @@ La molteplicità di questo elemento è 1..N.
 
 ---
 
-<a name=C.21>**Requisito C.21**</a> - **```metadata/2.0/req/common/conformity-specification```**
+<a name=C.21>**REQUISITO C.21**</a> - **```metadata/2.0/req/common/conformity-specification```**
 
 Ogni elemento _```gmd:report/gmd:DQ_DomainConsistency/gmd:result/gmd:DQ_ConformanceResult```_ deve contenere la citazione della disposizione di esecuzione INSPIRE, del documento di specifica o della classe di conformità, compresi il titolo ufficiale e la data di pubblicazione del documento, attraverso l&#39;elemento _```gmd:specification/gmd:CI_Citation```_.
 
