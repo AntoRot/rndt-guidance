@@ -24,7 +24,7 @@ Le classi di conformità di riferimento per questa sezione sono le seguenti:
 
 **Contenuto:**
 
-3.1 Informazioni sui metadati
+[3.1 Informazioni sui metadati](metadata.md)
 
 3.2 identificazione dei dati
 
