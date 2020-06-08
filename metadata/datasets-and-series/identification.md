@@ -423,7 +423,7 @@ Per i dati aperti, è richiesto di indicare una opportuna licenza attraverso i [
 
 In aggiunta a ciò, per poter individuare i dati aperti nell&#39;ambito di tutte le risorse documentate nel RNDT, deve essere aggiunta una specifica parola chiave.
 
-**Requisito R1.4** - **```rndt/metadata/2.0/req/datasets-and-series/open-data```**
+**REQUISITO R1.4** - **```rndt/metadata/2.0/req/datasets-and-series/open-data```**
 
 Se il dataset o la serie di dataset è anche di tipo aperto deve essere dichiarato utilizzando le parole chiave &quot;_open data_&quot; o &quot;_opendata_&quot;.
 
