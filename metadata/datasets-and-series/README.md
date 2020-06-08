@@ -26,14 +26,14 @@ Le classi di conformità di riferimento per questa sezione sono le seguenti:
 
 [3.1 Informazioni sui metadati](metadata.md)
 
-3.2 identificazione dei dati
+[3.2 identificazione dei dati](identification.md)
 
-3.3 Estensione dei dati
+[3.3 Estensione dei dati](extent.md)
 
-3.4 Qualità dei dati
+[3.4 Qualità dei dati](data-quality.md)
 
-3.5 Sistema di riferimento
+[3.5 Sistema di riferimento](reference-system.md)
 
-3.6 Distribuzione dei dati
+[3.6 Distribuzione dei dati](distribution.md)
 
-3.7 Gestione dei dati
+[3.7 Gestione dei dati](maintenance.md)
