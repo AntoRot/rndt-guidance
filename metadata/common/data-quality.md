@@ -49,7 +49,7 @@ Deve essere presente anche l&#39;elemento relativo al codice del tipo di data, _
 | **Definizione** | Indicazione del grado di conformità alle specifiche INSPIRE (adottate a norma dell&#39;art. 7 par. 1 della direttiva 2007/2/CE). |
 | **Istruzioni di implementazione** | Tipo booleano. Indicare &quot;true&quot; se i dati sono conformi alle specifiche indicate, &quot;false&quot; altrimenti. Se la conformità non è stata ancora valutata, lasciare vuoto il tag. |
 
-**REQUISITO C.22** - **```metadata/2.0/req/common/conformity-degree```**
+<a name=C.22>**REQUISITO C.22**</a> - **```metadata/2.0/req/common/conformity-degree```**
 
 Ogni elemento _```gmd:report/gmd:DQ_DomainConsistency/gmd:result/gmd:DQ_ConformanceResult```_, che contiene la citazione di una specifica come da Requisito [C.21](#reqC21), deve includere anche il grado di conformità dichiarato verso quella specifica attraverso la proprietà _```gmd:pass```_ con l&#39;elemento _```gco:Boolean```_ che dovrà contenere il valore &quot;true&quot; nel caso di una risorsa conforme alla specifica, il valore &quot;false&quot; nel caso opposto. Se la conformità non è stata ancora valutata, l&#39;elemento _```gmd:pass```_ dovrà essere vuoto e contenere l&#39;attributo _```nil reason```_ con il valore &quot;_unknown_&quot;.
 
