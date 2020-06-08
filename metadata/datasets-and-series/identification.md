@@ -467,7 +467,7 @@ Tale elenco è pubblicato nel relativo registro disponibile nel Sistema di Regis
 
 ---
 
-**Raccomandazione R1.5** - **```rndt/metadata/2.0/rec/datasets-and-series/rndt-reference-data```**
+***Raccomandazione R1.5** - **```rndt/metadata/2.0/rec/datasets-and-series/rndt-reference-data```***
 
 *La tipologia di dati in cui rientra il dataset o la serie di dataset può essere dichiarata utilizzando una parola chiave dall&#39;elenco di cui all&#39;allegato 1 delle [LG RNDT] riportato anche nel relativo [registro disponibile nel Sistema di Registri INSPIRE Italia](https://registry.geodati.gov.it/rndt-all1). I valori delle parole chiave devono corrispondere esattamente ai termini presenti nel registro citato, nella lingua dei metadati.*
 
@@ -479,3 +479,288 @@ I valori delle parole chiave devono essere codificate utilizzando l&#39;elemento
 
 ---
 
+### 3.2.5 Set di caratteri
+
+|  |  |
+| --- | --- |
+| **Nome elemento** | Set di caratteri |
+| **Riferimento** | [LG RNDT] – tab. I-23 |
+| **Molteplicità** | [0..\*] |
+| **Elemento INSPIRE** | Codifica dei caratteri |
+| **Definizione** | Nome dello standard del set di caratteri utilizzato per i dati. |
+| **Istruzioni di implementazione** | L&#39;elemento deve assumere uno dei valori dell&#39;elenco di codici &quot;_MD\_CharacterSetCode_&quot; (§ 4.2.3.7 [LG RNDT]). |
+
+**REQUISITO 2.5** - **```metadata/2.0/req/isdss/character-encoding```**
+
+La codifica dei caratteri deve essere fornita per dataset e serie di dataset che utilizzano codifiche non basate su UTF-8 attraverso l&#39;elemento _```gmd:characterSet/gmd:MD_CharacterSetCode```_ con riferimento a uno dei valori dell&#39;elenco di codici ISO _```MD_CharacterSetCode```_.
+
+La molteplicità di questo elemento è 0..N.
+
+Se i dataset e le serie di dataset utilizzano più di una codifica di caratteri, devono essere documentate tutte le codifiche di caratteri, incluso UTF-8 (valore dell&#39;elenco di codici &quot;utf8&quot;), attraverso questo elemento.
+
+---
+
+**Esempio di XML:**
+
+```xml
+<gmd:MD_Metadata>
+  …
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+    …
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+      </gmd:characterSet>
+      …
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  …
+</gmd:MD_Metadata>
+```
+
+### 3.2.6 Tipo di rappresentazione spaziale
+
+|  |  |
+| --- | --- |
+| **Nome elemento** | Tipo di rappresentazione spaziale |
+| **Riferimento** | [LG RNDT] – tab. I-20 |
+| **Molteplicità** | [1..\*] |
+| **Elemento INSPIRE** | Tipo di rappresentazione territoriale |
+| **Definizione** | Metodo di rappresentazione spaziale dei dati. |
+| **Istruzioni di implementazione** | L&#39;elemento deve assumere uno dei valori dell&#39;elenco di codici &quot;_MD\_SpatialRepresentationTypeCode_&quot; (§ 4.2.3.14 [LG RNDT]). |
+
+**REQUISITO 2.4** - **```metadata/2.0/req/isdss/spatial-representation-type```**
+
+Il tipo di rappresentazione spaziale deve essere documentato attravero l&#39;elemento _```gmd:spatialRepresentationType/gmd:MD_SpatialRepresentationTypeCode```_ con riferimento ai valori &quot;vector&quot;, &quot;grid&quot;, &quot;tin&quot; or &quot;textTable&quot; dell&#39;elenco di codici ISO _```MD_SpatialRepresentationTypeCode```_.
+
+La molteplicità di questo elemento è 1..N.
+
+---
+
+**Esempio di XML:**
+
+```xml
+<gmd:MD_Metadata>
+  …
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+    …
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeListValue="vector" codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_SpatialRepresentationTypeCode">dati vettoriali</gmd:MD_SpatialRepresentationTypeCode>
+      </gmd:spatialRepresentationType>
+        …
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  …
+</gmd:MD_Metadata>
+```
+
+### 3.2.7 Risoluzione spaziale
+
+|  |  |
+| --- | --- |
+| **Nome elemento** | Risoluzione spaziale |
+| **Riferimento** | [LG RNDT] – tab. I-21 |
+| **Molteplicità** | [1..\*] |
+| **Elemento INSPIRE** | Risoluzione spaziale |
+| **Definizione** | Fattore che fornisce la comprensione generale della densità dei dati nel dataset. |
+| **Istruzioni di implementazione** | - **Scala equivalente** [1] – Inserire il denominatore della scala equivalente; - **Distanza** [1] – Inserire la risoluzione geometrica al suolo espressa come valore numerico e unità di misura. |
+
+**REQUISITO 1.5** - **```metadata/2.0/req/datasets-and-series/spatial-resolution```**
+
+La risoluzione spaziale deve essere espressa o attraverso la scala equivalente o attraverso la risoluzione geometrica al suolo (distanza).
+
+Deve essere fornito, quindi, **uno solo** tra i due elementi ( **scala equivalente** o **distanza** ).
+
+La risoluzione spaziale espressa come scala equivalente deve essere documentata attraverso l&#39;elemento _```gmd:spatialResolution/gmd:MD_Resolution/gmd:equivalentScale/gmd:MD_RepresentativeFraction/gmd:denominator/gco:Integer```_.
+
+La risoluzione spaziale espressa come distanza deve essere documentata attraverso l&#39;elemento _```gmd:spatialResolution/gmd:MD_Resolution/gmd:distance/gco:Distance```_.
+
+---
+
+***Raccomandazione 1.6** - **```metadata/2.0/rec/datasets-and-series/spatial-resolution-interval```***
+
+*Se la risoluzione spaziale è un intervallo, dovrebbero essere indicati entrambi i valori limite dell&#39;intervallo (come scala equivalente o distanza) come due istanze dell&#39;elemento ```gmd:spatialResolution/gmd:MD_Resolution```.*
+
+---
+
+**Esempi di XML:**
+
+```xml
+<gmd:MD_Metadata>
+  …
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+    …
+      <gmd:spatialResolution>
+        <gmd:MD_Resolution>
+          <gmd:equivalentScale>
+            <gmd:MD_RepresentativeFraction>
+              <gmd:denominator>
+                <gco:Integer>10000</gco:Integer>
+              </gmd:denominator>
+            </gmd:MD_RepresentativeFraction>
+          </gmd:equivalentScale>
+        </gmd:MD_Resolution>
+       </gmd:spatialResolution>
+        …
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  …
+</gmd:MD_Metadata>
+```
+
+```xml
+<gmd:MD_Metadata>
+  …
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+    …
+      <gmd:spatialResolution>
+        <gmd:MD_Resolution>
+          <gmd:distance>
+            <gco:Distance uom="http://standards.iso.org/iso/19139/resources/uom/ML_gmxUom.xml#m">10.0</gco:Distance>
+          </gmd:distance>
+        </gmd:MD_Resolution>
+      </gmd:spatialResolution>
+      …
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  …
+</gmd:MD_Metadata>
+```
+
+### 3.2.8 Lingua
+
+|  |  |
+| --- | --- |
+| **Nome elemento** | Lingua |
+| **Riferimento** | [LG RNDT] – tab. I-22 |
+| **Molteplicità** | [1..\*] |
+| **Elemento INSPIRE** | Lingua della risorsa |
+| **Definizione** | Linguaggio utilizzato per i dati. |
+| **Istruzioni di implementazione** | Fare riferimento al § 2.2.2 (Lingua dei metadati). |
+
+**REQUISITO 1.6** - **```metadata/2.0/req/datasets-and-series/resource-language```**
+
+Per i dataset o le serie di dataset che contengono informazioni testuali, deve essere documentata la lingua (o le lingue) utilizzata nella risorsa attraverso uno o più elementi _```gmd:language/gmd:LanguageCode```_ compilati con un valore tratto dall&#39;elenco di codici a tre lettere di cui a ISO 639-2.
+
+La molteplicità dell&#39;elemento _gmd:language_ è 1..N.
+
+Se la risorsa non contiene nessuna informazione testuale espressa in un linguaggio naturale, deve essere utilizzato il valore di codice speciale &quot;_zxx_&quot; di ISO 639-2/B riservato per &quot;_no linguistic content_; _not applicable_&quot;.
+
+---
+
+**REQUISITO R1.5** - **```metadata/2.0/req/datasets-and-series/data-language-code-textual-content```**
+
+Il valore del tag dell&#39;elemento _```gmd:language/gmd:LanguageCode```_ deve riportare lo stesso codice a tre lettere presente nell&#39;attributo _```codeListValue```_.
+
+---
+
+**Esempio di XML:**
+
+```xml
+<gmd:MD_Metadata>
+  …
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+    …
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="ita">ita</gmd:LanguageCode>
+      </gmd:language>
+      …
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  …
+</gmd:MD_Metadata>
+```
+
+### 3.2.9 Categoria tematica
+
+|  |  |
+| --- | --- |
+| **Nome elemento** | Categoria tematica |
+| **Riferimento** | [LG RNDT] – tab. I-24 |
+| **Molteplicità** | [1..\*] |
+| **Elemento INSPIRE** | Categoria di argomento |
+| **Definizione** | Tema principale cui si riferiscono i dati. |
+| **Istruzioni di implementazione** | L&#39;elemento deve assumere uno dei valori dell&#39;elenco di codici &quot;_MD\_TopicCategoryCode_&quot; (§ 4.2.3.2 [LG RNDT]). |
+
+**REQUISITO 1.7** - **```metadata/2.0/req/datasets-and-series/topic-category```**
+
+Il tema principale in cui può essere classificato il dataset o la serie di dataset deve essere descritto utilizzando l&#39;elenco di codici delle categorie tematiche definite da ISO 19115 attraverso l&#39;elemento _```gmd:topicCategory/gmd:MD_TopicCategoryCode```_.
+
+La molteplicità di questo elemento è 1..N.
+
+---
+
+**REQUISITO R1.6** - **```rndt/metadata/2.0/req/datasets-and-series/topic-category```**
+
+Il valore per esprimere la categoria tematica deve essere un nome in linguaggio lingusticamente neutro (v. i valori presenti nella colonna &quot;_Elemento corrispondente ISO 19115:2003_&quot; della tabella al § 4.2.3.2 [LG RNDT]).
+
+---
+
+***Raccomandazione R1.6** - **```rndt/metadata/2.0/rec/datasets-and-series/topic-category```***
+
+*Per le corrispondenze tra categorie tematiche ISO e temi INSPIRE si può fare riferimento alla parte D 2 del Regolamento 1205/2008.*
+
+*Tali corrispondenze sono riportate anche nell&#39;allegato 1 alle [LG RNDT] che definisce, tra l&#39;altro, le corrispondenze tra le tipologie di dati e i temi INSPIRE.*
+
+---
+
+**Esempio di XML:**
+
+```xml
+<gmd:MD_Metadata>
+  …
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+    …
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>imageryBaseMapsEarthCover</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      …
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  …
+</gmd:MD_Metadata>
+```
+
+### 3.2.10 Informazioni supplementari
+
+|  |  |
+| --- | --- |
+| **Nome elemento** | Informazioni supplementari |
+| **Riferimento** | [LG RNDT] – tab. I-25 |
+| **Molteplicità** | [0..1] |
+| **Elemento INSPIRE** | Nessun elemento corrispondente |
+| **Definizione** | Informazioni descrittive supplementari sui dati. |
+| **Istruzioni di implementazione** | Testo libero. |
+
+***Raccomandazione R1.7** - **```rndt/metadata/2.0/rec/datasets-and-series/supplemental-information```***
+
+*Le informazioni supplementari sul dataset o sulla serie di dataset possono essere documentate attraverso l&#39;elemento ```gmd:supplementalInformation```.*
+
+*Si consiglia di utilizzare questo elemento per inserire l&#39;URL dove è possibile reperire il file di qualsiasi documentazione tecnica utile a fornire ulteriori informazioni sulla risorsa (es. capitolato, specifiche tecniche, …).*
+
+*La molteplicità di questo elemento è 0..1.*
+
+---
+
+**Esempio di XML:**
+
+```xml
+<gmd:MD_Metadata>
+  …
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+    …
+      <gmd:supplementalInformation>
+        <gco:CharacterString>http://www.regione.emilia-romagna.it/temi/territorio/cartografia-regionale/vedi-anche/database-topografico-regionale/progetti-in-corso/capitolato-tecnico-per-la-progettazione-la6/at_download/file</gco:CharacterString>
+      </gmd:supplementalInformation>
+      …
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  …
+</gmd:MD_Metadata>
+```
