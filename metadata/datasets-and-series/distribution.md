@@ -4,9 +4,9 @@
 
 [3.6.1 Formato di distribuzione](#361-formato-di-distribuzione)
 
-[3.6.2 Distributore](362-distributore)
+[3.6.2 Distributore](#362-distributore)
 
-[3.6.3 Risorsa on-line](363-risorsa-on-line)
+[3.6.3 Risorsa on-line](#363-risorsa-on-line)
 
 
 ### 3.6.1 Formato di distribuzione
