@@ -111,3 +111,50 @@ Se il sistema di riferimento è presente nell&#39;elenco di codici _```MD_Refere
   …
 </gmd:MD_Metadata>
 ```
+
+### 3.5.2 Sistema di riferimento temporale
+
+|  |  |
+| --- | --- |
+| **Nome elemento** | Sistema di riferimento temporale |
+| **Riferimento** | [LG RNDT] – tab. I-40 |
+| **Molteplicità** | [0..N] |
+| **Elemento INSPIRE** | Sistema di riferimento temporale |
+| **Definizione** | Descrizione del sistema o dei sistemi di riferimento temporali utilizzati nel set di dati. |
+| **Istruzioni di implementazione** | Testo libero. Deve essere documentato solo se il dataset o la serie di dataset contiene informazioni temporali che non si riferiscono al sistema di riferimento temporale predefinito, cioè il calendario gregoriano. |
+
+**REQUISITO 2.3** - **```metadata/2.0/req/isdss/temportal-rs```**
+
+Il sistema di riferimento temporale utilizzato nel dataset o nella serie di dataset deve essere indicato attraverso l&#39;elemento _```gmd:referenceSystemInfo/gmd:MD_ReferenceSystem/gmd:referenceSystemIdentifier/gmd:RS_Identifier```_.
+
+La molteplicità di questo elemento è 0..N.
+
+L&#39;elemento _```gmd:RS_Identifier/gmd:code```_ è obbligatorio. L&#39;elemento _```gmd:RS_Identifier/gmd:codeSpace```_ deve essere utilizzato se il codice, da solo, non identifica il sistema di riferimento.
+
+---
+
+***Raccomandazione 2.1** - **```metadata/2.0/rec/isdss/temporal-rs-id```***
+
+*Se in un registro comune è disponibile un identificatore univoco noto per il sistema di riferimento temporale, tale identificatore dovrebbe essere utilizzato come valore dell&#39;elemento ```gmd:referenceSystemInfo/gmd:MD_ReferenceSystem/gmd:referenceSystemIdentifier/gmd:RS_Identifier/gmd:code```.*
+
+---
+
+**Esempio di XML:**
+
+```xml
+<gmd:MD_Metadata>
+  …
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code>
+            <gco:CharacterString>Calendario Giuliano</gco:CharacterString>
+          </gmd:code>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  …
+</gmd:MD_Metadata>
+```
