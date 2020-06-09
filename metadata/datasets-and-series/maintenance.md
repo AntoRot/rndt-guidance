@@ -13,7 +13,7 @@
 
 ***Raccomandazione R1.13** - **```rndt/metadata/2.0/rec/datasets-and-series/resource-maintenance```***
 
-*Per fornire informazioni sulla frequenza di aggiornamento del dataset o della serie di dataset può essere utilizzato l&#39;elemento ```gmd:resourceMaintenance/gmd:MD\_MaintenanceInformation/gmd:maintenanceAndUpdateFrequency/gmd:MD\_MaintenanceFrequencyCode``` con il valore più pertinente dell&#39;elenco di codici ISO ```MD_MaintenanceFrequencyCode```.*
+*Per fornire informazioni sulla frequenza di aggiornamento del dataset o della serie di dataset può essere utilizzato l&#39;elemento ```gmd:resourceMaintenance/gmd:MD_MaintenanceInformation/gmd:maintenanceAndUpdateFrequency/gmd:MD_MaintenanceFrequencyCode``` con il valore più pertinente dell&#39;elenco di codici ISO ```MD_MaintenanceFrequencyCode```.*
 
 *La molteplicità di questo elemento è 0..N.*
 
