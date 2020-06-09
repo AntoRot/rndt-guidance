@@ -2,8 +2,23 @@
 
 Questa sezione include le istruzioni utili per la compilazione dei metadati per i servizi di dati territoriali.
 
+
 ### 4.1 Metadati di base per tutti i tipi di servizi di dati territoriali
 
+Per i metadati di base per tutti i tipi di servizi di dati territoriali, le classi di conformità di riferimento sono le seguenti:
+
+**Classe di conformità 3**  **metadata/2.0/sds**
+
+**Titolo:** _Metadati di base INSPIRE per i servizi di dati territoriali_
+
+**Classe di conformità R3**  **rndt/metadata/2.0/sds**
+
+**Titolo:** _Metadati di base RNDT per i servizi di dati territoriali_
+
+---
+
+
+**Contenuto:**
 
 [4.1.1 Informazioni sui metadati](metadata.md)
 
