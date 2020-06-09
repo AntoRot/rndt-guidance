@@ -19,7 +19,7 @@ Deve essere indicata almeno una categoria o sottocategoria per il servizio utili
 
 ***Raccomandazione 3.2** - **```metadata/2.0/rec/sds/sds-category-cv```***
 
-*Per rendere chiaro il riferimento ai valori delle parole chiave della Parte D 4 del Regolamento 1205/2008/CE, queste parole chiave dovrebbero essere espresse come parole chiave derivanti da un vocabolario controllato utilizzando l&#39;elemento _gmx:Anchor_ con riferimento all&#39;elenco di codici ```Classificazione dei servizi di dati territoriali``` pubblicato nel Sistema di Registri INSPIRE. A tale scopo deve essere aggiunto l&#39;elemento ```gmd:MD_Keywords/gmd:thesaurusName``` contenente la citazione della Parte D 4 del Regolamento 1205/2008/CE e la relativa data di pubblicazione secondo quanto indicato al paragrafo [2.3.6](#_Parole_chiave).*
+*Per rendere chiaro il riferimento ai valori delle parole chiave della Parte D 4 del Regolamento 1205/2008/CE, queste parole chiave dovrebbero essere espresse come parole chiave derivanti da un vocabolario controllato utilizzando l&#39;elemento _gmx:Anchor_ con riferimento all&#39;elenco di codici ```[Classificazione dei servizi di dati territoriali](http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory)``` pubblicato nel Sistema di Registri INSPIRE. A tale scopo deve essere aggiunto l&#39;elemento ```gmd:MD_Keywords/gmd:thesaurusName``` contenente la citazione della Parte D 4 del Regolamento 1205/2008/CE e la relativa data di pubblicazione secondo quanto indicato al paragrafo [2.3.6](../common/identification.md#236-parole-chiave).*
 
 ---
 
