@@ -15,13 +15,13 @@
 
 Per indicare il tipo di servizio di dati territoriali nel caso di servizi di rete, secondo quanto indicato nel Requisito [3.5](../sds/identification.md#3.5), utilizzarei nomi linguisticamente neutri riportati di seguito tra parentesi, a seconda del servizio di rete descritto:
 
-- servizio di ricerca (_ **discovery** _);
+- servizio di ricerca (_ **discovery**_);
 
-- servizio di consultazione (_ **view** _);
+- servizio di consultazione (_**view**_);
 
-- servizio di scaricamento (_ **download** _);
+- servizio di scaricamento (_**download**_);
 
-- servizio di conversione (_ **transformation** _).
+- servizio di conversione (_**transformation**_).
 
 ---
 
