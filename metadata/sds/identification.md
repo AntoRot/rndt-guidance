@@ -94,7 +94,7 @@ Deve essere indicata almeno una categoria o sottocategoria per il servizio utili
 | **Definizione** | Nome del tipo di servizio da un registro di servizi. |
 | **Istruzioni di implementazione** | Fare riferimento all&#39;elenco di codici &quot;_ServiceType_&quot; di cui al § 4.2.5.5 [LG RNDT]. |
 
-**REQUISITO 3.5** - **```metadata/2.0/req/sds/sds-type```**
+<a name=3.5>**REQUISITO 3.5**</a> - **```metadata/2.0/req/sds/sds-type```**
 
 Il tipo di servizio di dati territoriali deve essere indicato attraverso l&#39;elemento _```srv:serviceType/gco:LocalName```_.
 
