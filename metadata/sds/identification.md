@@ -1,5 +1,18 @@
 ### 4.1.2 Identificazione dei servizi
 
+**Elementi:**
+
+[4.1.2.1 Parole chiave](#4121-parole-chiave)
+
+[4.1.2.2 Tipo di servizio](#4122-tipo-di-servizio)
+
+[4.1.2.3 Tipo di aggancio](#4123-tipo-di-aggancio)
+
+[4.1.2.4 Risorsa accoppiata](#4124-risorsa-accoppiata)
+
+[4.1.2.5 Operazioni](#4125-operazioni)
+
+
 #### 4.1.2.1 Parole chiave
 
 |  |  |
