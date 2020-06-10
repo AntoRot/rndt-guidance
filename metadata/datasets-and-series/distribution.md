@@ -204,7 +204,7 @@ La molteplicità di questo elemento è 1..N.
 
 ---
 
-**REQUISITO R1.10** - **```rndt/metadata/2.0/req/datasets-and-series/resource-locator-details```**
+<a name=R1.10>**REQUISITO R1.10**</a> - **```rndt/metadata/2.0/req/datasets-and-series/resource-locator-details```**
 
 L&#39;elemento _```gmd:CI_OnlineResource```_ deve includere anche:
 
