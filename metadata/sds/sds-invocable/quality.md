@@ -14,9 +14,9 @@
 
 **REQUISITO 5.3** - **```metadata/2.0/req/sds-invocable/conformity```**
 
-I metadati dei servizi invocabili devono includere la dichiarazione della conformità alle disposizioni di esecuzione (_implementing rules_) sull&#39;interoperabilità di dataset e servizi di rete attraverso l&#39;elemento _```gmd:report/gmd:DQ_DomainConsistency/gmd:result/gmd:DQ_ConformanceResult```_, come indicato nel Requisito [C.20](#reqC20). Questo elemento deve contenere la citazione del Regolamento n. 1089/2010 indicato secondo il Requisito [C.21](#reqC21).
+I metadati dei servizi invocabili devono includere la dichiarazione della conformità alle disposizioni di esecuzione (_implementing rules_) sull&#39;interoperabilità di dataset e servizi di rete attraverso l&#39;elemento _```gmd:report/gmd:DQ_DomainConsistency/gmd:result/gmd:DQ_ConformanceResult```_, come indicato nel Requisito [C.20](../../common/data-quality.md#C.20). Questo elemento deve contenere la citazione del Regolamento n. 1089/2010 indicato secondo il Requisito [C.21](../../common/data-quality.md#C.21).
 
-Il grado di conformità deve essere indicato secondo quanto indicato nel Requisito [C.22](#reqC22).
+Il grado di conformità deve essere indicato secondo quanto indicato nel Requisito [C.22](../../common/data-quality.md#C.22).
 
 La molteplicità dell&#39;elemento _```gmd:report/gmd:DQ_DomainConsistency/gmd:result/gmd:DQ_ConformanceResult```_ utilizzato per lo scopo di cui sopra è 1.
 
@@ -50,9 +50,9 @@ Le informazioni relative al [Regolamento 1089/2010] da inserire sono le seguenti
 
 Un servizio di dati territoriali invocabile deve dichiarare la piena conformità con almeno una specifica tecnica che fornisca tutti gli elementi tecnici necessari per invocare effettivamente il servizio e consentirne l&#39;utilizzo.
 
-Questa dichiarazione deve essere indicata attraverso l&#39;elemento _```gmd:report/gmd:DQ_DomainConsistency/gmd:result/gmd:DQ_ConformanceResult```_, come indicato nel Requisito [C.20](#reqC20). Questo elemento deve contenere la citazione delle specifiche tecniche da indicare secondo il Requisito [C.21](#reqC21).
+Questa dichiarazione deve essere indicata attraverso l&#39;elemento _```gmd:report/gmd:DQ_DomainConsistency/gmd:result/gmd:DQ_ConformanceResult```_, come indicato nel Requisito [C.20](../../common/data-quality.md#C.20). Questo elemento deve contenere la citazione delle specifiche tecniche da indicare secondo il Requisito [C.21](../../common/data-quality.md#C.21).
 
-Il grado di conformità, da specificare secondo quanto indicato nel Requisito [C.22](#reqC22), deve indicare che il servizio è pienamente conforme con le specifiche e quindi l&#39;elemento _```gmd:DQ_ConformanceResult/gmd:pass/gco:Boolean```_ deve riportare il valore &quot;_true_&quot;.
+Il grado di conformità, da specificare secondo quanto indicato nel Requisito [C.22](../../common/data-quality.md#C.22), deve indicare che il servizio è pienamente conforme con le specifiche e quindi l&#39;elemento _```gmd:DQ_ConformanceResult/gmd:pass/gco:Boolean```_ deve riportare il valore &quot;_true_&quot;.
 
 La molteplicità dell&#39;elemento _```gmd:report/gmd:DQ_DomainConsistency/gmd:result/gmd:DQ_ConformanceResult```_ utilizzato per lo scopo di cui sopra è 1.
 
@@ -65,3 +65,47 @@ La molteplicità dell&#39;elemento _```gmd:report/gmd:DQ_DomainConsistency/gmd:r
 ---
 
 **Esempio di XML:**
+
+```xml
+<gmd:MD_Metadata>
+  …
+  <gmd:dtataQualityInfo>
+    <gmd:DQ_DataQuality>
+    …
+      <gmd:report>
+        <gmd:DQ_DomainConsistency>
+          <gmd:result>
+            <gmd:DQ_ConformanceResult>
+              <gmd:specification>
+                <gmd:CI_Citation>
+                  <gmd:title>
+                    <gmx:Anchor xlink:href="http://data.europa.eu/eli/reg/2010/1089">REGOLAMENTO (UE) N. 1089/2010 DELLA COMMISSIONE del 23 novembre 2010 recante attuazione della direttiva 2007/2/CE del Parlamento europeo e del Consiglio per quanto riguarda l'interoperabilità dei set di dati territoriali e dei servizi di dati territoriali</gmx:Anchor>
+                  </gmd:title>
+                  <gmd:date>
+                    <gmd:CI_Date>
+                      <gmd:date>
+                        <gco:Date>2010-12-08</gco:Date>
+                      </gmd:date>
+                      <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">pubblicazione</gmd:CI_DateTypeCode>
+                      </gmd:dateType>
+                    </gmd:CI_Date>
+                  </gmd:date>
+                </gmd:CI_Citation>
+              </gmd:specification>
+              <gmd:explanation>
+                <gco:CharacterString>Fare riferimento alle specifiche indicate</gco:CharacterString>
+              </gmd:explanation>
+              <gmd:pass>
+                <gco:Boolean>true</gco:Boolean>
+              </gmd:pass>
+            </gmd:DQ_ConformanceResult>
+          </gmd:result>
+        </gmd:DQ_DomainConsistency>
+      </gmd:report>
+      …
+    </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+  …
+</gmd:MD_Metadata>
+```
