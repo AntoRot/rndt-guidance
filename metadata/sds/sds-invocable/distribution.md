@@ -33,6 +33,7 @@ La molteplicità dell&#39;elemento _```gmd:transferOptions/gmd:MD_DigitalTransfe
 
 **Esempio di XML:**
 
+```xml
 <gmd:MD_Metadata>
   …
   <gmd:distributionInfo>
@@ -59,3 +60,4 @@ La molteplicità dell&#39;elemento _```gmd:transferOptions/gmd:MD_DigitalTransfe
   </gmd:distributionInfo>
   …
 </gmd:MD_Metadata>
+```
