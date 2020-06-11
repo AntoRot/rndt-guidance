@@ -19,13 +19,13 @@
 
 **REQUISITO 5.1** - **```metadata/2.0/req/sds-invocable/sds-type```**
 
-Per indicare il tipo di servizio di dati territoriali nel caso di servizi invocabili secondo quanto indicato nel Requisito [3.5](../baseline/identification.md#
-3.5), utilizzareil valore &quot;_other_&quot;.
+Per indicare il tipo di servizio di dati territoriali nel caso di servizi invocabili secondo quanto indicato nel Requisito [3.5](../baseline/identification.md#3.5), utilizzareil valore &quot;_other_&quot;.
 
 ---
 
 **Esempio di XML:**
 
+```xml
 <gmd:MD_Metadata>
   …
   <gmd:identificationInfo>
@@ -39,3 +39,4 @@ Per indicare il tipo di servizio di dati territoriali nel caso di servizi invoca
   </gmd:identificationInfo>
   …
 </gmd:MD_Metadata>
+```
