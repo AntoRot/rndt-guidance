@@ -13,9 +13,9 @@
 
 <a name=rec4.1>***Raccomandazione 4.1**</a> - **```metadata/2.0/rec/ns/conformity```***
 
-*I metadati dei servizi di rete dovrebbero includere la dichiarazione della conformità alle disposizioni di esecuzione (implementing rules) sui servizi di rete attraverso l&#39;elemento ```gmd:report/gmd:DQ_DomainConsistency/gmd:result/gmd:DQ_ConformanceResult```, come indicato nel Requisito [C.20](../common/data-quality.md#C.20). Questo elemento dovrebbe contenere la citazione del Regolamento n. 976/2009 indicato secondo il Requisito [C.21](../common/data-quality.md#C.21).*
+*I metadati dei servizi di rete dovrebbero includere la dichiarazione della conformità alle disposizioni di esecuzione (implementing rules) sui servizi di rete attraverso l&#39;elemento ```gmd:report/gmd:DQ_DomainConsistency/gmd:result/gmd:DQ_ConformanceResult```, come indicato nel Requisito [C.20](../../common/data-quality.md#C.20). Questo elemento dovrebbe contenere la citazione del Regolamento n. 976/2009 indicato secondo il Requisito [C.21](../../common/data-quality.md#C.21).*
 
-*Il grado di conformità dovrebbe essere indicato secondo quanto indicato nel Requisito [C.22](../common/data-quality.md#C.22).*
+*Il grado di conformità dovrebbe essere indicato secondo quanto indicato nel Requisito [C.22](../../common/data-quality.md#C.22).*
 
 *La molteplicità dell&#39;elemento ```gmd:report/gmd:DQ_DomainConsistency/gmd:result/gmd:DQ_ConformanceResult``` utilizzato per lo scopo di cui sopra è 1.*
 
