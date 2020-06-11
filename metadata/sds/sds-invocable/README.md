@@ -6,7 +6,7 @@ Per i metadati dei servizi di dati territoriali invocabili considerati in questa
 
 **Titolo**: _Metadati per i servizi di dati territoriali invocabili_
 
-**Classe di conformità R5** - **```rndt/**** metadata/2.0/sds-invocable```**
+**Classe di conformità R5** - **```rndt/metadata/2.0/sds-invocable```**
 
 **Titolo**: _Metadati RNDT per i servizi di dati territoriali invocabili_
 
