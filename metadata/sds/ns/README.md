@@ -13,6 +13,6 @@ Per i metadati dei servizi di rete le classi di conformità di riferimento sono 
 
 **Contenuto:**
 
-4.2.1 Informazioni sui metadati
+[4.2.1 Informazioni sui metadati](metadata.md)
 
-4.2.2 Qualità
+[4.2.2 Qualità](quality.md)
