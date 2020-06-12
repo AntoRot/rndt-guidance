@@ -27,7 +27,7 @@ Questa guida operativa fornisce tutte le istruzioni e indicazioni necessarie per
 
 ## <a name=rif-norme> Riferimenti normativi e tecnici </a>
 
-**[Direttiva INSPIRE]** Direttiva 2007/2/CE del Parlamento europeo e del Consiglio, del 14 marzo 2007, che istituisce un&#39;infrastruttura per l&#39;informazione territoriale nella Comunità europea (INSPIRE);
+**[[Direttiva INSPIRE](https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX:02007L0002-20190626&from=EN)]** Direttiva 2007/2/CE del Parlamento europeo e del Consiglio, del 14 marzo 2007, che istituisce un&#39;infrastruttura per l&#39;informazione territoriale nella Comunità europea (INSPIRE);
 
 **[CAD]** Decreto legislativo 7 marzo 2005, n. 82 recante &quot;_Codice dell&#39;amministrazione digitale_&quot;;
 
