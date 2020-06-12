@@ -25,7 +25,7 @@
 
 Per i dati georettificati, devono essere fornite informazioni sulla disponibilità dei check point attraverso l&#39;elemento _```gmd:spatialRepresentationInfo/gmd:MD_Georectified/gmd:checkPointAvailability/gco:Boolean```_. Il valore &quot;_true_&quot; significa che sono disponibili i check-points, &quot;_false_&quot; il caso contrario.
 
-La molteplicità di questo elemento è 1.+
+La molteplicità di questo elemento è 1.
 
 ---
 
