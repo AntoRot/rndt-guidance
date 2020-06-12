@@ -5,6 +5,8 @@ Questa guida operativa fornisce tutte le istruzioni e indicazioni necessarie per
 
 ## **INDICE**
 
+**[COME DOCUMENTARE LE RISORSE GEOGRAFICHE SEGUENDO QUESTA GUIDA OPERATIVA](#metadata-flow)**
+
 **[Riferimenti normativi e tecnici](#rif-norme)**
 
 **[Note di lettura](#note-lettura)**
@@ -24,6 +26,7 @@ Questa guida operativa fornisce tutte le istruzioni e indicazioni necessarie per
 **[Allegato A - ELENCHI DI CODICI](code-lists)**
 
 ---
+## <a name=metadata-flow>Come documentare le risorse geografiche seguendo questa guida operativa</a>
 
 ## <a name=rif-norme> Riferimenti normativi e tecnici </a>
 
