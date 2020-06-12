@@ -61,7 +61,7 @@ La prima proprietà _```gmd:identificationInfo```_ dell&#39;elemento _```gmd:MD_
 
 ***Raccomandazione R1.2** - **```rndt/metadata/2.0/rec/datasets-and-series/presentation-form```***
 
-*Per documentare il formato di presentazione del dataset o della serie di dataset può essere utilizzato l&#39;elemento ```gmd:citation/gmd:CI\_Citation/gmd:presentationForm``` con un valore dell&#39;elenco di codici ISO ```CI_PresentationFormCode```.*
+*Per documentare il formato di presentazione del dataset o della serie di dataset può essere utilizzato l&#39;elemento ```gmd:citation/gmd:CI_Citation/gmd:presentationForm``` con un valore dell&#39;elenco di codici ISO ```CI_PresentationFormCode```.*
 
 *La molteplicità dell&#39;elemento è 0..N.*
 
@@ -150,7 +150,7 @@ La molteplicità di questo elemento è 1.
 
 **Raccomandazione R1.3** - **```rndt/metadata/2.0/rec/datasets-and-series/other-details```**
 
-*Per fornire ulteriori dettagli sul dataset o sulla serie di dataset, si può utilizzare l&#39;elemento ```gmd:citation/gmd:CI\_Citation/gmd:otherCitationDetails```.*
+*Per fornire ulteriori dettagli sul dataset o sulla serie di dataset, si può utilizzare l&#39;elemento ```gmd:citation/gmd:CI_Citation/gmd:otherCitationDetails```.*
 
 *Si consiglia di utilizzare questo elemento per indicare, se disponibile, il riferimento, attraverso un URL, alle norme (legge nazionale o regionale, delibera, atto amministrativo, …) relative alla produzione e/o trattamento dei dati.*
 
