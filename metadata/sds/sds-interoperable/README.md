@@ -18,4 +18,6 @@ Per i metadati dei servizi di dati territoriali interoperabili, le classi di con
 
 [4.4.2 Vincoli](constraints.md)
 
-[4.4.3 Sistema di riferimento](reference-system)
+[4.4.3 Qualità](quality.md)
+
+[4.4.4 Sistema di riferimento](reference-system)
