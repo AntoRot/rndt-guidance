@@ -17,3 +17,7 @@ La revisione sia delle Linee Guida (Decreto) che delle guide operative si è res
 
 [CAD]: https://docs.italia.it/italia/piano-triennale-ict/codice-amministrazione-digitale-docs/it/v2017-12-13/index.html
 [TG MD INSPIRE]: https://inspire.ec.europa.eu/id/document/tg/metadata-iso19139
+
+---
+
+> Vai alla [**Guida operativa per la compilazione dei metadati**](metadata.md)
