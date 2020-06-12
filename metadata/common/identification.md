@@ -318,7 +318,7 @@ Il separatore tra il codice iPA e la restante parte dell&#39;identificatore è &
 
 *https://geodati.gov.it/resource/id/_{identifier}*
 
-*dove identifier è, appunto, l&#39;identificatore univoco della risorsa (coincidente con l&#39;[identificatore del file](../metadata.md#221-identificatore-del-file)).*
+*dove identifier è, appunto, l&#39;identificatore univoco della risorsa (coincidente con l&#39;[identificatore del file](metadata.md#221-identificatore-del-file)).*
 
 ---
 
