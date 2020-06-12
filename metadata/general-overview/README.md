@@ -25,7 +25,7 @@ Come precisato nel citato cap.1, la scelta della strutturazione dei metadati nei
     
 #### 1.2.1 Corrispondenza tra metadati RNDT e ISO _core_
 
-Nella tabella 1 è riportata la corrispondenza tra i metadati previsti dal profilo del RNDT e quelli previsti dal _core set_ dello Standard [ISO 19115] (tabella 3, § 6.5). Accanto ad ogni elemento è indicato, tra parentesi, il livello di obbligatorietà (_ **O** _ per obbligatorio, _ **Op** _ per opzionale, _ **C** _ per condizionato).
+Nella tabella 1 è riportata la corrispondenza tra i metadati previsti dal profilo del RNDT e quelli previsti dal _core set_ dello Standard [ISO 19115] (tabella 3, § 6.5). Accanto ad ogni elemento è indicato, tra parentesi, il livello di obbligatorietà (_**O**_ per obbligatorio, _**Op**_ per opzionale, _**C**_ per condizionato).
 
 I diversi livelli di obbligatorietà degli elementi del profilo del RNDT, rispetto ai corrispondenti ISO, sono stati imposti rispettando le regole di cui all&#39;allegato C dello Standard ISO.
 
