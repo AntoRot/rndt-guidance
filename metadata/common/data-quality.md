@@ -110,4 +110,4 @@ Ogni elemento _```gmd:report/gmd:DQ_DomainConsistency/gmd:result/gmd:DQ_Conforma
 ```
 ---
 
-Vai a [3. Classi di conformità per i dataset e le serie di dataset](../datasets-and-series)
+> Vai a [**3. Classi di conformità per i dataset e le serie di dataset**](../datasets-and-series)
