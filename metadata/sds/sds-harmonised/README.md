@@ -12,6 +12,6 @@ Per i metadati dei servizi di dati territoriali interoperabili definiti in quest
 
 ---
 
-** Contenuto:**
+**Contenuto:**
 
 [4.5.1 Identificazione dei servizi](identification.md)
