@@ -32,6 +32,30 @@ Nel diagramma che segue è rappresentato il percorso da seguire nella compilazio
 
 ![alt-text](images/rndt-flowchart.png "metadata flow")
 
+
+In sintesi:
+
+**Passo 1** - Compilare i metadati comuni a tutte le risorse geografiche (--> [2 - common](common))
+
+In caso di dataset o di serie di dataset:
+
+**Passo 2** - Compilare i metadati per dataset e serie di dataset (--> [3- datasets and series](datasets-and-series))
+
+**Passo 2.1** - In caso di dati raster, compilare i metadati per tale tipologia di dati (--> [5 - grid](grid))
+
+In caso di servizi:
+
+**Passo 3** - Compilare i metadati di base per i servizi di dati territoriali (--> [4.1 - baseline](sds/baseline))
+
+**Passo 3.1** - In caso di servizi di rete, compilare i metadati per tale tipologia di servizi (--> [4.2 - network services](sds/ns))
+
+**Passo 3.2** - In caso di servizi di dati territoriali invocabili, compilare i metadati per tale tipologia di servizi (--> [4.3 - invocable](sds/sds-invocable))
+
+**Passo 3.2.1** - Nel caso in cui i servizi di dati territoriali invocabili siano anche interoperabili, compilare anche i metadati per tale tipologia di servizi (--> [4.4 - interoperable](sds/sds-interoperable))
+
+**Passo 3.2.2** - Nel caso in cui i dati resi disponibili dai servizi di dati territoriali interoperabili siano armonizzati, compilare anche i metadati per tale tipologia di servizi (--> [4.5 - harmonised](sds/sds-harmonised))
+
+
 ## <a name=rif-norme> Riferimenti normativi e tecnici </a>
 
 **[[Direttiva INSPIRE](https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX:02007L0002-20190626&from=EN)]** Direttiva 2007/2/CE del Parlamento europeo e del Consiglio, del 14 marzo 2007, che istituisce un&#39;infrastruttura per l&#39;informazione territoriale nella Comunità europea (INSPIRE);
