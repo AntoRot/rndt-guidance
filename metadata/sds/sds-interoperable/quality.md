@@ -30,3 +30,34 @@ Il tipo di valore deve essere dichiarato attraverso l&#39;attributo _```xsi:type
 ---
 
 **Esempio di XML:**
+
+```xml
+<gmd:MD_Metadata>
+  …
+  <gmd:dataQualityInfo>
+    <gmd:DQ_DataQuality>
+    …
+      <gmd:report>
+        <gmd:DQ_ConceptualConsistency>
+          <gmd:nameOfMeasure>
+            <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/metadata-codelist/QualityOfServiceCriteriaCode/performance">prestazione</gmx:Anchor>
+          </gmd:nameOfMeasure>
+          <gmd:measureDescription>
+            <gco:CharacterString>Tempo massimo di risposta ad una richiesta allo Spatial Data Service in condizioni di carico standard</gco:CharacterString>
+          </gmd:measureDescription>
+          <gmd:result>
+            <gmd:DQ_QuantitativeResult>
+              <gmd:valueUnit xlink:href="http://www.opengis.net/def/uom/SI/second"/>
+                <gmd:value>
+                  <gco:Record xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:double">1.56</gco:Record>
+                </gmd:value>
+              </gmd:DQ_QuantitativeResult>
+            </gmd:result>
+          </gmd:DQ_ConceptualConsistency>
+        </gmd:report>
+        …
+      </gmd:DQ_DataQuality>
+    </gmd:dataQualityInfo>
+  …
+</gmd:MD_Metadata>
+```
