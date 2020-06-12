@@ -20,18 +20,6 @@ Non esiste, in effetti, una definizione univoca di cosa si intenda per dataset e
 
 Come precisato nel citato cap.1, la scelta della strutturazione dei metadati nei livelli gerarchici indicati è comunque lasciata alla singola Amministrazione: il principio che deve guidare nella documentazione è quello di scendere all&#39;elemento minimo che si può fornire o a cui si può accedere ovvero di attenersi all&#39;elemento minimo che ha senso descrivere, che può anche non coincidere con l&#39;elemento minimo di fruizione, se esiste.
 
-```flow
-st=>start: Start
-e=>end
-op=>operation: My Operation
-cond=>condition: Yes or No?
-
-st->op->cond
-cond(yes)->e
-cond(no)->op
-```
-
-
 
 ### 1.2 Conformità
     
