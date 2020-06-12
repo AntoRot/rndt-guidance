@@ -210,7 +210,7 @@ L&#39;attributo _```xlink:href```_ dell&#39;elemento _```srv:operatesOn```_ deve
 | **Definizione** | Informazioni sulle operazioni che compongono il servizio. |
 | **Istruzioni di implementazione** | - **Nome operazione** [1] – Testo libero; - **DCP** [1..\*] – L&#39;elemento deve assumere uno dei valori dell&#39;elenco di codici &quot;_DCPList_&quot; di cui al § 3.4.5.3 - all. 2 DM; - **Punto di connessione** [1..\*] – Riferimento per l&#39;accesso all&#39;interfaccia del servizio da esprimere come URL; - **Nome richiesta** [0..1] – Testo libero. |
 
-**REQUISITO R3.2** - **```rndt/metadata/2.0/req/sds/operation-metadata```**
+<a name=R3.2>**REQUISITO R3.2**</a> - **```rndt/metadata/2.0/req/sds/operation-metadata```**
 
 Per ciascuna operazione, devono essere fornite le seguenti informazioni:
 
