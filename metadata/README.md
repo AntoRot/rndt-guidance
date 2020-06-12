@@ -99,7 +99,7 @@ Nel caso delle classi di conformità, dei requisiti e delle raccomandazioni spec
 
 Le classi di conformità, i requisiti e le raccomandazioni mutuati dalle linee guida INSPIRE presentano come namespace rispettivamente **metadata/2.0** , **metadata/2.0/req** e **metadata/2.0/rec** , mentre nel caso degli elementi specifici del RNDT il namespace utilizzato è rispettivamente **rndt/metadata/2.0** , **rndt/metadata/2.0/req** e **rndt/metadata/2.0/rec**.
 
-Nel caso dei requisiti INSPIRE, l&#39;identificativo univoco del requisito assume la seguente struttura: **metadata/2.0/req/\&lt;** _ **id-classe-conformità** _ **\&gt;/\&lt;** _ **id-requisito** _ **\&gt;** , mentre quando si tratta di un requisito specifico del RNDT, allora la struttura è la seguente: **rndt/metadata/2.0/req/\&lt;** _ **id-classe-conformità** _ **\&gt;/\&lt;** _ **id-requisito** _ **\&gt;**.
+Nel caso dei requisiti INSPIRE, l&#39;identificativo univoco del requisito assume la seguente struttura: **metadata/2.0/req/<id-classe-conformità>/<id-requisito>**, mentre quando si tratta di un requisito specifico del RNDT, allora la struttura è la seguente: **rndt/metadata/2.0/req/<id-classe-conformità>/<id-requisito>**.
 
 Analogamente, nel caso di raccomandazione derivante dalle linee guida INSPIRE, la struttura dell&#39;identificativo univoco della raccomandazione è la seguente: **metadata/2.0/rec/\&lt;** _ **id-classe-conformità** _ **\&gt;/\&lt;** _ **id-raccomandazione** _ **\&gt;** , mentre nel caso di una raccomandazione specifica del RNDT, la struttura diventa: **rndt/metadata/2.0/rec/\&lt;** _ **id-classe-conformità** _ **\&gt;/\&lt;** _ **id-raccomandazione** _ **\&gt;**.
 
