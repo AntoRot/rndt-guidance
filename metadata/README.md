@@ -37,13 +37,13 @@ In sintesi:
 
 **Passo 1** - Compilare i metadati comuni a tutte le risorse geografiche (--> [2 - common](common))
 
-In caso di dataset o di serie di dataset:
+_In caso di dataset o di serie di dataset:_
 
 **Passo 2** - Compilare i metadati per dataset e serie di dataset (--> [3- datasets and series](datasets-and-series))
 
-   **Passo 2.1** - In caso di dati raster, compilare i metadati per tale tipologia di dati (--> [5 - grid](grid))
+**Passo 2.1** - In caso di dati raster, compilare i metadati per tale tipologia di dati (--> [5 - grid](grid))
 
-In caso di servizi:
+_In caso di servizi di dati territoriali:_
 
 **Passo 3** - Compilare i metadati di base per i servizi di dati territoriali (--> [4.1 - baseline](sds/baseline))
 
