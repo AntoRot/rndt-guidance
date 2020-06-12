@@ -9,7 +9,7 @@
 | **Molteplicità** | [0..1] |
 | **Elemento INSPIRE** | Nessun elemento corrispondente |
 | **Definizione** | Dominio verticale dei dati. |
-| **Istruzioni di implementazione** | - **Quota minima** [1] - utilizzare il tipo _gco:Real_; - **Quota massima** [1] - utilizzare il tipo _gco:Real_; - **CRS verticale** [1] - Per la documentazione di questo elemento, utilizzare, facendo comunque riferimento all&#39;elenco di codici &quot;_MD\_ReferenceSystemCode_&quot; (§ 4.2.3.11 [LG RNDT]) utilizzando l&#39;URI riportato nella tabella di cui all&#39;allegato [A.1](#_A.1_MD_ReferenceSystemCode). |
+| **Istruzioni di implementazione** | - **Quota minima** [1] - utilizzare il tipo _gco:Real_; - **Quota massima** [1] - utilizzare il tipo _gco:Real_; - **CRS verticale** [1] - Per la documentazione di questo elemento, utilizzare, facendo comunque riferimento all&#39;elenco di codici &quot;_MD\_ReferenceSystemCode_&quot; (§ 4.2.3.11 [LG RNDT]) utilizzando l&#39;URI riportato nella tabella di cui all&#39;allegato [A.1](../code-lists/md-reference-system-code.md). |
 
 ***Raccomandazione R1.8** - **```rndt/metadata/2.0/rec/datasets-and-series/vertical-extent```***
 
@@ -25,7 +25,7 @@
 
 *La molteplicità dell&#39;elemento ```gmd:extent/gmd:EX_Extent/gmd:verticalElement``` è 0..1.*
 
-*Per l&#39;elemento &quot;CRS verticale&quot; deve essere utilizzato, facendo comunque riferimento all&#39;URI indicato nella tabella &quot;MD\_ReferenceSystemCode&quot; di cui all&#39;allegato [A.1](#_A.1_MD_ReferenceSystemCode), il tag ISO relativo con la compilazione del solo attributo ```href```.*
+*Per l&#39;elemento &quot;CRS verticale&quot; deve essere utilizzato, facendo comunque riferimento all&#39;URI indicato nella tabella &quot;MD\_ReferenceSystemCode&quot; di cui all&#39;allegato [A.1](../code-lists/md-reference-system-code.md), il tag ISO relativo con la compilazione del solo attributo ```href```.*
 
 ---
 
