@@ -138,7 +138,7 @@ La molteplicità di questo element è 0..1.
 
 ***Raccomandazione RC.2**  **```rndt/metadata/2.0/rec/common/parent-identifier```***
 
-*L&#39;elemento potrebbe essere utile per tracciare la &quot;storia&quot; delle trasmissioni dei file XML e quindi degli aggiornamenti dei metadati. Esso dovrebbe assumere il valore dell&#39;elemento &quot;[Identificatore del file](https://github.com/AgID/rndt-guidance/blob/master/metadata/common/metadata.md#221-identificatore-del-file)&quot; del file trasmesso temporalmente in precedenza e a cui il file corrente è in relazione. Nel caso di primo impianto (quindi non esiste nessun file precedente), se presente, l&#39;elemento dovrebbe assumere lo stesso valore dell&#39;elemento &quot;[Identificatore del file](https://github.com/AgID/rndt-guidance/blob/master/metadata/common/metadata.md#221-identificatore-del-file)&quot; del file corrente.*
+*L&#39;elemento potrebbe essere utile per tracciare la &quot;storia&quot; delle trasmissioni dei file XML e quindi degli aggiornamenti dei metadati. Esso dovrebbe assumere il valore dell&#39;elemento &quot;[Identificatore del file](#221-identificatore-del-file)&quot; del file trasmesso temporalmente in precedenza e a cui il file corrente è in relazione. Nel caso di primo impianto (quindi non esiste nessun file precedente), se presente, l&#39;elemento dovrebbe assumere lo stesso valore dell&#39;elemento &quot;[Identificatore del file](#221-identificatore-del-file)&quot; del file corrente.*
 
 *Se documentato, deve essere utilizzato l&#39;elemento ```gmd:MD_Metadata/gmd:parentIdentifier```.*
 
