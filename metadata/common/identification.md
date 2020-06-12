@@ -475,7 +475,7 @@ Tutte le parole chiave derivanti dallo stesso vocabolario controllato, o dalla s
 | **Definizione** | Organizzazione che è possibile contattare per avere informazioni sulla risorsa. |
 | **Istruzioni di implementazione** | - **Nome dell&#39;Ente** [1] - Testo libero; - **Ruolo** [1] – L&#39;elemento deve assumere uno dei valori dell&#39;elenco di codici &quot;_CI\_RoleCode_&quot; (§4.2.3.5 [LG RNDT]); - **Sito web** [0..1] - formato URL. Specificare obbligatoriamente anche il protocollo (es. _http_); - **Telefono** [0..1] - Testo libero; - **E-mail** [1..\*] - Testo libero. |
 
-**REQUISITO C.10** - **```metadata/2.0/req/common/responsible-organisation```**
+<a name=C.10>**REQUISITO C.10**</a> - **```metadata/2.0/req/common/responsible-organisation```**
 
 Dovrà essere fornito il punto di contatto dell&#39;organizzazione responsabile di dati e servizi attraverso l&#39;elemento _```gmd:pointOfContact/gmd:CI_ResponsibleParty```_.
 
