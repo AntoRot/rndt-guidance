@@ -186,7 +186,7 @@ _- ```gmd:contactInfo/gmd:CI_Contact/gmd:phone/gmd:CI_Telephone/gmd:voice```._
 
 ***Raccomandazione RC.6** - **```rndt/metadata/2.0/rec/common/responsible-party-role```***
 
-*A parte il proprietario di cui alla raccomandazione [RC.9](recRC.9), scegliere i ruoli che meglio rappresentano la funzione svolta dall&#39;organizzazione responsabile.*
+*A parte il proprietario di cui al Requisito [RC.9](recRC.9), scegliere i ruoli che meglio rappresentano la funzione svolta dall&#39;organizzazione responsabile.*
 
 ---
 
