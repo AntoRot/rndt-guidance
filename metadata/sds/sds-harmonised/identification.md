@@ -22,7 +22,7 @@ Il contenuto di questo elemento deve essere specificato secondo lo Standard 1911
 
 **REQUISITO R7.2** - **```metadata/2.0/req/sds-harmonised/operation-metadata```**
 
-Per ciascuna operazione, devono essere forniti, oltre agli elementi di cui al Requisito [R3.2](#reqR32), anche le informazioni relativi ai **parametri** attraverso l&#39;elemento _```srv:parameters/srv:SV_Parameter```_ con una descrizione del parametro della singola operazione da utilizzare per richiamare l&#39;operazione. Il contenuto per questo elemento deve essere specificato come indicato dal Requisito [7.3](#7.3). La molteplicità di questo elemento è 0..N ed è obbligatorio per tutti i parametri obbligatori e facoltativi forniti dall&#39;operazione.
+Per ciascuna operazione, devono essere forniti, oltre agli elementi di cui al Requisito [R3.2](../baseline/identification.md#R3.2), anche le informazioni relativi ai **parametri** attraverso l&#39;elemento _```srv:parameters/srv:SV_Parameter```_ con una descrizione del parametro della singola operazione da utilizzare per richiamare l&#39;operazione. Il contenuto per questo elemento deve essere specificato come indicato dal Requisito [7.3](#7.3). La molteplicità di questo elemento è 0..N ed è obbligatorio per tutti i parametri obbligatori e facoltativi forniti dall&#39;operazione.
 
 ---
 
