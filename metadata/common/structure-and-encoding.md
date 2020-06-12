@@ -18,7 +18,7 @@ Per i servizi deve essere utilizzato lo schema XSD disponibile nel repository de
 
 <a name=C.2>**REQUISITO C.2**</a> - **```metadata/2.0/req/common/root-element```**
 
-I metadati per dataset, serie di dataset e servizi devono essere codificati utilizzando uno ed un solo elemento _```gmd:MD\_Metadata```_ come specificato nelle regole di cui agli schemi XSD e nei Requisiti delle Classi di Conformità definiti in questa guida operativa.
+I metadati per dataset, serie di dataset e servizi devono essere codificati utilizzando uno ed un solo elemento _```gmd:MD_Metadata```_ come specificato nelle regole di cui agli schemi XSD e nei Requisiti delle Classi di Conformità definiti in questa guida operativa.
 
 Inoltre, a meno di diversa indicazione negli schemi XSD e in questa guida operativa, devono essere seguiti i requisiti definiti dagli Standard ISO 19115, ISO 19119 e ISO TS 19139.
 
@@ -102,4 +102,4 @@ Non è valido, invece, il tracciato seguente:
 …
 ```
 
->Prossima sezione: [2.2 Informazioni sui metadati](metadata.md)
+> Vai a [**2.2 Informazioni sui metadati**](metadata.md)
