@@ -63,7 +63,7 @@
 
 **REQUISITO C.17** - **```metadata/2.0/req/common/limitations-on-public-access```**
 
-I vincoli per l&#39;accesso pubblico (o la mancanza di tali vincoli) per la risorsa descritta devono essere indicati utilizzando uno ed un solo elemento _```gmd:resourceConstraints/gmd:MD_LegalConstraints```_. Questo elemento non deve essere lo stesso utilizzato per descrivere i vincoli di fruibilità - condizioni applicabili all&#39;accesso e all&#39;uso (vedi § [2.4.3](#_Vincoli_di_fruibilit%C3%A0)).
+I vincoli per l&#39;accesso pubblico (o la mancanza di tali vincoli) per la risorsa descritta devono essere indicati utilizzando uno ed un solo elemento _```gmd:resourceConstraints/gmd:MD_LegalConstraints```_. Questo elemento non deve essere lo stesso utilizzato per descrivere i [vincoli di fruibilità - condizioni applicabili all&#39;accesso e all&#39;uso](constraints.md#243-vincoli-di-fruibilità).
 
 Per indicare i vincoli per l&#39;accesso pubblico basati sui motivi di cui alla lettera (a) o alle lettere da (c) ad (h) dell&#39;art. 13 paragrafo 1 della Direttiva INSPIRE, l&#39;elemento _```gmd:resourceConstraints/gmd:MD_LegalConstraints```_ deve includere una combinazione di:
 
@@ -142,7 +142,7 @@ Per indicare i vincoli per l&#39;accesso pubblico basati sui motivi di cui alla 
 
 **REQUISITO C.18** - **```metadata/2.0/req/common/conditions-for-access-and-use```**
 
-I vincoli di fruibilità (condizioni applicabili all&#39;accesso e all&#39;uso) per la risorsa descritta devono essere indicati utilizzando uno ed un solo elemento _```gmd:resourceConstraints/gmd:MD_LegalConstraints```_. Questo elemento non deve essere lo stesso utilizzato per descrivere i vincoli per l&#39;accesso pubblico (vedi § [2.4.2](#_Vincoli_di_accesso)).
+I vincoli di fruibilità (condizioni applicabili all&#39;accesso e all&#39;uso) per la risorsa descritta devono essere indicati utilizzando uno ed un solo elemento _```gmd:resourceConstraints/gmd:MD_LegalConstraints```_. Questo elemento non deve essere lo stesso utilizzato per descrivere i [vincoli per l&#39;accesso pubblico](constraints.md#242-vincoli-di-accesso).
 
 L&#39;elemento _```gmd:resourceConstraints/gmd:MD_LegalConstraints```_ deve includere una combinazione di:
 
