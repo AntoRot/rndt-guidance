@@ -59,3 +59,6 @@
   …
 </gmd:MD_Metadata>
 ```
+---
+
+> Vai a [**3.4 Qualità dei dati**](data-quality.md)
