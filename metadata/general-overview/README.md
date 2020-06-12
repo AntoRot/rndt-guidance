@@ -314,7 +314,7 @@ Il nuovo approccio, invece, richiederebbe:
 - l&#39;aggiunta dei metadati _Protocollo_, _Profilo applicativo_, _Descrizione_ con riferimento all&#39;URL del servizio indicato nel record del dataset_;_
 - il documento di _GetCapabilities_ dei servizi di rete (in cui non sarebbero più richieste le estensioni INSPIRE) solo con l&#39;indicazione del titolo e dell&#39;organizzazione responsabile (oltre a quanto richiesto dallo standard base OGC);
 
-Come si evince dalle [LG RNDT] i tre metadati aggiuntivi indicati innanzi sono richiesti comunque a prescindere dal tipo di servizio indicato. Le istruzioni di compilazione relative ai nuovi elementi sono riportati al § [3.6.3](#_Risorsa_on-line).
+Come si evince dalle [LG RNDT] i tre metadati aggiuntivi indicati innanzi sono richiesti comunque a prescindere dal tipo di servizio indicato. Le istruzioni di compilazione relative ai nuovi elementi sono riportati al § [3.6.3](datasets-and-series/distribution.md#363-risorsa-on-line).
 
 Ciò consentirà di avere metadati già conformi al nuovo approccio quando questo sarà adottato formalmente.
 
