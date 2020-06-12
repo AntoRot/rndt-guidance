@@ -319,7 +319,7 @@ Per identificare i dataset di cui sopra, è richiesto che sia aggiunta una o pi�
 
 Se il dataset o la serie di dataset è un dataset prioritario, cioè prodotto e gestito in funzione degli obblighi di reportistica ambientale stabiliti dalle Direttive europee, ciò deve essere dichiarato utilizzando almeno una parola chiave dal registro _[INSPIRE priority data set](http://inspire.ec.europa.eu/metadata-codelist/PriorityDataset)_ pubblicato nel Sistema di Registri di INSPIRE. I valori delle parole chiave devono corrispondere esattamente ai termini presenti nel registro citato, nella lingua dei metadati, se disponibile nel registro stesso.
 
-Le parole chiave devono essere codificate utilizzando l&#39;elemento _gmd:descriptiveKeywords/gmd:MD\_Keywords_ con riferimento al registro citato secondo le indicazioni fornite nel paragrafo [2.3.6](#_Parole_chiave).
+Le parole chiave devono essere codificate utilizzando l&#39;elemento _gmd:descriptiveKeywords/gmd:MD\_Keywords_ con riferimento al registro citato secondo le indicazioni fornite in [2.3.6](../common/identification.md#236-parole-chiave).
 
 L&#39;elemento _```gmd:thesaurusName/gmd:CI_Citation/gmd:title```_ deve contenere il valore &quot;_INSPIRE priority data set_&quot;. La data di pubblicazione del registro da utilizzare nell&#39;elemento _```gmd:thesaurusName/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:date/gco:Date```_ è &quot;_2018-04-04_&quot;. L&#39;elemento _```gmd:thesaurusName/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:dateType/gmd:CI_DateTypeCode```_ deve avere il valore &quot;_pubblicazione_&quot; (_publication_) presente nell&#39;elenco di codici ISO _```CI_DateTypeCode```_.
 
@@ -376,7 +376,7 @@ Per identificare i dataset di cui sopra, è richiesto che sia aggiunta una o pi�
 
 Se il dataset o la serie di dataset è riferito ad un ambito di applicazione territoriale regionale o nazionale deve essere dichiarato utilizzando una parola chiave dall&#39;elenco di codici _[Spatial scope](http://inspire.ec.europa.eu/metadata-codelist/SpatialScope)_ pubblicato nel registro _INSPIRE metadata code list register_ del Sistema di Registri di INSPIRE. I valori delle parole chiave devono corrispondere esattamente ai termini presenti nel registro citato, nella lingua dei metadati.
 
-Le parole chiave devono essere codificate utilizzando l&#39;elemento _```gmd:descriptiveKeywords/gmd:MD_Keywords```_ con riferimento al registro citato secondo le indicazioni fornite nel paragrafo 2.3.6.
+Le parole chiave devono essere codificate utilizzando l&#39;elemento _```gmd:descriptiveKeywords/gmd:MD_Keywords```_ con riferimento al registro citato secondo le indicazioni fornite in [2.3.6](../common/identification.md#236-parole-chiave).
 
 L&#39;elemento _```gmd:thesaurusName/gmd:CI_Citation/gmd:title```_ deve contenere il valore &quot;_Spatial scope_&quot;. La data di pubblicazione del registro da utilizzare nell&#39;elemento _```gmd:thesaurusName/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:date/gco:Date```_ è &quot;_2019-05-22_&quot;. L&#39;elemento _```gmd:thesaurusName/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:dateType/gmd:CI_DateTypeCode```_ deve avere il valore &quot;_pubblicazione_&quot; (_publication_) presente nell&#39;elenco di codici ISO _```CI_DateTypeCode```_.
 
@@ -481,7 +481,7 @@ Tale elenco è pubblicato nel relativo registro disponibile nel Sistema di Regis
 
 *La tipologia di dati in cui rientra il dataset o la serie di dataset può essere dichiarata utilizzando una parola chiave dall&#39;elenco di cui all&#39;allegato 1 delle [LG RNDT] riportato anche nel relativo [registro disponibile nel Sistema di Registri INSPIRE Italia](https://registry.geodati.gov.it/rndt-all1). I valori delle parole chiave devono corrispondere esattamente ai termini presenti nel registro citato, nella lingua dei metadati.*
 
-*Le parole chiave devono essere codificate utilizzando l&#39;elemento ```gmd:descriptiveKeywords/gmd:MD_Keywords``` con riferimento al registro citato secondo le indicazioni fornite per le [parole chiave](../common/identification.md#236-parole-chiave).*
+*Le parole chiave devono essere codificate utilizzando l&#39;elemento ```gmd:descriptiveKeywords/gmd:MD_Keywords``` con riferimento al registro citato secondo le indicazioni fornite in [2.3.6](../common/identification.md#236-parole-chiave).*
 
 L&#39;elemento ```gmd:thesaurusName/gmd:CI_Citation/gmd:title``` deve contenere il valore &quot;_Registro dei dati di interesse generale per il RNDT_&quot;. La data di pubblicazione del registro da utilizzare nell&#39;elemento ```gmd:thesaurusName/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:date/gco:Date``` è &quot;_2018-06-25_&quot;. L&#39;elemento ```gmd:thesaurusName/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:dateType/gmd:CI_DateTypeCode``` deve avere il valore &quot;pubblicazione&quot; (publication) presente nell&#39;elenco di codici ISO ```CI_DateTypeCode```.
 
