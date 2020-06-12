@@ -322,4 +322,4 @@ Da tenere presente che, se la sperimentazione si chiuderà positivamente e il nu
 
 ---
 
-Vai a [2. Requisiti comuni per i metadati RNDT](../common)
+Vai a [**2. Requisiti comuni per i metadati RNDT**](../common)
