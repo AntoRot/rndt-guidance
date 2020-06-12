@@ -238,4 +238,4 @@ Negli altri casi _```gmd:otherConstraints```_ deve includere un testo libero con
   </gmd:MD_Metadata>
   ```
 
-Prossima sezione: [2.5 Estensione dei dati](extent.md)
+Vai a [**2.5 Estensione dei dati**](extent.md)
