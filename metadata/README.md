@@ -30,7 +30,7 @@ Questa guida operativa fornisce tutte le istruzioni e indicazioni necessarie per
 
 Nel diagramma che segue è rappresentato il percorso da seguire nella compilazione dei metadati in base alla tipologia della risorsa.
 
-![alt-text](../images/rndt-flowchart.png "metadata flow")
+![alt-text](images/rndt-flowchart.png "metadata flow")
 
 ## <a name=rif-norme> Riferimenti normativi e tecnici </a>
 
