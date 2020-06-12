@@ -318,7 +318,7 @@ Il separatore tra il codice iPA e la restante parte dell&#39;identificatore è &
 
 *https://geodati.gov.it/resource/id/_{identifier}*
 
-*dove identifier è, appunto, l&#39;identificatore univoco della risorsa (coincidente con l&#39;identificatore del file di cui al paragrafo [2.2.1](#_Identificatore)).*
+*dove identifier è, appunto, l&#39;identificatore univoco della risorsa (coincidente con l&#39;[identificatore del file](../metadata.md#221-identificatore-del-file)).*
 
 ---
 
@@ -549,6 +549,6 @@ _- ```gmd:contactInfo/gmd:CI_Contact/gmd:phone/gmd:CI_Telephone/gmd:voice```._
 …
 </gmd:MD_Metadata>
 ```
+---
 
-
-Prossima sezione: [2.4 Vincoli sui dati](constraints.md)
+Vai a [**2.4 Vincoli sui dati**](constraints.md)
