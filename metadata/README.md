@@ -29,15 +29,15 @@ Questa guida operativa fornisce tutte le istruzioni e indicazioni necessarie per
 
 **[[Direttiva INSPIRE](https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX:02007L0002-20190626&from=EN)]** Direttiva 2007/2/CE del Parlamento europeo e del Consiglio, del 14 marzo 2007, che istituisce un&#39;infrastruttura per l&#39;informazione territoriale nella Comunità europea (INSPIRE);
 
-**[CAD]** Decreto legislativo 7 marzo 2005, n. 82 recante &quot;_Codice dell&#39;amministrazione digitale_&quot;;
+**[[CAD](https://docs.italia.it/italia/piano-triennale-ict/codice-amministrazione-digitale-docs/it/v2017-12-13/index.html)]** Decreto legislativo 7 marzo 2005, n. 82 recante &quot;_Codice dell&#39;amministrazione digitale_&quot;;
 
-**[Regolamento 1205/2008]** Regolamento (CE) n. 1205/2008 della Commissione del 3 dicembre 2008 recante attuazione della direttiva 2007/2/CE del Parlamento europeo e del Consiglio per quanto riguarda i metadati;
+**[[Regolamento 1205/2008](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A32008R1205&from=EN)]** Regolamento (CE) n. 1205/2008 della Commissione del 3 dicembre 2008 recante attuazione della direttiva 2007/2/CE del Parlamento europeo e del Consiglio per quanto riguarda i metadati;
 
-**[Regolamento 976/2009]** Regolamento (CE) n. 976/2009 del 19 ottobre 2009 recante attuazione della direttiva 2007/2/CE del Parlamento europeo e del Consiglio per quanto riguarda i servizi di rete;
+**[[Regolamento 976/2009](https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX:32009R0976&from=EN)]** Regolamento (CE) n. 976/2009 del 19 ottobre 2009 recante attuazione della direttiva 2007/2/CE del Parlamento europeo e del Consiglio per quanto riguarda i servizi di rete;
 
-**[Regolamento 1089/2010]** Regolamento (UE) n. 1089/2010 della Commissione del 23 novembre 2010 recante attuazione della direttiva 2007/2/CE del Parlamento europeo e del Consiglio per quanto riguarda l&#39;interoperabilità dei set di dati territoriali e dei servizi di dati territoriali;
+**[[Regolamento 1089/2010](https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX:02010R1089-20131230&from=EN)]** Regolamento (UE) n. 1089/2010 della Commissione del 23 novembre 2010 recante attuazione della direttiva 2007/2/CE del Parlamento europeo e del Consiglio per quanto riguarda l&#39;interoperabilità dei set di dati territoriali e dei servizi di dati territoriali;
 
-**[TG MD INSPIRE]** Technical Guidance for the implementation of INSPIRE dataset and service metadata based on ISO/TS 19139:2007;
+**[[TG MD INSPIRE](https://inspire.ec.europa.eu/id/document/tg/metadata-iso19139)]** Technical Guidance for the implementation of INSPIRE dataset and service metadata based on ISO/TS 19139:2007;
 
 **[ISO 19115]** UNI EN ISO 19115:2005, _Informazioni geografiche – Metadati_ (ISO 19115:2003);
 
@@ -47,9 +47,61 @@ Questa guida operativa fornisce tutte le istruzioni e indicazioni necessarie per
 
 **[CSW2 AP ISO]** OpenGIS Catalogue Services Specification 2.0.2 - ISO Metadata Application Profile, Version 1.0.0, OGC 07-045, 2007;
 
-**[LG RNDT]** _Linee Guida recanti regole tecniche per la definizione e l&#39;aggiornamento del contenuto del Repertorio Nazionale dei Dati Territoriali_;
+**[[LG RNDT](https://geodati.gov.it/geoportale/images/struttura/documenti/LG-RNDT_v.1.0c_bozza.pdf)]** _Linee Guida recanti regole tecniche per la definizione e l&#39;aggiornamento del contenuto del Repertorio Nazionale dei Dati Territoriali_;
 
-**[LG IPAGPS]**_Linee Guida dell&#39;Indice dei domicili digitali delle pubbliche amministrazioni e dei gestori di pubblici servizi (IPA)_, adottate con la Determinazione n. 97/2019 del 4 aprile 2019.
+**[[LG IPAGPS](https://trasparenza.agid.gov.it/moduli/downloadFile.php?file=oggetto_allegati/191001128380O__OLINEE+GUIDA+IPA.pdf)]**_Linee Guida dell&#39;Indice dei domicili digitali delle pubbliche amministrazioni e dei gestori di pubblici servizi (IPA)_, adottate con la Determinazione n. 97/2019 del 4 aprile 2019.
+
+
+
+## <a name=note-lettura> Note di lettura </a>
+
+Nella definizione dei requisiti, delle raccomandazioni e delle istruzioni nel presente documento sono utilizzate le forme verbali analoghe a [TG MD INSPIRE].
+
+Anche le notazioni di classi di conformità, requisiti e raccomandazioni seguono i formati redazionali delle linee guida di cui sopra.
+
+I requisiti sono rappresentati nel modo seguente:
+
+---
+**REQUISITO cc.n-req** - **```identificativo univoco del requisito```**
+
+testo del requisito
+
+---
+
+le raccomandazioni nel modo seguente:
+
+---
+***Raccomandazione cc.n-rec** - **```identificativo univoco della raccomandazione```***
+
+_testo della raccomandazione_
+
+---
+
+le classi di conformità nel modo seguente:
+
+**Classe di conformità cc** - **```identificativo univoco della classe di conformità```**
+
+_testo della classe di conformità_
+
+mentre gli esempi XML sono indicati nel modo seguente:
+
+```xml
+<rndt:esempio_XML>
+  <rndt:metadati>
+    Tag metadati
+  </rndt:metadati>
+</rndt:esempio_XML>
+```
+
+I numeri dei requisiti ( **cc.n-req** ) e delle raccomandazioni ( **cc.n-rec** ) sono costituiti dal numero della classe di conformità INSPIRE ( **cc** ), come prefisso, e da un numero progressivo ( **n-req** o **n-rec** ). Nei requisiti e nelle raccomandazioni che sono comuni a più classi di conformità il prefisso è indicato con &quot; **C**&quot; (_common_).
+
+Nel caso delle classi di conformità, dei requisiti e delle raccomandazioni specifici per RNDT, quindi definiti in questa guida operativa senza nessuna corrispondenza con quelli INSPIRE, il numero della classe di conformità è preceduto da &quot; **R**&quot;.
+
+Le classi di conformità, i requisiti e le raccomandazioni mutuati dalle linee guida INSPIRE presentano come namespace rispettivamente **metadata/2.0** , **metadata/2.0/req** e **metadata/2.0/rec** , mentre nel caso degli elementi specifici del RNDT il namespace utilizzato è rispettivamente **rndt/metadata/2.0** , **rndt/metadata/2.0/req** e **rndt/metadata/2.0/rec**.
+
+Nel caso dei requisiti INSPIRE, l&#39;identificativo univoco del requisito assume la seguente struttura: **metadata/2.0/req/\&lt;** _ **id-classe-conformità** _ **\&gt;/\&lt;** _ **id-requisito** _ **\&gt;** , mentre quando si tratta di un requisito specifico del RNDT, allora la struttura è la seguente: **rndt/metadata/2.0/req/\&lt;** _ **id-classe-conformità** _ **\&gt;/\&lt;** _ **id-requisito** _ **\&gt;**.
+
+Analogamente, nel caso di raccomandazione derivante dalle linee guida INSPIRE, la struttura dell&#39;identificativo univoco della raccomandazione è la seguente: **metadata/2.0/rec/\&lt;** _ **id-classe-conformità** _ **\&gt;/\&lt;** _ **id-raccomandazione** _ **\&gt;** , mentre nel caso di una raccomandazione specifica del RNDT, la struttura diventa: **rndt/metadata/2.0/rec/\&lt;** _ **id-classe-conformità** _ **\&gt;/\&lt;** _ **id-raccomandazione** _ **\&gt;**.
 
 ---
 
