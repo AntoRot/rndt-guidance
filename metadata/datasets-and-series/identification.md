@@ -774,3 +774,6 @@ Il valore per esprimere la categoria tematica deve essere un nome in linguaggio 
   …
 </gmd:MD_Metadata>
 ```
+---
+
+> Vai a [**3.3 Estensione dei dati**](extent.md)
