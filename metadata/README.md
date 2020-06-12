@@ -28,6 +28,10 @@ Questa guida operativa fornisce tutte le istruzioni e indicazioni necessarie per
 ---
 ## <a name=metadata-flow>Come documentare le risorse geografiche seguendo questa guida operativa</a>
 
+Nel diagramma che segue è rappresentato il percorso da seguire nella compilazione dei metadati in base alla tipologia della risorsa.
+
+![alt-text](../images/rndt-flowchart.png "metadata flow")
+
 ## <a name=rif-norme> Riferimenti normativi e tecnici </a>
 
 **[[Direttiva INSPIRE](https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX:02007L0002-20190626&from=EN)]** Direttiva 2007/2/CE del Parlamento europeo e del Consiglio, del 14 marzo 2007, che istituisce un&#39;infrastruttura per l&#39;informazione territoriale nella Comunità europea (INSPIRE);
