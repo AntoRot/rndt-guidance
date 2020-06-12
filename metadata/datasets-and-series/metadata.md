@@ -38,3 +38,6 @@ Il tipo di risorsa deve essere dichiarato come &quot;_dataset_&quot; o &quot;_se
   …
 </gmd:MD_Metadata>
 ```
+---
+
+> Vai a [**3.2 identificazione dei dati**](identification.md)
