@@ -21,6 +21,8 @@ Questa guida operativa fornisce tutte le istruzioni e indicazioni necessarie per
 
 **[6 CLASSI DI CONFORMITÀ PER LE NUOVE ACQUISIZIONI](scheduled-data)**
 
+**[Allegato A - ELENCHI DI CODICI](code-lists)**
+
 ---
 
 ## <a name=rif-norme> Riferimenti normativi e tecnici </a>
