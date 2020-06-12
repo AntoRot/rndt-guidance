@@ -1,4 +1,4 @@
-## A.1 MD\_ReferenceSystemCode code list
+## A.1 MD\_ReferenceSystemCode
 
 | | **Nome breve** | **Definizione** | **Codice EPSG** | **URI** |
 | --- | --- | --- | --- | --- |
