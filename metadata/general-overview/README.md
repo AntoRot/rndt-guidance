@@ -264,7 +264,7 @@ Nei prossimi capitoli, all&#39;inizio di ogni sezione dedicata a ciascuna risors
 
 #### 1.4.1 Gerarchia e relazioni serie/dataset
 
-Come indicato nella premessa, il [Regolamento 1205/2008] relativo ai metadati contempla, per quanto riguarda i dati territoriali, i livelli di serie e dataset.
+Il [Regolamento 1205/2008] relativo ai metadati contempla, per quanto riguarda i dati territoriali, i livelli di serie e dataset.
 
 Dal Regolamento e da [TG MD INSPIRE] si evince che non esiste nessuna relazione tra i due livelli tale da consentire di creare una gerarchizzazione dell&#39;informazione contenuta nei metadati, come previsto dal diagramma UML riportato nella figura 3 del paragrafo 6.2 dello Standard [ISO 19115] e come indicato, a livello informativo, negli allegati G e H del medesimo Standard.
 
@@ -288,7 +288,7 @@ A livello di metadati dei dati, invece, l&#39;elemento &quot;_Risorsa on-line_&q
 
 Nella figura che segue sono rappresentate le relazioni tra i vari livelli in cui è possibile descrivere i metadati dei dati territoriali e relativi servizi.
 
-
+![alt-text](../images/resource-linking.png "link dati-servizi")
 
 Ai fini dell&#39;accessibilità delle risorse geografiche nel geoportale INSPIRE, il processo di collegamento tra dati e servizi è basato oltre che sui metadati, come indicato innanzi, anche sulle informazioni documentate nei documenti di _GetCapabilities_ dei servizi di rete. È necessario, pertanto, configurare correttamente i servizi di rete secondo le linee guida tecniche INSPIRE di riferimento.
 
