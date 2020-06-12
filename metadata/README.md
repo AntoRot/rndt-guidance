@@ -101,7 +101,7 @@ Le classi di conformità, i requisiti e le raccomandazioni mutuati dalle linee g
 
 Nel caso dei requisiti INSPIRE, l&#39;identificativo univoco del requisito assume la seguente struttura: **metadata/2.0/req/<id-classe-conformità>/<id-requisito>**, mentre quando si tratta di un requisito specifico del RNDT, allora la struttura è la seguente: **rndt/metadata/2.0/req/<id-classe-conformità>/<id-requisito>**.
 
-Analogamente, nel caso di raccomandazione derivante dalle linee guida INSPIRE, la struttura dell&#39;identificativo univoco della raccomandazione è la seguente: **metadata/2.0/rec/\&lt;** _ **id-classe-conformità** _ **\&gt;/\&lt;** _ **id-raccomandazione** _ **\&gt;** , mentre nel caso di una raccomandazione specifica del RNDT, la struttura diventa: **rndt/metadata/2.0/rec/\&lt;** _ **id-classe-conformità** _ **\&gt;/\&lt;** _ **id-raccomandazione** _ **\&gt;**.
+Analogamente, nel caso di raccomandazione derivante dalle linee guida INSPIRE, la struttura dell&#39;identificativo univoco della raccomandazione è la seguente: **metadata/2.0/rec/<id-classe-conformità>/<id-raccomandazione>** , mentre nel caso di una raccomandazione specifica del RNDT, la struttura diventa: **rndt/metadata/2.0/rec/<id-classe-conformità>/<id-raccomandazione>**.
 
 ---
 
