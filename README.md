@@ -20,4 +20,4 @@ La revisione sia delle Linee Guida (Decreto) che delle guide operative si è res
 
 ---
 
-> Vai alla [**Guida operativa per la compilazione dei metadati**](metadata.md)
+> Vai alla [**Guida operativa per la compilazione dei metadati**](metadata)
