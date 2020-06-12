@@ -5,9 +5,7 @@ Il manuale presente in questo repository rappresenta l&#39;implementazione delle
 In particolare, esso risulta costituito dalle seguenti guide operative:
 
 1. Guida operativa per l&#39;accreditamento delle PA (in corso di revisione);
-
-**2. [Guida operativa per la compilazione dei metadati](metadata)**;
-
+2. **[Guida operativa per la compilazione dei metadati](metadata)**;
 3. Guida operativa all&#39;uso dei servizi RNDT (in corso di revisione).
 
 Le Linee Guida di cui sopra, in corso di adozione secondo l'art. 71 del [CAD][CAD], rappresentano la nuova versione del [decreto della Presidenza del Consiglio dei Ministri del 10/11/2011](https://geodati.gov.it/geoportale/regole-tecniche-rndt), adottato in attuazione dell&#39;art. 59 del [CAD][CAD] che ha istituito il [Repertorio Nazionale dei Dati Territoriali](https://geodati.gov.it) (RNDT).
