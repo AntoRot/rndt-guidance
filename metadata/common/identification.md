@@ -326,7 +326,7 @@ Il separatore tra il codice iPA e la restante parte dell&#39;identificatore è &
 
 *I fornitori di identificatori univoci di risorse dovrebbero fare molta attenzione nel garantire che gli identificatori emessi rimangano validi e disponibili per l&#39;intero periodo di disponibilità della risorsa identificata, e preferibilmente anche dopo che la risorsa non sia più disponibile.*
 
-*Se un identificatore univoco pubblicato per una risorsa deve essere modificato durante il periodo di disponibilità della risorsa stessa, sia il vecchio che il nuovo identificatore dovrebbero essere risolti con lo stesso documento descritto nella Raccomandazione [RC.9](#recRC9). Se ciò non fosse possibile, il vecchio identificatore dovrebbe essere risolto con un documento che fornisca informazioni sulla modifica dell&#39;identificatore univoco e indichi il nuovo identificatore univoco della risorsa descritta.*
+*Se un identificatore univoco pubblicato per una risorsa deve essere modificato durante il periodo di disponibilità della risorsa stessa, sia il vecchio che il nuovo identificatore dovrebbero essere risolti con lo stesso documento descritto nel Requisito [RC.9](#RC.9). Se ciò non fosse possibile, il vecchio identificatore dovrebbe essere risolto con un documento che fornisca informazioni sulla modifica dell&#39;identificatore univoco e indichi il nuovo identificatore univoco della risorsa descritta.*
 
 *È opportuno evitare l&#39;assegnazione di un identificatore di risorsa univoco pubblicato a un&#39;altra risorsa, a cui, invece, dovrebbe essere assegnato un identificatore univoco nuovo.*
 
