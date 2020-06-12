@@ -1,6 +1,6 @@
 # Manuale RNDT v. 3.0
 
-Il manuale presente in questo repository rappresenta l&#39;implementazione delle Linee Guida recanti le regole tecniche per la definizione e l’aggiornamento del contenuto del Repertorio Nazionale dei Dati Territoriali [LG RNDT](https://geodati.gov.it/geoportale/images/struttura/documenti/LG-RNDT_v.1.0c_bozza.pdf) e, quindi, fornisce opportune istruzioni e indicazioni dettagliate per la compilazione dei metadati necessari per l&#39;alimentazione e l&#39;aggiornamento del catalogo.
+Il manuale presente in questo repository rappresenta l&#39;implementazione delle Linee Guida recanti le ***regole tecniche per la definizione e l’aggiornamento del contenuto del Repertorio Nazionale dei Dati Territoriali*** [LG RNDT](https://geodati.gov.it/geoportale/images/struttura/documenti/LG-RNDT_v.1.0c_bozza.pdf) e, quindi, fornisce opportune istruzioni e indicazioni dettagliate per la compilazione dei metadati necessari per l&#39;alimentazione e l&#39;aggiornamento del catalogo.
 
 In particolare, esso risulta costituito dalle seguenti guide operative:
 
