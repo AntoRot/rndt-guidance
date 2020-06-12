@@ -197,7 +197,7 @@ La molteplicità di questo elemento è 1.
 
 Le categorie tematiche INSPIRE, a cui il dataset o la serie di dataset appartengono, devono essere dichiarate utilizzando almeno una parola chiave dal vocabolario _INSPIRE Spatial Data Themes_ del GEMET. I valori delle parole chiave devono corrispondere esattamente ai termini presenti nel vocabolario citato.
 
-Le parole chiave devono essere codificate utilizzando l&#39;elemento _```gmd:descriptiveKeywords/gmd:MD_Keywords```_ con riferimento al vocabolario controllato GEMET dei temi di INSPIRE secondo le indicazioni fornite nel paragrafo [2.3.6](#_Parole_chiave). L&#39;elemento _```gmd:thesaurusName/gmd:CI_Citation/gmd:title```_ deve contenere il valore &quot;_GEMET - INSPIRE themes, version 1.0_&quot;.
+Le parole chiave devono essere codificate utilizzando l&#39;elemento _```gmd:descriptiveKeywords/gmd:MD_Keywords```_ con riferimento al vocabolario controllato GEMET dei temi di INSPIRE secondo le indicazioni fornite in [2.3.6](../common/identification.md#236-parole-chiave). L&#39;elemento _```gmd:thesaurusName/gmd:CI_Citation/gmd:title```_ deve contenere il valore &quot;_GEMET - INSPIRE themes, version 1.0_&quot;.
 
 Per ogni categoria tematica INSPIRE, deve essere incluso un elemento _```gmd:keyword```_ con il nome della categoria tematica nella lingua dei metadati.
 
