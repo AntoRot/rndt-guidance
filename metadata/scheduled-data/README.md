@@ -8,7 +8,7 @@ La classe di conformità di riferimento per questa sezione è la seguente:
 
 **Titolo**: _Metadati RNDT per le nuove acquisizioni di dati_
 
-
+---
 
 **Contenuto:**
 
