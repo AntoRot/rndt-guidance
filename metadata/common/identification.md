@@ -164,7 +164,7 @@ Il valore di _```gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:role/gmd:
 
 ---
 
-<a name=RC.9>**REQUISITO RC.9**</a>  **```rndt/metadata/2.0/req/common/responsible-party-owner```**
+**REQUISITO RC.9**  **```rndt/metadata/2.0/req/common/responsible-party-owner```**
 
 Una istanza dell&#39;elemento _```gmd:citedResponsibleParty/gmd:CI_ResponsibleParty```_deve contenere il nome ufficiale dell&#39;Ente come presente nell&#39;_[Indice dei domicili digitali delle pubbliche amministrazioni e dei gestori di pubblici servizi (IPA)](https://www.indicepa.gov.it/)_.
 
@@ -186,7 +186,7 @@ _- ```gmd:contactInfo/gmd:CI_Contact/gmd:phone/gmd:CI_Telephone/gmd:voice```._
 
 ***Raccomandazione RC.6** - **```rndt/metadata/2.0/rec/common/responsible-party-role```***
 
-*A parte il proprietario di cui al Requisito [RC.9](recRC.9), scegliere i ruoli che meglio rappresentano la funzione svolta dall&#39;organizzazione responsabile.*
+*A parte il proprietario di cui al Requisito [RC.9](#RC.9), scegliere i ruoli che meglio rappresentano la funzione svolta dall&#39;organizzazione responsabile.*
 
 ---
 
