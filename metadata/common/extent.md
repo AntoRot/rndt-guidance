@@ -116,4 +116,4 @@ Più intervalli temporali possono essere combinati per formare un&#39;estensione
 </gmd:MD_Metadata>
 ```
 
-Prossima sezione: [2.6 Qualità dei dati](data-quality.md)
+Vai a [**2.6 Qualità dei dati**](data-quality.md)
