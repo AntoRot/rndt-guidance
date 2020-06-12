@@ -1,5 +1,16 @@
 ## 5.1 Informazioni sul contenuto
 
+**Elementi:**
+
+[5.1.1 Descrizione degli attributi](#511-descrizione-degli-attributi)
+
+[5.1.2 Tipo di contenuto](#512-tipo-di-contenuto)
+
+[5.1.3 Risoluzione radiometrica](#513-risoluzione-radiometrica)
+
+[5.1.4 Triangolazione aerea](#514-triangolazione-aerea)
+
+
 
 ### 5.1.1 Descrizione degli attributi
 
