@@ -41,7 +41,7 @@ In caso di dataset o di serie di dataset:
 
 **Passo 2** - Compilare i metadati per dataset e serie di dataset (--> [3- datasets and series](datasets-and-series))
 
-    **Passo 2.1** - In caso di dati raster, compilare i metadati per tale tipologia di dati (--> [5 - grid](grid))
+   **Passo 2.1** - In caso di dati raster, compilare i metadati per tale tipologia di dati (--> [5 - grid](grid))
 
 In caso di servizi:
 
