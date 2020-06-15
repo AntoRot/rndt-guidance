@@ -272,3 +272,6 @@ Per ciascuna operazione, devono essere fornite le seguenti informazioni:
   …
 </gmd:MD_Metadata>
 ```
+---
+
+> Vai a [**4.1.3 Distribuzione**](distribution.md)
