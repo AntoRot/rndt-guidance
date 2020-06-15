@@ -364,6 +364,10 @@ L&#39;elemento _```gmd:thesaurusName/gmd:CI_Citation/gmd:title```_ deve contener
 </gmd:MD_Metadata>
 ```
 
+```**EDITOR**```
+
+Per inserire le parole chiave per i dataset prioritari, selezionare il tab ```INFORMAZIONI SUI DATI``` --> ```Parole chiave``` --> ```Altri vocabolari``` e inserire i valori per parole chiave e thesaurus indicati nel Requisito di cui sopra.
+
 #### 3.2.4.3 Parole chiave per l&#39;ambito di applicazione territoriale
 
 La Decisione di esecuzione (UE) 2019/1372 della Commissione, che ha sostituito la Decisione 2009/442/CE, ha modificato le disposizioni per il monitoraggio e la comunicazione relativi all&#39;attuazione della Direttiva INSPIRE. In particolare, sono stati aggiunti due nuovi indicatori per misurare il numero di dataset che coprono il territorio regionale o nazionale.
