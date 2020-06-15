@@ -368,7 +368,7 @@ L&#39;elemento _```gmd:thesaurusName/gmd:CI_Citation/gmd:title```_ deve contener
 
 Per inserire le parole chiave per i dataset prioritari attraverso l'editor, selezionare il tab ```INFORMAZIONI SUI DATI``` --> ```Parole chiave``` --> ```Altri vocabolari``` e inserire i valori per parole chiave e thesaurus indicati nel Requisito di cui sopra.
 
-![alt-text](images/editor-kw-other-thes.png "editor-oth-kw")
+![alt-text](../images/editor-kw-other-thes.png "editor-oth-kw")
 
 ---
 
