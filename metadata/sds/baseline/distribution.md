@@ -33,7 +33,7 @@ La molteplicità di questo elemento è 0..N.
 
 ***Raccomandazione R3.3** - **```rndt/metadata/2.0/rec/sds/resource-locator-additional-info```***
 
-*Se possibile, oltre all&#39;elemento ```gmd:linkage``` e agli elementi di cui alla Raccomandazione [3.4](#rec3.4), dovrebbe essere utilizzato anche l&#39;elemento ```gmd:protocol``` da documentare secondo quanto indicato nel Requisito [R1.10](../datasets-and-series/distribution.md#R1.10).*
+*Se possibile, oltre all&#39;elemento ```gmd:linkage``` e agli elementi di cui alla Raccomandazione [3.4](#rec3.4), dovrebbe essere utilizzato anche l&#39;elemento ```gmd:protocol``` da documentare secondo quanto indicato nel Requisito [R1.10](../../datasets-and-series/distribution.md#R1.10).*
 
 ---
 
@@ -85,3 +85,6 @@ La molteplicità di questo elemento è 0..N.
 …
 </gmd:MD_Metadata>
 ```
+---
+
+> Vai a [**4.1.4 Qualità dei servizi**](quality.md)
