@@ -186,3 +186,5 @@ La molteplicità di questo elemento è 1.
 ---
 
 > In caso di dati raster georettificati, vai a [**5.3 Rappresentazione spaziale dei dati raster georettificati**](georectified.md)
+
+> Altrimenti, vai a [**5.4 Rappresentazione spaziale dei dati raster "georeferenziabili"**](georeferenceable.md)
