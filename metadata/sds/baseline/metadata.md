@@ -33,3 +33,6 @@ La molteplicità di questi elementi è 1.
   …
 </gmd:MD_Metadata>
 ```
+---
+
+> Vai a [**4.1.2 Identificazione dei servizi**](identification.md)
