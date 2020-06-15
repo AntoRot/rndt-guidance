@@ -366,7 +366,7 @@ L&#39;elemento _```gmd:thesaurusName/gmd:CI_Citation/gmd:title```_ deve contener
 
 ```**EDITOR**```
 
-Per inserire le parole chiave per i dataset prioritari attraverso l'editor, selezionare il tab ```INFORMAZIONI SUI DATI``` --> ```Parole chiave``` --> ```Altri vocabolari``` e inserire i valori per parole chiave e thesaurus indicati nel Requisito di cui sopra.
+Per inserire le parole chiave per i dataset prioritari attraverso l'editor, selezionare il tab ```INFORMAZIONI SUI DATI``` --> ```Parole chiave``` --> ```Altri vocabolari``` e inserire i valori per parole chiave e thesaurus indicati nel Requisito di cui sopra (v. figura che segue).
 
 ![alt-text](../images/editor-kw-other-thes.png "editor-oth-kw")
 
@@ -435,6 +435,12 @@ L&#39;elemento _```gmd:thesaurusName/gmd:CI_Citation/gmd:title```_ deve contener
 </gmd:MD_Metadata>
 ```
 
+```**EDITOR**```
+
+Per inserire le parole chiave per l'ambito di applicazione territoriale attraverso l'editor, seguire le istruzioni di cui al punto precedente.
+
+---
+
 #### 3.2.4.4 Parole chiave per i dati aperti
 
 Nell&#39;ambito delle attività di coordinamento tra RNDT e il portale nazionale degli open data, AgID ha definito le **[linee guida per l&#39;implementazione della specifica europea GeoDCAT-AP](http://geodati.gov.it/geoportale/documenti/12-documenti/277-linee-guida-nazionali-geodcat-ap)** che consentono di rappresentare i metadati dei dati geografici anche negli standard utilizzati per i dati aperti, nello specifico DCAT-AP/DCAT-AP\_IT.
@@ -476,6 +482,15 @@ Le parole chiave devono essere codificate utilizzando l&#39;elemento _```gmd:des
 …
 </gmd:MD_Metadata>
 ```
+
+
+```**EDITOR**```
+
+Per inserire le parole chiave per i dati aperti attraverso l'editor, selezionare il tab ```INFORMAZIONI SUI DATI``` --> ```Parole chiave``` --> ```Parole chiave``` e inserire i valori per le parole chiave indicati nel Requisito di cui sopra (v. figura che segue).
+
+![alt-text](../images/editor-kw-opendata.png "editor-kw-opendata")
+
+---
 
 #### 3.2.4.5 Parole chiave per le tipologie di dati
 
