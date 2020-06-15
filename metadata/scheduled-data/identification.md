@@ -155,3 +155,6 @@ La molteplicità di questo elemento è 1.
   …
 </gmd:MD_Metadata>
 ```
+---
+
+> Vai a [**6.3 Estensione dei dati**](extent.md)
