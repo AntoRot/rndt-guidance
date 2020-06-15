@@ -74,4 +74,4 @@ Nel caso in cui l&#39;Ente responsabile della produzione, gestione e manutenzion
 ```
 ---
 
-> Vai a [**4.4.2 Vincoli**](constraints)
+> Vai a [**4.4.2 Vincoli**](constraints.md)
