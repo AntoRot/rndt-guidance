@@ -158,3 +158,6 @@ La molteplicità di questo elemento è 0..1.
   …
 </gmd:MD_Metadata>
 ```
+---
+
+> Vai a [**5.2 Rappresentazione spaziale dei dati raster**](spatial-representation.md)
