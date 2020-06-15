@@ -1,4 +1,4 @@
-## 2.4 Vincoli si dati
+## 2.4 Vincoli sui dati
 
 **Elementi:**
 
