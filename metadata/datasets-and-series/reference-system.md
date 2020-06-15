@@ -15,7 +15,7 @@
 | **Molteplicità** | [1] |
 | **Elemento INSPIRE** | Sistema di riferimento di coordinate |
 | **Definizione** | Descrizione del sistema o dei sistemi di riferimento di coordinate utilizzati nel set di dati. |
-| **Istruzioni di implementazione** | Testo libero. Fare riferimento all&#39;elenco di codici _MD\_ReferenceSystemCode_&#39; (§ 4.2.3.11 [LG RNDT]) e ai relativi URI di cui alla tabella riportata all&#39;allegato [A.1](#_A.1_MD_ReferenceSystemCode). |
+| **Istruzioni di implementazione** | Testo libero. Fare riferimento all&#39;elenco di codici _MD\_ReferenceSystemCode_&#39; (§ 4.2.3.11 [LG RNDT]) e ai relativi URI di cui alla [tabella A.1](../code-lists/md-reference-system-code.md). |
 
 **REQUISITO 2.1** - **```metadata/2.0/req/isdss/crs```**
 
@@ -31,7 +31,7 @@ Devono essere utilizzati solo gli identificatori di sistemi di riferimento speci
 
 **REQUISITO R2.1** ``` **```rndt/metadata/2.0/req/isdss/crs```**
 
-Per la documentazione dell&#39;elemento, deve essere valorizzato il tag &#39;_```gmd:code```_&#39; con il nome del sistema di riferimento presente nella colonna &#39;_Nome breve_&#39; dell&#39;elenco di codici &#39;_```MD_ReferenceSystemCode```_&#39; di cui al § [A.1](#_A.1_MD_ReferenceSystemCode) dell&#39;allegato A. In alternativa, il tag &quot;_```gmd:code```_&quot; può essere valorizzato con il relativo codice EPSG (v., a questo proposito, la colonna &quot;_Codice EPSG_&quot; della tabella disponibile nel citato § [A.1](#_A.1_MD_ReferenceSystemCode) dell&#39;allegato A) introducendo, in questo caso, anche il tag &quot;_```gmd:codeSpace```_&quot; attraverso il quale indicare l&#39;URL del registro EPSG &quot;[_http://www.epsg-registry.org_](http://www.epsg-registry.org/)&quot;.
+Per la documentazione dell&#39;elemento, deve essere valorizzato il tag &#39;_```gmd:code```_&#39; con il nome del sistema di riferimento presente nella colonna &#39;_Nome breve_&#39; dell&#39;elenco di codici &#39;_```MD_ReferenceSystemCode```_&#39; di cui alla [tabella A.1](../code-lists/md-reference-system-code.md). In alternativa, il tag &quot;_```gmd:code```_&quot; può essere valorizzato con il relativo codice EPSG (v., a questo proposito, la colonna &quot;_Codice EPSG_&quot; della già citata [tabella A.1](../code-lists/md-reference-system-code.md)) introducendo, in questo caso, anche il tag &quot;_```gmd:codeSpace```_&quot; attraverso il quale indicare l&#39;URL del registro EPSG &quot;[_http://www.epsg-registry.org_](http://www.epsg-registry.org/)&quot;.
 
 ---
 
@@ -43,7 +43,7 @@ Per la documentazione dell&#39;elemento, deve essere valorizzato il tag &#39;_``
 
 **REQUISITO R2.2** - **```rndt/metadata/2.0/req/isdss/crs-id```**
 
-Se il sistema di riferimento è presente nell&#39;elenco di codici _```MD_ReferenceSystemCode```_ definito nelle [LG RNDT] e riportato nella tabella di cui all&#39;allegato [A.1](#_A.1_MD_ReferenceSystemCode), deve essere utilizzato l&#39;identificatore presente nella colonna URI come valore dell&#39;attributo _```xlink:href```_ dell&#39;elemento _```gmd:referenceSystemInfo/gmd:MD_ReferenceSystem/gmd:referenceSystemIdentifier/gmd:RS_Identifier/gmd:code```_ e il nome (colonna &quot;_Nome breve_&quot;) come valore del tag del medesimo elemento.
+Se il sistema di riferimento è presente nell&#39;elenco di codici _```MD_ReferenceSystemCode```_ definito nelle [LG RNDT] e riportato nella [tabella A.1](../code-lists/md-reference-system-code.md), deve essere utilizzato l&#39;identificatore presente nella colonna URI come valore dell&#39;attributo _```xlink:href```_ dell&#39;elemento _```gmd:referenceSystemInfo/gmd:MD_ReferenceSystem/gmd:referenceSystemIdentifier/gmd:RS_Identifier/gmd:code```_ e il nome (colonna &quot;_Nome breve_&quot;) come valore del tag del medesimo elemento.
 
 ---
 
@@ -158,3 +158,6 @@ L&#39;elemento _```gmd:RS_Identifier/gmd:code```_ è obbligatorio. L&#39;element
   …
 </gmd:MD_Metadata>
 ```
+---
+
+> Vai a [**3.6 Distribuzione dei dati**](distribution.md)
