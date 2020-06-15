@@ -183,3 +183,6 @@ La molteplicità di questo elemento è 1.
   …
 </gmd:MD_Metadata>
 ```
+---
+
+> In caso di dati raster georettificati, vai a [**5.3 Rappresentazione spaziale dei dati raster georettificati**](georectified.md)
