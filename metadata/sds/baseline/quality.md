@@ -48,3 +48,8 @@ Inoltre, deve essere indicato il nome del livello attraverso l&#39;elemento _```
   …
 </gmd:MD_Metadata>
 ```
+---
+
+> In caso di servizi di rete, vai a [**4.2 Metadati per i servizi di rete**](../ns). 
+
+> Altrimenti vai a [**4.3 Metadati per i servizi di dati territoriali invocabili**](../sds-invocable)
