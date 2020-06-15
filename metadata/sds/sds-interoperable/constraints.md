@@ -14,7 +14,7 @@
 
 **REQUISITO 6.3** - **```metadata/2.0/req/sds-interoperable/conditions-applying-to-access-and-use```**
 
-I vincoli tecnici applicabili all&#39;accesso e all&#39;uso di un servizio di dati territoriali interoperabile devono essere specificati come indicato dal Requisito [C.18](#reqC18).
+I vincoli tecnici applicabili all&#39;accesso e all&#39;uso di un servizio di dati territoriali interoperabile devono essere specificati come indicato dal Requisito [C.18](../../common/constraints.md#C.18).
 
 La molteplicità dell&#39;elemento _```gmd:resourceConstraints/gmd:MD_LegalConstraints```_ per lo scopo di cui sopra è 1..N.
 
@@ -25,3 +25,7 @@ Queste informazioni possono essere combinate nello stesso elemento _```gmd:resou
 **Esempio di XML:**
 
 V. [esempio](../../common/constraints.md#243-vincoli-di-fruibilità)
+
+---
+
+> Vai a [**4.4.3 Informazioni sulla qualità dei servizi**](quality.md)
