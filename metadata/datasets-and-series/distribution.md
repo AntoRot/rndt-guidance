@@ -311,3 +311,6 @@ Se come &#39;localizzatore della risorsa&#39; viene utilizzato l&#39;URL al docu
   …
 </gmd:MD_Metadata>
 ```
+---
+
+> Vai a [**3.7 Gestione dei dati**](maintenance.md)
