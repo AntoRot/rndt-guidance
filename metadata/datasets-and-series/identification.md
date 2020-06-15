@@ -498,6 +498,10 @@ L&#39;allegato 1 alle Linee Guida riporta l&#39;elenco dei dati di interesse gen
 
 Tale elenco è pubblicato nel relativo registro disponibile nel Sistema di Registri INSPIRE Italia.
 
+```**EDITOR**```
+
+Per inserire le parole chiave per le tipologie di dati attraverso l'editor, seguire le istruzioni di cui al punto precedente.
+
 ---
 
 ***Raccomandazione R1.5** - **```rndt/metadata/2.0/rec/datasets-and-series/rndt-reference-data```***
