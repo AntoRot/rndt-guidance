@@ -43,5 +43,3 @@
 ---
 
 > In caso di dati raster, vai a [**5 Classi di conformità per i dati raster**](../grid)
-
-> Per documentare i servizi, vai a [**4. Classi di conformità per i servizi di dati territoriali**](../sds)
