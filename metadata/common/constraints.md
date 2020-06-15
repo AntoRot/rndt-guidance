@@ -133,7 +133,7 @@ Per indicare i vincoli per l&#39;accesso pubblico basati sui motivi di cui alla 
 
 Per indicare i vincoli all'accesso basati sui motivi di cui all'art. 13 della Direttiva INSPIRE attraverso l'editor, selezionare i tab ```INFORMAZIONI SUI DATI``` --> ```Vincoli``` --> ```Limitazioni al pubblico accesso (INSPIRE)``` e scegliere i valori pertinenti secondo le indicazioni del Requisito di cui sopra (v. figura che segue).
 
-![alt-text](../images/resource-linking.png "editor-use-limit")
+![alt-text](../images/editor-use-limit.png "editor-use-limit")
 
 ---
 
