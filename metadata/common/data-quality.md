@@ -112,4 +112,6 @@ Ogni elemento _```gmd:report/gmd:DQ_DomainConsistency/gmd:result/gmd:DQ_Conforma
 
 > In caso di dati, vai a [**3. Classi di conformità per i dataset e le serie di dataset**](../datasets-and-series).
 
-> Altrimenti vai a [**4. Classi di conformità per i servizi di dati territoriali**](../sds)
+> In caso di servizi, vai a [**4. Classi di conformità per i servizi di dati territoriali**](../sds).
+
+> In caso di nuove acquisizioni, vai a [**6 Classi di conformità per le nuove acquisizioni di dati**](scheduled-data).
