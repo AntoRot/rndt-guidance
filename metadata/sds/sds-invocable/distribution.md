@@ -61,3 +61,6 @@ La molteplicità dell&#39;elemento _```gmd:transferOptions/gmd:MD_DigitalTransfe
   …
 </gmd:MD_Metadata>
 ```
+---
+
+> In caso di servizi di dati territoriali interoperabili, vai a [**4.4 Metadati per i servizi di dati territoriali interoperabili**](../sds-interoperable)
