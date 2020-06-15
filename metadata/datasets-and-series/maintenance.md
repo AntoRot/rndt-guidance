@@ -40,3 +40,6 @@
   …
 </gmd:MD_Metadata>
 ```
+---
+
+> Vai a [**4. Classi di conformità per i servizi di dati territoriali**](../sds)
