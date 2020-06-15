@@ -21,4 +21,4 @@ Per i metadati di base per tutti i tipi di servizi di dati territoriali, le clas
 
 [4.1.3 Distribuzione](distribution.md)
 
-[4.1.4 Qualità dei servizi](data-quality.md)
+[4.1.4 Qualità dei servizi](quality.md)
