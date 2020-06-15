@@ -140,7 +140,7 @@ Per indicare i vincoli per l&#39;accesso pubblico basati sui motivi di cui alla 
 | **Definizione** | Condizioni applicabili all&#39;accesso e all&#39;uso dei set di dati territoriali e ai relativi servizi e, dove applicabile, ai canoni corrispondenti, a norma dell&#39;articolo 5, comma 2, lettera b), e dell&#39;articolo 11, comma 2, lettera f), della Direttiva 2007/2/CE. |
 | **Istruzioni di implementazione** | Devono essere forniti i seguenti elementi: - _gmd:accessConstraints_ oppure _gmd:useConstraints_ con valore &quot;Altri vincoli&quot; (otherRestrictions) dell&#39;elenco di codici &quot;_MD\_RestrictionCode_&quot; (§ 4.2.3.12 [LG RNDT]); - _gmd:otherConstraints_ con testo libero. |
 
-**REQUISITO C.18** - **```metadata/2.0/req/common/conditions-for-access-and-use```**
+<a name=C.18>**REQUISITO C.18**</a> - **```metadata/2.0/req/common/conditions-for-access-and-use```**
 
 I vincoli di fruibilità (condizioni applicabili all&#39;accesso e all&#39;uso) per la risorsa descritta devono essere indicati utilizzando uno ed un solo elemento _```gmd:resourceConstraints/gmd:MD_LegalConstraints```_. Questo elemento non deve essere lo stesso utilizzato per descrivere i [vincoli per l&#39;accesso pubblico](constraints.md#242-vincoli-di-accesso).
 
