@@ -396,3 +396,7 @@ Le informazioni relative al [Regolamento 1089/2010] da inserire sono le seguenti
   …
 </gmd:MD_Metadata>
 ```
+
+---
+
+> Vai a [**3.5 Sistema di riferimento**](reference-system.md)
