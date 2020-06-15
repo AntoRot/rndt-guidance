@@ -129,6 +129,15 @@ Per indicare i vincoli per l&#39;accesso pubblico basati sui motivi di cui alla 
 </gmd:MD_Metadata>
 ```
 
+```**EDITOR**```
+
+Per indicare i vincoli all'accesso basati sui motivi di cui all'art. 13 della Direttiva INSPIRE attraverso l'editor, selezionare i tab ```INFORMAZIONI SUI DATI``` --> ```Vincoli``` --> ```Limitazioni al pubblico accesso (INSPIRE)``` e scegliere i valori pertinenti secondo le indicazioni del Requisito di cui sopra (v. figura che segue).
+
+![alt-text](../images/resource-linking.png "editor-use-limit")
+
+---
+
+
 ### 2.4.3 Vincoli di fruibilità
 
 |  |  |
@@ -237,5 +246,20 @@ Negli altri casi _```gmd:otherConstraints```_ deve includere un testo libero con
   …
   </gmd:MD_Metadata>
   ```
+  
+  
+```**EDITOR**```
+
+Per indicare le condizioni applicabili all'accesso e all'uso attraverso l'editor:
+
+  - nel caso le condizioni non sono note o nessuna condizione è applicabile, selezionare i tab ```INFORMAZIONI SUI DATI``` --> ```Vincoli``` --> ```Mancanza di condizioni di utilizzo``` e scegliere i valori pertinenti secondo le indicazioni del Requisito di cui sopra (v. figura che segue);
+  
+  ![alt-text](../images/editor-no-use-const.png "editor-use-limit")
+  
+  - nel caso di condizioni da dover descrivere attraverso testo libero, selezionare i tab ```INFORMAZIONI SUI DATI``` --> ```Vincoli``` --> ```Condizioni di utilizzo``` e inserire il testo nel campo "Altri vincoli - Testo libero" secondo le indicazioni del Requisito di cui sopra (v. figura che segue).
+
+![alt-text](../images/editor-use-cond.png "editor-use-limit")
+
+---
 
 Vai a [**2.5 Estensione dei dati**](extent.md)
