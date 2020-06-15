@@ -29,3 +29,6 @@ Per indicare che il tipo di risorsa che si sta descrivendo è un set di dati in 
   …
 </gmd:MD_Metadata>
 ```
+---
+
+> Vai a [**6.2 Identificazione dei dati**](identification.md)
