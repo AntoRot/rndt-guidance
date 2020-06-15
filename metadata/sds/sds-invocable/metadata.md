@@ -1,11 +1,5 @@
 ### 4.3.1 Informazioni sui metadati
 
-**Elementi:**
-
-4.3.1.1 Tipo di servizio
-
-
-
 #### 4.3.1.1 Tipo di servizio
 
 |  |  |
@@ -40,3 +34,6 @@ Per indicare il tipo di servizio di dati territoriali nel caso di servizi invoca
   …
 </gmd:MD_Metadata>
 ```
+---
+
+> Vai a [**4.3.2 Distribuzione**](distribution.md)
