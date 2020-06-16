@@ -312,7 +312,7 @@ Il separatore tra il codice iPA e la restante parte dell&#39;identificatore è &
 
 ***Raccomandazione RC.9** - **```rndt/metadata/2.0/rec/common/rndt-resolvable-uid```***
 
-*Se l&#39;identificatore della risorsa assume lo stesso valore dell&#39;identificatore del file ([fileIdentifier](metadata.md#221-identificatore-del-file)), di cui al paragrafo 2.2.1, come da requisito delle specifiche [CSW2 AP ISO], l&#39;identificatore è risolto nel documento di metadati presente nel RNDT.*
+*Se l&#39;identificatore della risorsa assume lo stesso valore dell&#39;identificatore del file ([fileIdentifier](metadata.md#221-identificatore-del-file)), come da requisito delle specifiche [CSW2 AP ISO], l&#39;identificatore è risolto nel documento di metadati presente nel RNDT.*
 
 *A tale scopo, la struttura dell&#39;URI da inserire come valore dell&#39;elemento ```gmd:code``` deve essere la seguente:*
 
