@@ -316,7 +316,7 @@ Il separatore tra il codice iPA e la restante parte dell&#39;identificatore è &
 
 *A tale scopo, la struttura dell&#39;URI da inserire come valore dell&#39;elemento ```gmd:code``` deve essere la seguente:*
 
-*https://geodati.gov.it/resource/id/_{identifier}*
+*https://geodati.gov.it/resource/id/{identifier}*
 
 *dove identifier è, appunto, l&#39;identificatore univoco della risorsa (coincidente con l&#39;[identificatore del file](metadata.md#221-identificatore-del-file)).*
 
