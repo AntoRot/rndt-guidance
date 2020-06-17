@@ -86,7 +86,7 @@ _In caso di servizi di dati territoriali:_
 
 ## <a name=note-lettura> Note di lettura </a>
 
-Nella definizione dei requisiti, delle raccomandazioni e delle istruzioni nel presente documento sono utilizzate le forme verbali analoghe a [TG MD INSPIRE].
+Nella definizione dei requisiti, delle raccomandazioni e delle istruzioni sono utilizzate le forme verbali analoghe a [TG MD INSPIRE].
 
 Anche le notazioni di classi di conformità, requisiti e raccomandazioni seguono i formati redazionali delle linee guida di cui sopra.
 
