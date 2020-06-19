@@ -7,6 +7,8 @@ Questa guida operativa fornisce tutte le istruzioni e indicazioni necessarie per
 
 **[COME DOCUMENTARE LE RISORSE GEOGRAFICHE SEGUENDO QUESTA GUIDA OPERATIVA](#metadata-flow)**
 
+**[COME ADEGUARSI ALLA NUOVA VERSIONE](#new-version)**
+
 **[Riferimenti normativi e tecnici](#rif-norme)**
 
 **[Note di lettura](#note-lettura)**
@@ -57,6 +59,23 @@ _In caso di servizi di dati territoriali:_
 
 **Passo 3.2.2** - Nel caso in cui i dati resi disponibili dai servizi di dati territoriali interoperabili siano armonizzati, compilare anche i metadati per tale tipologia di servizi (--> [4.5 - harmonised](sds/sds-harmonised))
 
+## <a name=new-version>Come adeguarsi alla nuova versione</a>
+
+Con riferimento ai soli metadati obbligatori, per garantire la conformità al nuovo profilo di metadati, definito con le [LG RNDT], le azioni minime richieste, rispetto alla versione precedente, sono le seguenti:
+
+  - Metadati comuni:
+    - aggiornare **[nome](common/metadata.md#227-nome-dello-standard)** e **[versione](common/metadata.md#228-versione-dello-standard)** dello standard dei metadati;
+    - riformulare i **[vincoli sui dati](common/constraints.md)**;
+    
+  - Metadati per dataset o serie di dataset:
+    - aggiungere i metadati relativi alla **[risorsa on line](datasets-and-series/distribution.md#363-risorsa-on-line)**;
+   
+  - Metadati di base per i servizi di dati territoriali:
+    - aggiungere il **[nome del livello gerarchico](sds/baseline/metadata.md#411-livello-gerarchico)**;
+    - aggiungere il **[nome del livello di qualità](sds/baseline/quality.md#4141-livello-di-qualità)**;
+    
+  - Metadati per i servizi diversi dai servizi di rete:
+    - documentare i metadati specifici per i **[servizi invocabili](sds/sds-invocable)**, **[interoperabili](sds/sds-interoperable)** e **[servizi di dati armonizzati](sds/sds-harmonised)**. 
 
 ## <a name=rif-norme> Riferimenti normativi e tecnici </a>
 
