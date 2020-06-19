@@ -23,7 +23,9 @@ Questa guida operativa fornisce tutte le istruzioni e indicazioni necessarie per
 
 **[6 CLASSI DI CONFORMITÀ PER LE NUOVE ACQUISIZIONI](scheduled-data)**
 
-**[Allegato A - ELENCHI DI CODICI](code-lists)**
+**[ELENCHI DI CODICI](code-lists)**
+
+**[ESEMPI](examples)**
 
 ---
 ## <a name=metadata-flow>Come documentare le risorse geografiche seguendo questa guida operativa</a>
