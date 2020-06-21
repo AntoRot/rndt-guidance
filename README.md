@@ -18,7 +18,7 @@ La revisione sia delle Linee Guida (Decreto) che delle guide operative si è res
 [CAD]: https://docs.italia.it/italia/piano-triennale-ict/codice-amministrazione-digitale-docs/it/v2017-12-13/index.html
 [TG MD INSPIRE]: https://inspire.ec.europa.eu/id/document/tg/metadata-iso19139
 
-La versione in formato PDF della guida operativa è disponibile sul **[portale RNDT](https://geodati.gov.it/geoportale/images/struttura/documenti/Manuale-RNDT_2-guida-operativa-compilazione-metadati_v3.0.pdf)**.
+***La versione in formato PDF della guida operativa è disponibile sul [portale RNDT](https://geodati.gov.it/geoportale/images/struttura/documenti/Manuale-RNDT_2-guida-operativa-compilazione-metadati_v3.0.pdf)***.
 
 ---
 
