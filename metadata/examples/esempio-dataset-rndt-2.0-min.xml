@@ -424,7 +424,7 @@
                         <gmd:URL>https://webgis.arpa.piemonte.it/ags101free/rest/services/acqua/Reticolo_idrografico_WFD_2000_60_CE/MapServer</gmd:URL>
                      </gmd:linkage>
                      <gmd:protocol>
-                        <gmx:Anchor xlink:href="https://registry.geodati.gov.it/metadata-codelist/ProtocolValue/www-link">WWW:LINK-1.0-http--link</gmx:Anchor>
+                        <gmx:Anchor xlink:href="http://www.w3.org/TR/xlink/">WWW:LINK-1.0-http--link</gmx:Anchor>
                      </gmd:protocol>
                      <gmd:applicationProfile>
                         <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceType/other">other</gmx:Anchor>
@@ -456,7 +456,7 @@
                         <gmd:URL>http://webgis.arpa.piemonte.it/monitoraggio_qualita_acque_mapseries/monitoraggio_qualita_acque_webapp/?entry=3</gmd:URL>
                      </gmd:linkage>
                       <gmd:protocol>
-                        <gmx:Anchor xlink:href="https://registry.geodati.gov.it/metadata-codelist/ProtocolValue/www-link">WWW:LINK-1.0-http--link</gmx:Anchor>
+                        <gmx:Anchor xlink:href="http://www.w3.org/TR/xlink/">WWW:LINK-1.0-http--link</gmx:Anchor>
                      </gmd:protocol>
                      <gmd:applicationProfile>
                         <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceType/other">other</gmx:Anchor>
